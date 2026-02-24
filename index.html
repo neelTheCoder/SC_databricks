@@ -3,53 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VC+Founders Dinner | Resume Intelligence</title>
+    <title>VC+Founders Scorer</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
-        body { font-family: 'Inter', sans-serif; background-color: #0f172a; color: #f1f5f9; }
-        .glass { background: rgba(30, 41, 59, 0.7); backdrop-filter: blur(12px); border: 1px solid rgba(255,255,255,0.1); }
-    </style>
 </head>
-<body class="min-h-screen flex items-center justify-center p-6">
-    <div class="max-w-3xl w-full space-y-8 text-center">
-        <header class="space-y-4">
-            <div class="inline-block px-3 py-1 text-xs font-semibold tracking-wider text-blue-400 uppercase bg-blue-400/10 rounded-full">
-                Ensemble LLM Scoring Active
-            </div>
-            <h1 class="text-5xl font-bold tracking-tight text-white">VC+Founders <span class="text-blue-500">Dinner</span></h1>
-            <p class="text-lg text-slate-400">Automated candidate evaluation using Claude 3.5 Sonnet & Gemini 2.0 Flash.</p>
+<body class="bg-slate-900 text-slate-100 min-h-screen p-8">
+    <div class="max-w-2xl mx-auto space-y-8">
+        <header>
+            <h1 class="text-3xl font-bold text-blue-400">Resume Intelligence Engine</h1>
+            <p class="text-slate-400">Upload resumes to score them against custom VC criteria.</p>
         </header>
 
-        <main class="glass rounded-2xl p-8 shadow-2xl">
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 text-left">
-                <div class="p-4 rounded-xl bg-slate-800/50 border border-slate-700">
-                    <h3 class="font-semibold text-blue-400 mb-2">1. Rubric Generation</h3>
-                    <p class="text-sm text-slate-400">Analyzes event requirements to build a custom scoring framework.</p>
+        <form id="uploadForm" class="space-y-6 bg-slate-800 p-6 rounded-xl border border-slate-700">
+            <div class="grid grid-cols-2 gap-4">
+                <div>
+                    <label class="block text-sm font-medium mb-1">Anthropic API Key</label>
+                    <input type="password" id="anthropicKey" class="w-full bg-slate-900 border border-slate-600 rounded p-2 text-sm">
                 </div>
-                <div class="p-4 rounded-xl bg-slate-800/50 border border-slate-700">
-                    <h3 class="font-semibold text-green-400 mb-2">2. Intelligence Scoring</h3>
-                    <p class="text-sm text-slate-400">Scores "Crackedness" and "Fit" with decimal-point precision.</p>
+                <div>
+                    <label class="block text-sm font-medium mb-1">Google API Key</label>
+                    <input type="password" id="googleKey" class="w-full bg-slate-900 border border-slate-600 rounded p-2 text-sm">
                 </div>
             </div>
 
-            <div class="mt-8 pt-8 border-t border-slate-700">
-                <div class="flex items-center justify-center space-x-2 text-yellow-500 bg-yellow-500/10 p-4 rounded-lg">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-                        <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd" />
-                    </svg>
-                    <span class="text-sm font-medium">CLI Mode Detected</span>
-                </div>
-                <p class="mt-4 text-xs text-slate-500 leading-relaxed">
-                    This deployment is currently configured as a backend processing engine. <br>
-                    To run a score, use the terminal: <code class="text-blue-300">python score_resumes.py --rubric rubric.json</code>
-                </p>
+            <div>
+                <label class="block text-sm font-medium mb-1">Event Focus (e.g., "AI Infrastructure Founders")</label>
+                <input type="text" id="prompt" required class="w-full bg-slate-900 border border-slate-600 rounded p-2">
             </div>
-        </main>
 
-        <footer class="text-slate-500 text-xs">
-            &copy; 2026 Resume Intelligence Engine • Powered by Anthropic & Google AI
-        </footer>
+            <div>
+                <label class="block text-sm font-medium mb-1">Resumes (PDF, DOCX, TXT)</label>
+                <input type="file" id="resumeFiles" multiple accept=".pdf,.docx,.txt" class="w-full text-sm text-slate-400 file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-blue-600 file:text-white hover:file:bg-blue-700">
+            </div>
+
+            <button type="submit" id="submitBtn" class="w-full bg-blue-600 hover:bg-blue-500 py-3 rounded-lg font-bold transition">
+                Generate Rubric & Score
+            </button>
+        </form>
+
+        <div id="results" class="hidden space-y-4">
+            <h2 class="text-xl font-bold">Results</h2>
+            <div id="resultsList" class="space-y-2"></div>
+        </div>
     </div>
+
+    <script>
+        document.getElementById('uploadForm').onsubmit = async (e) => {
+            e.preventDefault();
+            const btn = document.getElementById('submitBtn');
+            btn.disabled = true;
+            btn.innerText = "Processing (this may take 30-60s)...";
+
+            const formData = new FormData();
+            formData.append('anthropic_key', document.getElementById('anthropicKey').value);
+            formData.append('google_key', document.getElementById('googleKey').value);
+            formData.append('prompt', document.getElementById('prompt').value);
+            
+            const files = document.getElementById('resumeFiles').files;
+            for (let i = 0; i < files.length; i++) {
+                formData.append('files', files[i]);
+            }
+
+            try {
+                const response = await fetch('/api/process', { method: 'POST', body: formData });
+                const data = await response.json();
+                
+                document.getElementById('results').classList.remove('hidden');
+                const list = document.getElementById('resultsList');
+                list.innerHTML = data.map(res => `
+                    <div class="bg-slate-800 p-4 rounded border-l-4 border-blue-500">
+                        <div class="flex justify-between">
+                            <strong>${res.filename}</strong>
+                            <span class="text-blue-400 font-bold">Score: ${res.composite_score}</span>
+                        </div>
+                        <p class="text-sm text-slate-400 mt-1">${res.candidate_description}</p>
+                    </div>
+                `).join('');
+            } catch (err) {
+                alert("Error processing resumes. Check console.");
+            } finally {
+                btn.disabled = false;
+                btn.innerText = "Generate Rubric & Score";
+            }
+        };
+    </script>
 </body>
 </html>
