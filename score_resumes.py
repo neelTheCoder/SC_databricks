@@ -202,7 +202,7 @@ Return ONLY valid JSON, no other text."""
         try:
             if model == "claude":
                 response = self.claude_client.messages.create(
-                    model="claude-sonnet-4-20250514",
+                    model="claude-sonnet-4-6",
                     max_tokens=8000,
                     temperature=0.4,  # Increased from 0.2 for more variability
                     messages=[{"role": "user", "content": prompt}]
