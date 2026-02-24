@@ -1,0 +1,89 @@
+{
+  "filename": "SC_Resumes_RohanMovva-Resume.pdf",
+  "total_crackedness": 67.3,
+  "total_fit": 27.1,
+  "candidate_description": "Rohan Movva is an exceptionally high-achieving Stanford junior with a near-perfect GPA pursuing a dual Economics and CS degree, distinguished by extraordinary finance and policy credentials including a White House Treasury appointment, incoming JPMorgan Technology IB role, and founding a $2.3M investment fund with a 39% annualized return. He is a prolific campus leader holding VP or director-level roles across five organizations simultaneously. However, his profile is overwhelmingly oriented toward finance, investment banking, and consulting \u2014 with only superficial and communications-oriented exposure to healthcare through his Biodesign podcast VP role and a single pharmaceutical consulting project. His technical skills, while implied by his CS major, are not demonstrated in engineering or biomedical contexts.",
+  "strengths_explanation": "Rohan's crackedness score is very strong (67.3/100) \u2014 his GPA, institutional prestige, leadership density, and internship quality are in the top tier of any candidate pool. The White House Treasury appointment and fund founding are genuinely rare achievements for an undergraduate. However, his fit score for a healthcare-focused event is critically low (27.1/100). His healthcare exposure is almost entirely indirect: a podcast hosting role, one pharma consulting project, and PE sourcing that happened to include medical devices. He has no biomedical research, no clinical exposure, no health tech projects, and no articulated healthcare problem he is trying to solve. He would be an outstanding candidate for a finance, fintech, or general tech VC dinner, but his alignment with healthcare startups is weak and largely incidental rather than intentional.",
+  "detailed_scores": {
+    "claude": {
+      "crackedness_scores": [
+        {
+          "criterion": "Academic Excellence & Rigor",
+          "points_awarded": 18.2,
+          "max_points": 20,
+          "percentage": 91.0,
+          "evidence": "3.99/4.00 GPA at Stanford is exceptional and places this candidate in the top tier. Dual major in Economics and Computer Science at Stanford is highly competitive. However, coursework listed (Economic Analysis, Applied Econometrics, Financial Markets) skews toward standard econ/finance rather than graduate-level or highly specialized technical courses. No honors society membership (e.g., Tau Beta Pi) mentioned. The GPA and institution are near-perfect, but the coursework description lacks evidence of graduate-level or deeply specialized technical rigor, preventing a maximum score."
+        },
+        {
+          "criterion": "Research Depth & Impact",
+          "points_awarded": 7.3,
+          "max_points": 25,
+          "percentage": 29.2,
+          "evidence": "The candidate has a provisional patent ('Forever Filter') and contributed to the Stanford Federal Reserve Challenge Team using Stata/R for monetary policy research. However, there are no published or submitted peer-reviewed papers, no Google Scholar profile, no named university lab affiliations, and no formal academic research output. The Treasury work produced high-visibility policy documents (CapEx Comeback chart, White House Crypto Report), which is impactful but is policy/government work rather than scholarly research. The Fed Challenge is a competition, not independent research. Research depth is limited relative to the 25-point ceiling."
+        },
+        {
+          "criterion": "Technical Skill Breadth & Depth",
+          "points_awarded": 10.4,
+          "max_points": 20,
+          "percentage": 52.0,
+          "evidence": "Demonstrated use of Stata and R for econometric modeling in the Fed Challenge; built an original forward-looking econometric model of Treasury term premia; conducted DCF, LBO, and comparables modeling. However, the resume does not list Python, C++, ML/AI frameworks, or any software engineering work. The CS major implies programming ability but no technical projects, GitHub contributions, or systems-building are described. Skills are applied in finance/economics contexts but lack breadth across engineering or data science domains. The 'Developer of Forever Filter (provisional patent)' hints at technical building but is undescribed."
+        },
+        {
+          "criterion": "Entrepreneurial & Leadership Initiative",
+          "points_awarded": 17.6,
+          "max_points": 20,
+          "percentage": 88.0,
+          "evidence": "Founded Milton Capital Incubator Fund, raised and manages a $2.3M portfolio with a 39% annualized return \u2014 genuine founder-level initiative with measurable financial outcomes. EVP of Stanford Pre-Business Association (Stanford's largest business club), Project Director at Stanford Consulting (board-level, <5% acceptance), Portfolio Manager leading 19 analysts at Stanford Blyth Fund. Multiple VP roles across clubs. Grand Prize Winner of Duke Fuqua's New Ideas Competition signals entrepreneurial recognition. The breadth of leadership is exceptional; the main gap is no startup founding in a product/tech sense and no accelerator participation."
+        },
+        {
+          "criterion": "Industry Experience & Internship Quality",
+          "points_awarded": 13.8,
+          "max_points": 15,
+          "percentage": 92.0,
+          "evidence": "Incoming JPMorgan Technology IB Summer Analyst (top-tier firm); White House-appointed intern at U.S. Treasury Secretary's front office with nationally covered deliverables \u2014 extraordinarily high-prestige placement; Wall Street Capital Partners IB Analyst supporting $75M+ M&A; Ames Capital Partners PE Analyst (1% acceptance, $200M+ diligence); consulting for Google, Disney, Morgan Stanley, NPR. The breadth and prestige are near the ceiling. Minor deduction: roles are finance/consulting-heavy with limited product ownership or startup-stage experience, and some roles (Wall Street Capital Partners) are less top-tier than bulge bracket."
+        }
+      ],
+      "fit_scores": [
+        {
+          "criterion": "Healthcare Domain Knowledge",
+          "points_awarded": 6.8,
+          "max_points": 25,
+          "percentage": 27.2,
+          "evidence": "The candidate has tangential healthcare exposure: VP of Probe Podcast at Stanford Students in Biodesign (hosting biotech VCs and founders), consulting for Emcure Pharmaceuticals on a nutraceutical GTM strategy, and PE sourcing that included medical devices at Ames Capital. However, there is no clinical experience, no health-focused coursework, no engagement with healthcare workflows, regulations (FDA/HIPAA), or patient/clinician interaction. The biodesign podcast role is communications-focused, not domain-knowledge-building. Healthcare is a minor thread, not a primary focus."
+        },
+        {
+          "criterion": "Biomedical or Health Tech Research Experience",
+          "points_awarded": 3.2,
+          "max_points": 25,
+          "percentage": 12.8,
+          "evidence": "No biomedical or health tech research is present on this resume. The provisional patent ('Forever Filter') is undescribed and may or may not be health-related. The Emcure Pharmaceuticals consulting project touched on nutraceuticals but was a GTM strategy exercise, not research. The Biodesign podcast role involves interviewing experts but does not constitute research. There is essentially no evidence of applying technical skills to solve a health problem or working with medical data."
+        },
+        {
+          "criterion": "Healthcare Startup or Venture Exposure",
+          "points_awarded": 7.4,
+          "max_points": 20,
+          "percentage": 37.0,
+          "evidence": "The candidate's involvement with Stanford Students in Biodesign (VP of Probe Podcast) provides some exposure to the biotech/health startup ecosystem through hosting VCs and founders. The PE sourcing at Ames Capital included medical devices. The Emcure Pharmaceuticals consulting engagement is health-adjacent. However, there is no direct founding, interning at, or working for a healthcare startup, no health-focused accelerator participation, and no demonstrated network in health VC beyond the podcast hosting role. Exposure is real but shallow and communications-oriented."
+        },
+        {
+          "criterion": "Interdisciplinary Bridge (Tech + Biology/Medicine)",
+          "points_awarded": 5.1,
+          "max_points": 15,
+          "percentage": 34.0,
+          "evidence": "The dual major in Economics and CS bridges two technical/quantitative disciplines but does not span the tech-biology divide required for this criterion. There is no biology, pre-med, or life sciences coursework listed. The Biodesign club involvement is the closest bridge, but it is extracurricular and communications-focused rather than academic or research-based. The candidate is a strong tech+economics profile but lacks the biology/medicine dimension that defines true interdisciplinary health innovation candidates."
+        },
+        {
+          "criterion": "Articulated Healthcare Problem Awareness",
+          "points_awarded": 4.6,
+          "max_points": 15,
+          "percentage": 30.7,
+          "evidence": "The resume does not explicitly articulate any healthcare problem being solved. The Emcure consulting project mentions GTM strategy for a nutraceutical line but frames it in business terms, not patient or health system impact. The Biodesign podcast covers 'trends, funding, and research' but this is described as audience engagement, not problem-solving. The PE medical device sourcing is investment-focused. There is no framing of work in terms of patient outcomes, clinical unmet needs, or systemic healthcare challenges anywhere on the resume."
+        }
+      ],
+      "total_crackedness": 67.3,
+      "total_fit": 27.1,
+      "candidate_description": "Rohan Movva is an exceptionally high-achieving Stanford junior with a near-perfect GPA pursuing a dual Economics and CS degree, distinguished by extraordinary finance and policy credentials including a White House Treasury appointment, incoming JPMorgan Technology IB role, and founding a $2.3M investment fund with a 39% annualized return. He is a prolific campus leader holding VP or director-level roles across five organizations simultaneously. However, his profile is overwhelmingly oriented toward finance, investment banking, and consulting \u2014 with only superficial and communications-oriented exposure to healthcare through his Biodesign podcast VP role and a single pharmaceutical consulting project. His technical skills, while implied by his CS major, are not demonstrated in engineering or biomedical contexts.",
+      "strengths_explanation": "Rohan's crackedness score is very strong (67.3/100) \u2014 his GPA, institutional prestige, leadership density, and internship quality are in the top tier of any candidate pool. The White House Treasury appointment and fund founding are genuinely rare achievements for an undergraduate. However, his fit score for a healthcare-focused event is critically low (27.1/100). His healthcare exposure is almost entirely indirect: a podcast hosting role, one pharma consulting project, and PE sourcing that happened to include medical devices. He has no biomedical research, no clinical exposure, no health tech projects, and no articulated healthcare problem he is trying to solve. He would be an outstanding candidate for a finance, fintech, or general tech VC dinner, but his alignment with healthcare startups is weak and largely incidental rather than intentional."
+    }
+  }
+}

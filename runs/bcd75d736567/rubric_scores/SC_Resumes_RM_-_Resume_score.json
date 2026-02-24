@@ -1,0 +1,89 @@
+{
+  "filename": "SC_Resumes_RM_-_Resume.pdf",
+  "total_crackedness": 88.3,
+  "total_fit": 89.8,
+  "candidate_description": "Romal Mitr is a sophomore at Stanford University pursuing Biomedical Computation with a 4.04 GPA and Tau Beta Pi membership, representing one of the strongest academic profiles possible for a candidate at this stage. He has built an unusually dense portfolio of healthcare-relevant experiences: co-founding a geriatric care AI startup featured by Stanford Biodesign, conducting ML research on cardiovascular disease prediction at Oxford, building a rare disease metabolomics pipeline at the Stanford Snyder Lab, interning at Siemens Healthineers in oncotherapy, and providing consulting recommendations adopted by Stanford Hospital. His work consistently sits at the intersection of advanced technical methods and concrete clinical problems, with two pending publications and multiple real-world deployments. He also demonstrates creative range through a TEDx Talk, environmental documentary, and sustained nonprofit founding.",
+  "strengths_explanation": "Romal's standout quality is the density and coherence of his healthcare-tech portfolio at an unusually early career stage (sophomore year). Unlike candidates who have either technical depth or healthcare exposure, he has both simultaneously \u2014 and his Biomedical Computation major formalizes this bridge. The ContinuuMed startup is particularly compelling because it has institutional validation (Stanford Biodesign showcase, clinical partnership with Stanford's Head of Geriatrics) and is framed in terms of measurable patient outcomes. His research spans five distinct health domains (cardiovascular, rare disease/genomics, oncotherapy, malnutrition, geriatric care), demonstrating adaptability and genuine curiosity rather than narrow specialization. The primary areas where he falls short of a perfect score are: (1) no confirmed publications yet \u2014 all are pending; (2) startup funding is very modest ($1K); (3) no explicit regulatory/compliance knowledge (FDA, HIPAA); and (4) some technical descriptions could more consistently foreground patient impact. These are minor gaps for a sophomore and suggest a candidate who will be significantly stronger in 1-2 years.",
+  "detailed_scores": {
+    "claude": {
+      "crackedness_scores": [
+        {
+          "criterion": "Academic Excellence & Rigor",
+          "points_awarded": 19.2,
+          "max_points": 20,
+          "percentage": 96.0,
+          "evidence": "GPA 4.04 at Stanford (above 4.0 indicates A+ performance) in Biomedical Computation \u2014 a highly selective, interdisciplinary program. Member of Tau Beta Pi Engineering Honors Society. Prior record includes Valedictorian, National Merit Scholar, and IB Diploma with 4.85 GPA. Study abroad at Oxford for ML research adds further academic rigor. The combination of Stanford BMC + Tau Beta Pi + 4.04 GPA is genuinely top-tier. Slight deduction for no listed graduate-level coursework explicitly named."
+        },
+        {
+          "criterion": "Research Depth & Impact",
+          "points_awarded": 21.3,
+          "max_points": 25,
+          "percentage": 85.2,
+          "evidence": "Multiple research roles with tangible outputs: (1) Stanford Snyder Lab \u2014 computational pipeline for metabolomics from UDN, solved 4 rare disease cases, publication pending; (2) Oxford Internet Institute \u2014 designed 83% accuracy cardiovascular disease prediction model using ARMA, K-means, unsupervised learning; (3) Siemens Healthineers \u2014 authored review paper on adaptive radiotherapy with AI, publication pending; (4) Rare Genomics Institute \u2014 35+ medical synopses, STORM AI integration. Two pending publications and work in a named Stanford genetics lab are strong signals. Deduction because no publications are yet confirmed/published, no Google Scholar profile listed, and no citations yet \u2014 still pre-publication stage across the board."
+        },
+        {
+          "criterion": "Technical Skill Breadth & Depth",
+          "points_awarded": 17.4,
+          "max_points": 20,
+          "percentage": 87.0,
+          "evidence": "Demonstrated Python, C++, MATLAB, LaTeX with applied math foundations. Applied ML/AI in real projects: ARMA models, K-means clustering, unsupervised learning, Random Forest for benchmarking, STORM AI integration, AI-enabled tumor contouring. Built a computational metabolomics pipeline. Skills are applied across multiple distinct domains (genomics, cardiovascular wearables, radiotherapy, rare disease). Slight deduction for no mention of deep learning frameworks (PyTorch/TensorFlow) explicitly, no bioinformatics-specific tools named (e.g., GATK, BioPython), and limited evidence of systems-level or software engineering depth."
+        },
+        {
+          "criterion": "Entrepreneurial & Leadership Initiative",
+          "points_awarded": 17.8,
+          "max_points": 20,
+          "percentage": 89.0,
+          "evidence": "Co-Founder and CEO of an early-stage health tech startup (ContinuuMed) with a live pilot QI study with Stanford Head of Geriatrics, $1,000 Stanford Biodesign funding, and a featured showcase on Stanford Biodesign website. Founded 'Reimagining Earth' environmental initiative with real outputs (documentary screened at AMC Empire, TEDx Talk, mapathons with Red Cross). Senior Consultant at Stanford Consulting (Google DeepMind client). Strong founder-level initiative across multiple domains. Deduction because the startup is very early-stage ($1K funding is modest), and the consulting roles are contributor rather than founder-level."
+        },
+        {
+          "criterion": "Industry Experience & Internship Quality",
+          "points_awarded": 12.6,
+          "max_points": 15,
+          "percentage": 84.0,
+          "evidence": "Siemens Healthineers internship (top-tier medtech company) with a concrete output \u2014 authored review paper on adaptive radiotherapy with AI, publication pending. Oxford Internet Institute research role with a defined model output. Rare Genomics Institute ongoing since 2020 showing sustained commitment. Stanford Snyder Lab (Department of Genetics) is a prestigious academic lab. Strong portfolio of relevant experiences. Slight deduction because Siemens role is listed as future (June\u2013August 2025, which may be upcoming at time of resume), Rare Genomics is a smaller nonprofit rather than a top-tier firm, and no Big Tech or top-tier hospital clinical internship is present."
+        }
+      ],
+      "fit_scores": [
+        {
+          "criterion": "Healthcare Domain Knowledge",
+          "points_awarded": 22.8,
+          "max_points": 25,
+          "percentage": 91.2,
+          "evidence": "Major is Biomedical Computation \u2014 directly in the healthcare/biomedical domain. Research spans cardiovascular disease, rare diseases, metabolomics, oncotherapy, geriatric care, and malnutrition diagnosis. Engaged with Stanford Hospital (CT-based opportunistic imaging recommendations adopted), Stanford Head of Geriatrics (pilot QI study), and Siemens Healthineers oncotherapy division. Demonstrates understanding of clinical workflows (post-discharge, readmission rates, hospital costs, time toxicity). Slight deduction for no explicit mention of FDA/HIPAA regulatory knowledge or direct patient interaction documented."
+        },
+        {
+          "criterion": "Biomedical or Health Tech Research Experience",
+          "points_awarded": 22.1,
+          "max_points": 25,
+          "percentage": 88.4,
+          "evidence": "Exceptional breadth: (1) ML model for cardiovascular disease prediction from wearable data at Oxford; (2) Metabolomics pipeline for rare disease diagnosis at Stanford Snyder Lab (UDN data); (3) AI-enabled adaptive radiotherapy review at Siemens Healthineers; (4) STORM AI for rare disease descriptions at Rare Genomics; (5) CT-based AI malnutrition diagnosis recommendations at Stanford Hospital. All research explicitly applies technical skills to health problems. Two pending publications. Deduction because no published papers yet and some roles (Rare Genomics synopses, consulting) are more applied/advisory than deep original research."
+        },
+        {
+          "criterion": "Healthcare Startup or Venture Exposure",
+          "points_awarded": 17.3,
+          "max_points": 20,
+          "percentage": 86.5,
+          "evidence": "Co-founded ContinuuMed, a health tech startup focused on geriatric post-discharge care, featured on Stanford Biodesign Health Technology Showcase \u2014 a prestigious health innovation program. Received Stanford Center for Biodesign funding. Launching pilot QI study with clinical partner. This is direct healthcare startup founding experience with institutional validation. Deduction because funding is very early ($1K), no accelerator program participation beyond Biodesign showcase, and the startup appears to be in very early pilot stage without revenue or broader ecosystem engagement documented."
+        },
+        {
+          "criterion": "Interdisciplinary Bridge (Tech + Biology/Medicine)",
+          "points_awarded": 14.2,
+          "max_points": 15,
+          "percentage": 94.7,
+          "evidence": "Biomedical Computation at Stanford is the canonical example of a dual-domain program bridging CS/engineering and biomedicine. Every research project simultaneously requires technical (ML, computational pipelines, statistical modeling) and biological/clinical understanding (metabolomics, cardiovascular physiology, oncotherapy, geriatric care). The Oxford ML + cardiovascular wearables project and the UDN metabolomics pipeline both exemplify this bridge in practice. Minimal deduction only because no formal second major in biology/medicine is listed \u2014 the program itself is the bridge."
+        },
+        {
+          "criterion": "Articulated Healthcare Problem Awareness",
+          "points_awarded": 13.4,
+          "max_points": 15,
+          "percentage": 89.3,
+          "evidence": "Resume explicitly names healthcare problems: 30-day readmission rates for geriatric patients, time toxicity in radiotherapy (2-3 weeks to same-day), malnutrition diagnosis delays, rare disease information gaps, cardiovascular disease risk prediction. ContinuuMed is framed in terms of patient outcomes (45% readmission reduction, 10% cost reduction). Siemens work framed as reducing time toxicity by 90%. Consulting work framed as accelerating AI-driven diagnoses. Strong problem-framing throughout. Slight deduction because some descriptions lean technical (e.g., ARMA models, K-means) without always connecting back to patient impact explicitly."
+        }
+      ],
+      "total_crackedness": 88.3,
+      "total_fit": 89.8,
+      "candidate_description": "Romal Mitr is a sophomore at Stanford University pursuing Biomedical Computation with a 4.04 GPA and Tau Beta Pi membership, representing one of the strongest academic profiles possible for a candidate at this stage. He has built an unusually dense portfolio of healthcare-relevant experiences: co-founding a geriatric care AI startup featured by Stanford Biodesign, conducting ML research on cardiovascular disease prediction at Oxford, building a rare disease metabolomics pipeline at the Stanford Snyder Lab, interning at Siemens Healthineers in oncotherapy, and providing consulting recommendations adopted by Stanford Hospital. His work consistently sits at the intersection of advanced technical methods and concrete clinical problems, with two pending publications and multiple real-world deployments. He also demonstrates creative range through a TEDx Talk, environmental documentary, and sustained nonprofit founding.",
+      "strengths_explanation": "Romal's standout quality is the density and coherence of his healthcare-tech portfolio at an unusually early career stage (sophomore year). Unlike candidates who have either technical depth or healthcare exposure, he has both simultaneously \u2014 and his Biomedical Computation major formalizes this bridge. The ContinuuMed startup is particularly compelling because it has institutional validation (Stanford Biodesign showcase, clinical partnership with Stanford's Head of Geriatrics) and is framed in terms of measurable patient outcomes. His research spans five distinct health domains (cardiovascular, rare disease/genomics, oncotherapy, malnutrition, geriatric care), demonstrating adaptability and genuine curiosity rather than narrow specialization. The primary areas where he falls short of a perfect score are: (1) no confirmed publications yet \u2014 all are pending; (2) startup funding is very modest ($1K); (3) no explicit regulatory/compliance knowledge (FDA, HIPAA); and (4) some technical descriptions could more consistently foreground patient impact. These are minor gaps for a sophomore and suggest a candidate who will be significantly stronger in 1-2 years."
+    }
+  }
+}

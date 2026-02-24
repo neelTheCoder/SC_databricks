@@ -1,0 +1,89 @@
+{
+  "filename": "SC_Resumes_Neel_Ahuja_-_Resume.pdf",
+  "total_crackedness": 80.3,
+  "total_fit": 32.1,
+  "candidate_description": "Neel Ahuja is a Stanford freshman/sophomore pursuing CS with an AI specialization who has built an exceptionally impressive pre-college and early-college track record. He has published peer-reviewed research across computational biology and environmental science, earned elite science competition honors (ISEF 2nd Place, National JSHS 1st Place, Regeneron STS Top 300), and has a Google Scholar profile \u2014 rare for someone expected to graduate in 2028. His technical skills are broad and genuinely applied, spanning ML/AI frameworks, full-stack development, and hardware deployment. He has shipped real products used by hundreds of users and pitched to government officials. However, his background is almost entirely in AI/ML, environmental science, and general software engineering \u2014 with virtually no direct engagement with healthcare, clinical systems, biomedical health applications, or health-focused entrepreneurship.",
+  "strengths_explanation": "Neel's crackedness score of 80.3/100 reflects a genuinely exceptional young technologist \u2014 his research output, technical depth, and initiative are well above average for his stage. The Google Scholar profile, two peer-reviewed publications, ISEF placement, and SAIL internship together form a rare combination for a first or second-year student. His fit score of 32.1/100, however, reveals a significant misalignment with the healthcare focus of this event. His computational biology work (enzyme optimization) is the only meaningful bridge to biomedical science, and even that is framed around environmental applications. He has no clinical exposure, no health startup experience, no healthcare coursework, and does not articulate any healthcare problem on his resume. He would be a strong candidate for AI, climate tech, or general deep tech events, but requires substantial redirection to be competitive in a healthcare startup context.",
+  "detailed_scores": {
+    "claude": {
+      "crackedness_scores": [
+        {
+          "criterion": "Academic Excellence & Rigor",
+          "points_awarded": 15.3,
+          "max_points": 20,
+          "percentage": 76.5,
+          "evidence": "Stanford CS (AI Track) is top-tier, but GPA is not listed which prevents a high score. Achievements are exceptional for a pre-college student: Regeneron STS Top 300, ISEF 2nd Place Grand Award, National JSHS 1st Place, Gold Presidential Service Award \u2014 these are elite science competition honors. However, coursework listed (Programming Abstractions, Linear Algebra, Probability for CS) is standard freshman-level, not graduate-level. No honors society membership (e.g., Tau Beta Pi) listed. The pre-college accolades are impressive but the Stanford academic record itself is thin given expected graduation 2028 (freshman/sophomore)."
+        },
+        {
+          "criterion": "Research Depth & Impact",
+          "points_awarded": 19.2,
+          "max_points": 25,
+          "percentage": 76.8,
+          "evidence": "Google Scholar profile explicitly listed \u2014 strong signal. Co-authored 2 published peer-reviewed studies from NJIT Zhang Lab on water purification (2023-2025). Published in peer-reviewed journal for ML-optimized enzyme project (JSHS 1st Place). Presented at 10 research conferences. Currently an AI Research Intern at SAIL building NLP benchmarking frameworks. Research spans environmental science, computational biology, and AI \u2014 breadth is impressive. However, no citation counts visible, no first-author flagship publication in a top-tier venue, and SAIL role is recent (Dec 2025-present) with limited demonstrated output so far. Strong but not quite elite-tier research depth for the criterion."
+        },
+        {
+          "criterion": "Technical Skill Breadth & Depth",
+          "points_awarded": 17.6,
+          "max_points": 20,
+          "percentage": 88.0,
+          "evidence": "Exceptional breadth: Python, C++, C, Java, JavaScript, R \u2014 six languages. Frameworks include PyTorch, TensorFlow, NumPy, Pandas, React, MongoDB, Docker, Firebase, Django, SQL, CAD. Applied ML techniques demonstrated in real projects: XGBoost, random forest, CNN+RNN ensemble, RAG, NLP sentiment analysis, facial recognition (FaceNet), MATLAB statistical analysis (ANOVA, regression). Skills are not just listed \u2014 each is tied to a concrete project with measurable outcomes. Built and deployed systems (school kiosks with 200+ daily users, fraud detection with 20+ users, volunteer app). Rare combination of ML depth + full-stack + hardware (NVIDIA Jetson Nano). Minor deduction: some tools like CAD and JSON are listed without demonstrated depth."
+        },
+        {
+          "criterion": "Entrepreneurial & Leadership Initiative",
+          "points_awarded": 14.8,
+          "max_points": 20,
+          "percentage": 74.0,
+          "evidence": "Dorm President at Stanford shows leadership. Secured $2,000 in district funding by pitching to Board of Education \u2014 demonstrated ability to pitch and secure resources. Pitched to EPA officials demonstrating $10M+ in cost savings. Led 12 writers at Newristics. Deployed real products used by 200+ daily users (school kiosks) and 20+ users (fraud detection). Member of Stanford Climate Week and Conservation Technology. However, no evidence of founding a startup, participating in an accelerator, or co-founding an organization. Leadership is meaningful but falls short of founder-level initiative. The pitching and funding experience is notable but the scale is limited."
+        },
+        {
+          "criterion": "Industry Experience & Internship Quality",
+          "points_awarded": 13.4,
+          "max_points": 15,
+          "percentage": 89.3,
+          "evidence": "Three substantive internship experiences: (1) SAIL at Stanford \u2014 prestigious AI lab, building real benchmarking infrastructure for a 40,000+ line codebase, reducing onboarding time by 60%; (2) NJIT Zhang Lab \u2014 2-year research internship resulting in 2 published papers and EPA pitch; (3) Newristics \u2014 ML intern building production models with 90% accuracy serving 50+ clients. For a freshman/sophomore, this is an exceptional internship portfolio. SAIL is top-tier. Newristics is a real company with real clients. The NJIT lab produced peer-reviewed publications. Minor deduction: Newristics is not a household-name top-tier company, and the NJIT role is academic rather than industry. Overall very strong for the candidate's stage."
+        }
+      ],
+      "fit_scores": [
+        {
+          "criterion": "Healthcare Domain Knowledge",
+          "points_awarded": 7.2,
+          "max_points": 25,
+          "percentage": 28.8,
+          "evidence": "No direct healthcare coursework, clinical experience, or health system engagement visible. The ML-optimized enzyme project touches on biomedical science (protein engineering, plastic degradation) but is framed as environmental/materials science. The Newristics role involved psychological heuristics in marketing \u2014 adjacent to behavioral science but not healthcare. No mention of HIPAA, FDA, EHR, clinical workflows, or patient interaction. The water purification research is environmental, not medical. Healthcare domain knowledge is essentially absent from this resume."
+        },
+        {
+          "criterion": "Biomedical or Health Tech Research Experience",
+          "points_awarded": 9.8,
+          "max_points": 25,
+          "percentage": 39.2,
+          "evidence": "The ML-optimized enzyme project is the strongest signal here: used CNN+RNN ensemble to simulate 6,517 mutations and identify optimal genetic edits to improve protein stability by 10%, published in peer-reviewed journal. This is genuinely computational biology / biomedical research. However, it is framed around plastic degradation (environmental application), not a health application. The water purification research is environmental science. SAIL work is general AI/NLP. No medical imaging, genomics, EHR, drug discovery, or clinical informatics work. The enzyme project earns partial credit for biomedical methodology, but the application domain is not health."
+        },
+        {
+          "criterion": "Healthcare Startup or Venture Exposure",
+          "points_awarded": 3.1,
+          "max_points": 20,
+          "percentage": 15.5,
+          "evidence": "No healthcare startup experience, no health-focused accelerator participation, no digital health or medtech internship. Newristics is a marketing/pharma-adjacent company (uses psychological heuristics for marketing messages) \u2014 there may be some pharma marketing exposure but it is not described in health terms. Stanford Climate Week and Conservation Technology suggest interest in climate/environment, not health. No health VC ecosystem engagement mentioned. Essentially no healthcare startup or venture exposure."
+        },
+        {
+          "criterion": "Interdisciplinary Bridge (Tech + Biology/Medicine)",
+          "points_awarded": 7.4,
+          "max_points": 15,
+          "percentage": 49.3,
+          "evidence": "CS (AI Track) major is purely technical. However, the enzyme optimization project demonstrates genuine computational biology work \u2014 applying ML to protein mutation simulation is a real tech-biology intersection. The water purification research used statistical tools (MATLAB, ANOVA, regression) in an environmental science context. These projects show some cross-disciplinary thinking, but it is not formalized in a dual major or concentration (e.g., Biomedical Computation). The biology engagement is project-based and pre-college, not embedded in the Stanford curriculum. Upper-lower-medium score: meaningful but not structural interdisciplinarity."
+        },
+        {
+          "criterion": "Articulated Healthcare Problem Awareness",
+          "points_awarded": 4.6,
+          "max_points": 15,
+          "percentage": 30.7,
+          "evidence": "The resume does not articulate any specific healthcare problem. The enzyme project mentions improving protein stability but frames it as plastic degradation, not a health application. The water purification project frames impact in terms of cost savings to government, not patient or public health outcomes. The SAIL work is framed around AI agent benchmarking and developer productivity. No mention of diagnostic accuracy, hospital readmissions, drug efficacy, patient outcomes, or any named healthcare challenge. Problem awareness exists for environmental and AI domains, but not healthcare."
+        }
+      ],
+      "total_crackedness": 80.3,
+      "total_fit": 32.1,
+      "candidate_description": "Neel Ahuja is a Stanford freshman/sophomore pursuing CS with an AI specialization who has built an exceptionally impressive pre-college and early-college track record. He has published peer-reviewed research across computational biology and environmental science, earned elite science competition honors (ISEF 2nd Place, National JSHS 1st Place, Regeneron STS Top 300), and has a Google Scholar profile \u2014 rare for someone expected to graduate in 2028. His technical skills are broad and genuinely applied, spanning ML/AI frameworks, full-stack development, and hardware deployment. He has shipped real products used by hundreds of users and pitched to government officials. However, his background is almost entirely in AI/ML, environmental science, and general software engineering \u2014 with virtually no direct engagement with healthcare, clinical systems, biomedical health applications, or health-focused entrepreneurship.",
+      "strengths_explanation": "Neel's crackedness score of 80.3/100 reflects a genuinely exceptional young technologist \u2014 his research output, technical depth, and initiative are well above average for his stage. The Google Scholar profile, two peer-reviewed publications, ISEF placement, and SAIL internship together form a rare combination for a first or second-year student. His fit score of 32.1/100, however, reveals a significant misalignment with the healthcare focus of this event. His computational biology work (enzyme optimization) is the only meaningful bridge to biomedical science, and even that is framed around environmental applications. He has no clinical exposure, no health startup experience, no healthcare coursework, and does not articulate any healthcare problem on his resume. He would be a strong candidate for AI, climate tech, or general deep tech events, but requires substantial redirection to be competitive in a healthcare startup context."
+    }
+  }
+}

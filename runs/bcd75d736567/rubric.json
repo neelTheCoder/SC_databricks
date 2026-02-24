@@ -1,0 +1,110 @@
+{
+  "crackedness_criteria": [
+    {
+      "name": "Academic Excellence & Rigor",
+      "description": "Measures the caliber of academic performance, selectivity of institution, and difficulty of coursework. Rewards high GPAs, honors societies, and challenging interdisciplinary programs.",
+      "max_points": 20,
+      "scoring_guide": {
+        "high": "GPA 3.9+ at a top-tier institution (e.g., Stanford), enrollment in a highly competitive or dual major (e.g., Biomedical Computation + Economics, CS + Energy), membership in honors societies (e.g., Tau Beta Pi), or academic awards. Coursework includes graduate-level or specialized technical classes.",
+        "medium": "GPA 3.5\u20133.89, single rigorous major at a strong institution, some advanced coursework but limited honors recognition. Solid academic record without standout distinctions.",
+        "low": "GPA below 3.5 or not listed, standard coursework without notable rigor or honors, limited evidence of academic distinction."
+      }
+    },
+    {
+      "name": "Research Depth & Impact",
+      "description": "Evaluates the quality, independence, and real-world significance of research experience. Rewards publications, conference presentations, Google Scholar profiles, and work at prestigious labs.",
+      "max_points": 25,
+      "scoring_guide": {
+        "high": "Published or submitted papers (peer-reviewed journals or conferences), a Google Scholar profile with citations, independent research projects with tangible outputs, work in top university labs or with prominent faculty, research directly advancing a field (e.g., AI in medicine, biomedical devices). Evidence of being a named contributor or lead researcher.",
+        "medium": "Active participation in a research lab with defined contributions, poster presentations or preprints, research assistant roles with some independent scope, but no formal publications or citations yet.",
+        "low": "Minimal or no research experience, only coursework-based projects listed, no evidence of lab involvement or scholarly output."
+      }
+    },
+    {
+      "name": "Technical Skill Breadth & Depth",
+      "description": "Assesses the range and sophistication of technical skills including programming languages, engineering tools, data science, and domain-specific platforms. Rewards rare or advanced skill combinations.",
+      "max_points": 20,
+      "scoring_guide": {
+        "high": "Proficiency in multiple advanced programming languages (Python, C++, MATLAB, etc.), demonstrated use of ML/AI frameworks, bioinformatics tools, or specialized engineering software. Skills applied in real projects, not just listed. Evidence of building functional systems, models, or tools from scratch.",
+        "medium": "Competence in 2\u20133 relevant languages or tools, some applied project experience, but limited evidence of advanced or specialized technical work. Skills are relevant but not exceptional in depth.",
+        "low": "Only basic or introductory technical skills listed, no evidence of applied technical projects, or skills are generic and not relevant to the candidate pool's domain."
+      }
+    },
+    {
+      "name": "Entrepreneurial & Leadership Initiative",
+      "description": "Measures evidence of founding, leading, or significantly contributing to ventures, organizations, or initiatives. Rewards self-starters who create things from scratch and take ownership.",
+      "max_points": 20,
+      "scoring_guide": {
+        "high": "Founded or co-founded a startup, club, or organization; served in a named leadership role (President, CTO, Lead) with measurable outcomes; participated in accelerators or startup programs (e.g., Stanford Climate Ventures Accelerator); demonstrated ability to recruit others, raise funds, or ship a product.",
+        "medium": "Held a leadership role in an existing organization, contributed meaningfully to a startup or venture as an early team member, or participated in hackathons/competitions with notable results. Some initiative but not fully founder-level.",
+        "low": "Only member-level participation in clubs or organizations, no evidence of founding or leading anything, limited initiative beyond assigned roles."
+      }
+    },
+    {
+      "name": "Industry Experience & Internship Quality",
+      "description": "Evaluates the prestige, relevance, and impact of internships and work experience. Rewards roles at top-tier companies, research hospitals, or high-growth startups with clear contributions.",
+      "max_points": 15,
+      "scoring_guide": {
+        "high": "Internships or roles at top-tier tech companies, leading hospitals/health systems, prominent biotech/medtech firms, or high-growth startups. Roles involved real ownership (e.g., shipped a feature, led a project, produced a report used by leadership). Multiple strong experiences or one exceptional one.",
+        "medium": "Internship at a reputable but not top-tier organization, or a strong role with limited described impact. Relevant to the candidate's field but not highly differentiated.",
+        "low": "No internship experience, only generic or unrelated work experience, or roles with no described contributions or outcomes."
+      }
+    }
+  ],
+  "fit_criteria": [
+    {
+      "name": "Healthcare Domain Knowledge",
+      "description": "Measures direct knowledge of and engagement with the healthcare industry \u2014 including clinical systems, health policy, medical devices, digital health, or biomedical science. Rewards candidates who understand the healthcare landscape, not just adjacent tech.",
+      "max_points": 25,
+      "scoring_guide": {
+        "high": "Major or concentration directly in biomedical, clinical, or health-related fields (e.g., Biomedical Computation); research or work experience in a hospital, clinic, or health-focused lab; demonstrated understanding of healthcare workflows, regulations (e.g., FDA, HIPAA), or clinical needs. Has engaged with patients, clinicians, or health data directly.",
+        "medium": "Some coursework or project work touching on healthcare (e.g., health data analysis, a bioinformatics project), but primary focus is in a tangential field (e.g., general CS or engineering). Awareness of healthcare context without deep immersion.",
+        "low": "No discernible healthcare knowledge, coursework, or experience. Background is entirely in unrelated domains (e.g., pure energy, climate, or finance) with no bridge to health."
+      }
+    },
+    {
+      "name": "Biomedical or Health Tech Research Experience",
+      "description": "Specifically evaluates research or project work at the intersection of technology and medicine \u2014 including AI diagnostics, genomics, medical imaging, wearables, drug discovery, or clinical informatics.",
+      "max_points": 25,
+      "scoring_guide": {
+        "high": "Published or ongoing research in a biomedical or health tech area; lab work involving medical data (EHR, imaging, genomics); built or contributed to a health-focused tool or model; research supervised by faculty with clinical or biomedical focus. Clear evidence of applying technical skills to solve a health problem.",
+        "medium": "Some project or coursework involving health data or biomedical concepts, but research is not the primary focus or is early-stage. May have done a class project on a health topic or assisted in a lab without leading research.",
+        "low": "No research or project work related to biomedical or health technology. Technical work is entirely in unrelated domains."
+      }
+    },
+    {
+      "name": "Healthcare Startup or Venture Exposure",
+      "description": "Assesses direct experience with or interest in healthcare startups \u2014 including founding one, interning at one, participating in health-focused accelerators, or engaging with health VC ecosystems.",
+      "max_points": 20,
+      "scoring_guide": {
+        "high": "Founded or worked at a healthcare startup; participated in a health-focused accelerator or incubator; interned at a digital health, medtech, or biotech company; attended or presented at health innovation events; has a network in the health startup ecosystem.",
+        "medium": "Participated in a general startup program with some health focus, or has expressed interest in health entrepreneurship through coursework or clubs, but no direct startup experience in healthcare specifically.",
+        "low": "No startup exposure in healthcare. Any entrepreneurial activity is in unrelated sectors, or there is no entrepreneurial activity at all."
+      }
+    },
+    {
+      "name": "Interdisciplinary Bridge (Tech + Biology/Medicine)",
+      "description": "Rewards candidates who sit at the intersection of technical disciplines and life sciences or medicine \u2014 the profile most likely to build or evaluate healthcare startups. Penalizes single-domain candidates who lack the cross-disciplinary perspective needed in health innovation.",
+      "max_points": 15,
+      "scoring_guide": {
+        "high": "Dual major or concentration explicitly bridging CS/engineering and biology/medicine (e.g., Biomedical Computation, CS + pre-med, computational biology); coursework spanning both domains; projects or research that required both technical and biological/clinical understanding simultaneously.",
+        "medium": "Single major in either a technical or biological field, but with meaningful coursework or projects in the other domain. Some evidence of cross-disciplinary thinking but not a formal interdisciplinary program.",
+        "low": "Entirely single-domain background with no evidence of engagement across the tech-biology divide. Pure CS with no biology, or pure biology with no technical skills."
+      }
+    },
+    {
+      "name": "Articulated Healthcare Problem Awareness",
+      "description": "Evaluates whether the candidate's resume signals awareness of specific healthcare problems, unmet needs, or systemic challenges \u2014 a proxy for the founder mindset needed to build in this space.",
+      "max_points": 15,
+      "scoring_guide": {
+        "high": "Resume describes projects, research, or work that explicitly addresses a named healthcare problem (e.g., improving diagnostic accuracy, reducing hospital readmissions, making genomic data accessible). Candidate has framed their work in terms of patient or system impact, not just technical output.",
+        "medium": "Some evidence of problem awareness through the choice of research topic or internship, but the resume does not explicitly articulate the problem being solved. The connection to a healthcare need is implied rather than stated.",
+        "low": "No evidence of problem awareness. Work is described purely in technical terms with no reference to healthcare impact, patient outcomes, or systemic challenges."
+      }
+    }
+  ],
+  "metadata": {
+    "focus_area": "Healthcare startups \u2014 candidates evaluated on both general talent/achievement and specific alignment with health tech, biomedical research, and healthcare entrepreneurship",
+    "created_by": "claude"
+  }
+}
