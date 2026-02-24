@@ -1,0 +1,128 @@
+{
+  "filename": "SC_Resumes_TheoChiang-Resume.pdf",
+  "crackedness_scores": [
+    {
+      "criterion": "Demonstrated Impact & Outcomes",
+      "points_awarded": 16.3,
+      "max_points": 25,
+      "percentage": 65.2,
+      "evidence": "numbers=44, %=2, $=2, x=0, impact_terms\u22488"
+    },
+    {
+      "criterion": "Technical/Domain Depth",
+      "points_awarded": 8.3,
+      "max_points": 25,
+      "percentage": 33.2,
+      "evidence": "tech_keywords_hit=6"
+    },
+    {
+      "criterion": "Leadership & Ownership",
+      "points_awarded": 10.0,
+      "max_points": 20,
+      "percentage": 50.0,
+      "evidence": "leadership_signals_hit=6"
+    },
+    {
+      "criterion": "Selectivity & Recognition",
+      "points_awarded": 6.0,
+      "max_points": 15,
+      "percentage": 40.0,
+      "evidence": "selectivity_signals_hit=4"
+    },
+    {
+      "criterion": "Communication Clarity",
+      "points_awarded": 13.2,
+      "max_points": 15,
+      "percentage": 88.0,
+      "evidence": "headers=66, bullets=21, length_chars=7931"
+    }
+  ],
+  "fit_scores": [
+    {
+      "criterion": "Fintech or Economics Domain Knowledge",
+      "points_awarded": 14.0,
+      "max_points": 30,
+      "percentage": 46.7,
+      "evidence": "Theo is pursuing a BS in Biomedical Computation & Economics at Stanford, which includes Economics as a declared component of his major. Relevant coursework includes 'Healthcare Economics & Policy' and a general 'Economics' course. However, the economics exposure appears limited to healthcare-adjacent economics rather than core fintech, financial systems, or quantitative finance. No coursework in macroeconomics, microeconomics theory, financial markets, econometrics, or fintech-specific topics is listed. The economics component is real but narrow and health-focused."
+    },
+    {
+      "criterion": "Fintech or Finance-Focused Project or Work Experience",
+      "points_awarded": 5.0,
+      "max_points": 25,
+      "percentage": 20.0,
+      "evidence": "No internships at fintech companies, banks, hedge funds, or economic research institutions. His startup 'Halo' operates in healthcare AI (prior auth and claims auditing for CMS-covered patients), which touches on healthcare billing/compliance but is not a fintech product in the traditional sense. His role as Lead Financial Officer at Stanford Students for Biodesign and Biopharma involved resource allocation and budgeting, not finance or fintech work. All other research and work experience is in biomedical imaging, neuroimaging, and orthopedic surgery \u2014 entirely unrelated to fintech or finance."
+    },
+    {
+      "criterion": "Entrepreneurial or Startup Mindset in Fintech/Economics",
+      "points_awarded": 6.0,
+      "max_points": 20,
+      "percentage": 30.0,
+      "evidence": "Theo is a co-founder of Halo, a B2B AI-native startup, demonstrating clear entrepreneurial execution ability \u2014 deployed a HIPAA-compliant pilot, achieved 99.9% uptime, and used LLMs for compliance auditing. However, Halo is a healthtech/health AI startup, not a fintech or economics-focused venture. His TA role in Biodesign Fundamentals and participation in Stanford Students for Biodesign further confirm entrepreneurial orientation, but again in the biomedical/health domain. There is no evidence of fintech-specific entrepreneurial activity, fintech accelerator participation, or ideation around financial innovation."
+    },
+    {
+      "criterion": "Quantitative and Technical Skills Applicable to Fintech",
+      "points_awarded": 8.0,
+      "max_points": 15,
+      "percentage": 53.3,
+      "evidence": "Theo has strong technical skills: Python, R, SQL, MATLAB, C++, JavaScript, PyTorch, Pandas, Flask, FastAPI \u2014 a robust toolkit that is highly applicable to fintech. He has demonstrated use of ML (logistic regression, deep learning, LLMs) and data pipelines at scale (200,000+ brain scans). However, none of these skills are explicitly applied to financial data, algorithmic trading, economic modeling, or fintech product development. The skills are transferable but the application is entirely in biomedical and neuroimaging domains. R and SQL with Pandas suggest plausible ramp-up to financial data analysis."
+    },
+    {
+      "criterion": "Engagement with the VC and Startup Ecosystem",
+      "points_awarded": 4.0,
+      "max_points": 10,
+      "percentage": 40.0,
+      "evidence": "Theo has co-founded a startup (Halo) and launched a pilot, indicating some engagement with the startup ecosystem. He won a $500 research grant judged by Stanford Biodesign Scholars, showing exposure to competitive funding environments. As Treasurer of Stanford Men's Club Water Polo and Lead Financial Officer of a club, he has managed budgets. However, there is no explicit evidence of VC engagement, attending investor events, relationships with VCs or investors, or understanding of funding stages beyond his own startup experience. His ecosystem engagement is real but limited and not VC-specific."
+    }
+  ],
+  "total_crackedness": 53.8,
+  "total_fit": 37.0,
+  "candidate_description": "Theo Chiang is a Stanford sophomore pursuing a dual BS in Biomedical Computation & Economics with a strong GPA (3.84) and an impressive research and entrepreneurial track record. He is a co-founder of Halo, a healthtech AI startup automating prior authorization and claims auditing, and has published research in neuroimaging and biomedical engineering. His technical skills are extensive (Python, R, SQL, PyTorch, ML/DL), and he has demonstrated the ability to build and deploy production-grade systems. His background is primarily in biomedical AI, neuroimaging, and healthcare, with economics appearing as a secondary academic focus rather than a primary area of deep engagement.",
+  "strengths_explanation": "Theo is a weak-to-moderate fit for a Fintech startup or economics-focused dinner. While he holds an Economics co-major and has taken Healthcare Economics & Policy, his academic, research, and entrepreneurial work is overwhelmingly concentrated in biomedical computation and healthtech \u2014 not financial technology or economic systems. His startup Halo touches on healthcare billing compliance, which has a tangential connection to financial flows in healthcare, but is not a fintech product. His technical skills (Python, R, SQL, Pandas) are highly transferable to fintech, and his entrepreneurial execution is evident, but there is no demonstrated interest, project, or experience specifically in financial markets, economic modeling, payments, lending, insurance tech, or any core fintech vertical. He would be a strong fit for a healthtech or biomedical AI dinner, but for this event, his fit is limited primarily to his economics coursework and transferable technical skills.",
+  "detailed_scores": {
+    "fit_models": {
+      "claude": {
+        "fit_scores": [
+          {
+            "criterion": "Fintech or Economics Domain Knowledge",
+            "points_awarded": 14.0,
+            "max_points": 30,
+            "percentage": 46.7,
+            "evidence": "Theo is pursuing a BS in Biomedical Computation & Economics at Stanford, which includes Economics as a declared component of his major. Relevant coursework includes 'Healthcare Economics & Policy' and a general 'Economics' course. However, the economics exposure appears limited to healthcare-adjacent economics rather than core fintech, financial systems, or quantitative finance. No coursework in macroeconomics, microeconomics theory, financial markets, econometrics, or fintech-specific topics is listed. The economics component is real but narrow and health-focused."
+          },
+          {
+            "criterion": "Fintech or Finance-Focused Project or Work Experience",
+            "points_awarded": 5.0,
+            "max_points": 25,
+            "percentage": 20.0,
+            "evidence": "No internships at fintech companies, banks, hedge funds, or economic research institutions. His startup 'Halo' operates in healthcare AI (prior auth and claims auditing for CMS-covered patients), which touches on healthcare billing/compliance but is not a fintech product in the traditional sense. His role as Lead Financial Officer at Stanford Students for Biodesign and Biopharma involved resource allocation and budgeting, not finance or fintech work. All other research and work experience is in biomedical imaging, neuroimaging, and orthopedic surgery \u2014 entirely unrelated to fintech or finance."
+          },
+          {
+            "criterion": "Entrepreneurial or Startup Mindset in Fintech/Economics",
+            "points_awarded": 6.0,
+            "max_points": 20,
+            "percentage": 30.0,
+            "evidence": "Theo is a co-founder of Halo, a B2B AI-native startup, demonstrating clear entrepreneurial execution ability \u2014 deployed a HIPAA-compliant pilot, achieved 99.9% uptime, and used LLMs for compliance auditing. However, Halo is a healthtech/health AI startup, not a fintech or economics-focused venture. His TA role in Biodesign Fundamentals and participation in Stanford Students for Biodesign further confirm entrepreneurial orientation, but again in the biomedical/health domain. There is no evidence of fintech-specific entrepreneurial activity, fintech accelerator participation, or ideation around financial innovation."
+          },
+          {
+            "criterion": "Quantitative and Technical Skills Applicable to Fintech",
+            "points_awarded": 8.0,
+            "max_points": 15,
+            "percentage": 53.3,
+            "evidence": "Theo has strong technical skills: Python, R, SQL, MATLAB, C++, JavaScript, PyTorch, Pandas, Flask, FastAPI \u2014 a robust toolkit that is highly applicable to fintech. He has demonstrated use of ML (logistic regression, deep learning, LLMs) and data pipelines at scale (200,000+ brain scans). However, none of these skills are explicitly applied to financial data, algorithmic trading, economic modeling, or fintech product development. The skills are transferable but the application is entirely in biomedical and neuroimaging domains. R and SQL with Pandas suggest plausible ramp-up to financial data analysis."
+          },
+          {
+            "criterion": "Engagement with the VC and Startup Ecosystem",
+            "points_awarded": 4.0,
+            "max_points": 10,
+            "percentage": 40.0,
+            "evidence": "Theo has co-founded a startup (Halo) and launched a pilot, indicating some engagement with the startup ecosystem. He won a $500 research grant judged by Stanford Biodesign Scholars, showing exposure to competitive funding environments. As Treasurer of Stanford Men's Club Water Polo and Lead Financial Officer of a club, he has managed budgets. However, there is no explicit evidence of VC engagement, attending investor events, relationships with VCs or investors, or understanding of funding stages beyond his own startup experience. His ecosystem engagement is real but limited and not VC-specific."
+          }
+        ],
+        "total_fit": 37.0,
+        "candidate_description": "Theo Chiang is a Stanford sophomore pursuing a dual BS in Biomedical Computation & Economics with a strong GPA (3.84) and an impressive research and entrepreneurial track record. He is a co-founder of Halo, a healthtech AI startup automating prior authorization and claims auditing, and has published research in neuroimaging and biomedical engineering. His technical skills are extensive (Python, R, SQL, PyTorch, ML/DL), and he has demonstrated the ability to build and deploy production-grade systems. His background is primarily in biomedical AI, neuroimaging, and healthcare, with economics appearing as a secondary academic focus rather than a primary area of deep engagement.",
+        "strengths_explanation": "Theo is a weak-to-moderate fit for a Fintech startup or economics-focused dinner. While he holds an Economics co-major and has taken Healthcare Economics & Policy, his academic, research, and entrepreneurial work is overwhelmingly concentrated in biomedical computation and healthtech \u2014 not financial technology or economic systems. His startup Halo touches on healthcare billing compliance, which has a tangential connection to financial flows in healthcare, but is not a fintech product. His technical skills (Python, R, SQL, Pandas) are highly transferable to fintech, and his entrepreneurial execution is evident, but there is no demonstrated interest, project, or experience specifically in financial markets, economic modeling, payments, lending, insurance tech, or any core fintech vertical. He would be a strong fit for a healthtech or biomedical AI dinner, but for this event, his fit is limited primarily to his economics coursework and transferable technical skills."
+      }
+    },
+    "crackedness_is_prompt_independent": true
+  }
+}

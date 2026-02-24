@@ -1,0 +1,128 @@
+{
+  "filename": "SC_Resumes_RM_-_Resume.pdf",
+  "crackedness_scores": [
+    {
+      "criterion": "Demonstrated Impact & Outcomes",
+      "points_awarded": 14.7,
+      "max_points": 25,
+      "percentage": 58.8,
+      "evidence": "numbers=38, %=4, $=1, x=0, impact_terms\u22483"
+    },
+    {
+      "criterion": "Technical/Domain Depth",
+      "points_awarded": 6.9,
+      "max_points": 25,
+      "percentage": 27.6,
+      "evidence": "tech_keywords_hit=5"
+    },
+    {
+      "criterion": "Leadership & Ownership",
+      "points_awarded": 10.0,
+      "max_points": 20,
+      "percentage": 50.0,
+      "evidence": "leadership_signals_hit=6"
+    },
+    {
+      "criterion": "Selectivity & Recognition",
+      "points_awarded": 4.5,
+      "max_points": 15,
+      "percentage": 30.0,
+      "evidence": "selectivity_signals_hit=3"
+    },
+    {
+      "criterion": "Communication Clarity",
+      "points_awarded": 4.0,
+      "max_points": 15,
+      "percentage": 26.7,
+      "evidence": "headers=1, bullets=0, length_chars=4165"
+    }
+  ],
+  "fit_scores": [
+    {
+      "criterion": "Fintech or Economics Domain Knowledge",
+      "points_awarded": 2.0,
+      "max_points": 30,
+      "percentage": 6.7,
+      "evidence": "No declared economics or fintech coursework, no finance-related research, and no self-directed study in financial systems or economics. The candidate's academic background is entirely in Biomedical Computation with skills in Python, C++, MATLAB, and applied math \u2014 none of which are contextualized within economics or fintech. The Oxford study abroad was ML research on cardiovascular disease, not financial systems."
+    },
+    {
+      "criterion": "Fintech or Finance-Focused Project or Work Experience",
+      "points_awarded": 1.5,
+      "max_points": 25,
+      "percentage": 6.0,
+      "evidence": "All project and work experience is in health tech, biomedical research, environmental initiatives, and oncotherapy. The Stanford Consulting role with Google DeepMind is tangentially business-related but focused on AI usage trends on campuses, not finance. No internships at banks, fintech companies, hedge funds, or economic research institutions. No financial tools or models built."
+    },
+    {
+      "criterion": "Entrepreneurial or Startup Mindset in Fintech/Economics",
+      "points_awarded": 4.0,
+      "max_points": 20,
+      "percentage": 20.0,
+      "evidence": "Candidate is a Co-Founder and CEO of an early-stage health tech startup (ContinuumEd) backed by Stanford Center for Biodesign, demonstrating real entrepreneurial execution. Also founded 'Reimagining Earth' environmental initiative. However, neither venture is in fintech or economics \u2014 both are in health tech and environmental domains. Strong entrepreneurial profile but entirely outside the fintech/economics space."
+    },
+    {
+      "criterion": "Quantitative and Technical Skills Applicable to Fintech",
+      "points_awarded": 5.0,
+      "max_points": 15,
+      "percentage": 33.3,
+      "evidence": "Strong technical skills in Python, C++, MATLAB, and applied math (multivariable calculus, linear algebra, modeling). Used ARMA models, K-means clustering, unsupervised learning, and Random Forest in research contexts. These are quantitative methods that could theoretically apply to fintech (e.g., time series analysis is used in algorithmic trading), but all applications are in biomedical/health domains with no demonstrated or stated connection to financial systems."
+    },
+    {
+      "criterion": "Engagement with the VC and Startup Ecosystem",
+      "points_awarded": 3.0,
+      "max_points": 10,
+      "percentage": 30.0,
+      "evidence": "Has received $1,000 from Stanford Center for Biodesign, indicating some exposure to startup funding mechanisms. Participated in Stanford's Health Technology Showcase and consulting groups. However, no evidence of attending VC events, working with investors, understanding funding stages beyond a small grant, or engaging with the broader venture capital ecosystem in any domain."
+    }
+  ],
+  "total_crackedness": 40.1,
+  "total_fit": 15.5,
+  "candidate_description": "Romal Mitr is a high-achieving Stanford Biomedical Computation student (GPA 4.04) with strong entrepreneurial credentials, including co-founding a health tech startup and founding an environmental initiative. His technical skills span Python, C++, MATLAB, and advanced statistical modeling, applied primarily to biomedical and health data contexts. He has research experience at Oxford, Siemens Healthineers, and Stanford's Snyder Lab, all within the health/biomedical domain. While he demonstrates genuine startup execution ability and quantitative depth, his entire profile is oriented toward health technology and biomedical science with no discernible connection to fintech, financial systems, or economics.",
+  "strengths_explanation": "Romal is a weak fit for this fintech/economics-focused dinner. While he is clearly a strong builder and entrepreneur, his domain expertise, project experience, and academic training are entirely in biomedical computation and health technology. There is no coursework in economics or finance, no fintech projects or internships, and no expressed interest in financial systems. His quantitative skills (ARMA models, ML, Python) are transferable in principle but have never been applied to financial data or economic modeling. His entrepreneurial experience, though impressive, is health-tech specific. The only marginal connection to the event focus is his general startup experience and receipt of a small seed grant, which provides minimal VC ecosystem familiarity.",
+  "detailed_scores": {
+    "fit_models": {
+      "claude": {
+        "fit_scores": [
+          {
+            "criterion": "Fintech or Economics Domain Knowledge",
+            "points_awarded": 2.0,
+            "max_points": 30,
+            "percentage": 6.7,
+            "evidence": "No declared economics or fintech coursework, no finance-related research, and no self-directed study in financial systems or economics. The candidate's academic background is entirely in Biomedical Computation with skills in Python, C++, MATLAB, and applied math \u2014 none of which are contextualized within economics or fintech. The Oxford study abroad was ML research on cardiovascular disease, not financial systems."
+          },
+          {
+            "criterion": "Fintech or Finance-Focused Project or Work Experience",
+            "points_awarded": 1.5,
+            "max_points": 25,
+            "percentage": 6.0,
+            "evidence": "All project and work experience is in health tech, biomedical research, environmental initiatives, and oncotherapy. The Stanford Consulting role with Google DeepMind is tangentially business-related but focused on AI usage trends on campuses, not finance. No internships at banks, fintech companies, hedge funds, or economic research institutions. No financial tools or models built."
+          },
+          {
+            "criterion": "Entrepreneurial or Startup Mindset in Fintech/Economics",
+            "points_awarded": 4.0,
+            "max_points": 20,
+            "percentage": 20.0,
+            "evidence": "Candidate is a Co-Founder and CEO of an early-stage health tech startup (ContinuumEd) backed by Stanford Center for Biodesign, demonstrating real entrepreneurial execution. Also founded 'Reimagining Earth' environmental initiative. However, neither venture is in fintech or economics \u2014 both are in health tech and environmental domains. Strong entrepreneurial profile but entirely outside the fintech/economics space."
+          },
+          {
+            "criterion": "Quantitative and Technical Skills Applicable to Fintech",
+            "points_awarded": 5.0,
+            "max_points": 15,
+            "percentage": 33.3,
+            "evidence": "Strong technical skills in Python, C++, MATLAB, and applied math (multivariable calculus, linear algebra, modeling). Used ARMA models, K-means clustering, unsupervised learning, and Random Forest in research contexts. These are quantitative methods that could theoretically apply to fintech (e.g., time series analysis is used in algorithmic trading), but all applications are in biomedical/health domains with no demonstrated or stated connection to financial systems."
+          },
+          {
+            "criterion": "Engagement with the VC and Startup Ecosystem",
+            "points_awarded": 3.0,
+            "max_points": 10,
+            "percentage": 30.0,
+            "evidence": "Has received $1,000 from Stanford Center for Biodesign, indicating some exposure to startup funding mechanisms. Participated in Stanford's Health Technology Showcase and consulting groups. However, no evidence of attending VC events, working with investors, understanding funding stages beyond a small grant, or engaging with the broader venture capital ecosystem in any domain."
+          }
+        ],
+        "total_fit": 15.5,
+        "candidate_description": "Romal Mitr is a high-achieving Stanford Biomedical Computation student (GPA 4.04) with strong entrepreneurial credentials, including co-founding a health tech startup and founding an environmental initiative. His technical skills span Python, C++, MATLAB, and advanced statistical modeling, applied primarily to biomedical and health data contexts. He has research experience at Oxford, Siemens Healthineers, and Stanford's Snyder Lab, all within the health/biomedical domain. While he demonstrates genuine startup execution ability and quantitative depth, his entire profile is oriented toward health technology and biomedical science with no discernible connection to fintech, financial systems, or economics.",
+        "strengths_explanation": "Romal is a weak fit for this fintech/economics-focused dinner. While he is clearly a strong builder and entrepreneur, his domain expertise, project experience, and academic training are entirely in biomedical computation and health technology. There is no coursework in economics or finance, no fintech projects or internships, and no expressed interest in financial systems. His quantitative skills (ARMA models, ML, Python) are transferable in principle but have never been applied to financial data or economic modeling. His entrepreneurial experience, though impressive, is health-tech specific. The only marginal connection to the event focus is his general startup experience and receipt of a small seed grant, which provides minimal VC ecosystem familiarity."
+      }
+    },
+    "crackedness_is_prompt_independent": true
+  }
+}

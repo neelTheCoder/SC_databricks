@@ -1,0 +1,113 @@
+{
+  "crackedness_criteria": [
+    {
+      "name": "Demonstrated Impact & Outcomes",
+      "description": "Evidence of delivering concrete results (metrics, shipped systems, revenue, growth, publications with clear contribution).",
+      "max_points": 25,
+      "scoring_guide": {
+        "high": "Multiple clear outcomes with numbers or externally-validated impact; repeated delivery.",
+        "medium": "Some outcomes or impact statements, limited quantification or fewer strong examples.",
+        "low": "Mostly responsibilities, little evidence of outcomes or measurable impact."
+      }
+    },
+    {
+      "name": "Technical/Domain Depth",
+      "description": "Depth of expertise shown via hard skills, research, systems shipped, technical leadership, or specialized domain mastery.",
+      "max_points": 25,
+      "scoring_guide": {
+        "high": "Strong technical depth with credible complexity; advanced work, research, or systems ownership.",
+        "medium": "Solid skills and projects; moderate depth without strong evidence of advanced complexity/ownership.",
+        "low": "Surface-level skills list; minimal evidence of depth or difficult work."
+      }
+    },
+    {
+      "name": "Leadership & Ownership",
+      "description": "Ownership, initiative, leading teams/projects, founder mentality, cross-functional influence.",
+      "max_points": 20,
+      "scoring_guide": {
+        "high": "Repeated ownership/leadership; driving direction, mentoring, or leading teams/projects.",
+        "medium": "Some leadership signals (small teams, leading a project once), partial ownership.",
+        "low": "Mostly individual-contributor tasks with little initiative/leadership."
+      }
+    },
+    {
+      "name": "Selectivity & Recognition",
+      "description": "Signals of selectivity/recognition (competitive programs, awards, fellowships, notable admissions, etc.).",
+      "max_points": 15,
+      "scoring_guide": {
+        "high": "Multiple strong, clearly selective recognitions.",
+        "medium": "One solid selective signal or several moderate signals.",
+        "low": "No clear selective recognition."
+      }
+    },
+    {
+      "name": "Communication Clarity",
+      "description": "Resume clarity: structure, crisp writing, scannability, and effective information density.",
+      "max_points": 15,
+      "scoring_guide": {
+        "high": "Very clear, concise, well-structured; strong information density.",
+        "medium": "Readable but some clutter; moderate clarity issues.",
+        "low": "Hard to parse; weak structure; overly verbose or unclear."
+      }
+    }
+  ],
+  "fit_criteria": [
+    {
+      "name": "Fintech or Economics Domain Knowledge",
+      "description": "Measures direct academic coursework, research, or self-study in fintech, financial systems, economics, or related quantitative finance topics. Looks for evidence of formal training or deep independent engagement with the subject matter.",
+      "max_points": 30,
+      "scoring_guide": {
+        "high": "Has declared economics major/minor, completed multiple fintech or economics courses, written research papers in the domain, or demonstrated deep self-directed study (e.g., publications, projects, certifications in finance/economics).",
+        "medium": "Has taken 1-2 relevant economics or finance courses, or has a tangential major (e.g., computational biology with economics electives) with some exposure to financial concepts.",
+        "low": "No coursework, research, or demonstrated knowledge in economics or fintech; background is entirely unrelated (e.g., pure biomedical or climate focus with no financial component)."
+      }
+    },
+    {
+      "name": "Fintech or Finance-Focused Project or Work Experience",
+      "description": "Evaluates hands-on experience building, analyzing, or contributing to fintech products, financial models, economic research, or startups in the finance/economics space. Includes internships, personal projects, hackathons, or research roles.",
+      "max_points": 25,
+      "scoring_guide": {
+        "high": "Has interned at a fintech company, bank, hedge fund, or economic research institution; built a fintech product or financial tool; or contributed meaningfully to economics research with real-world application.",
+        "medium": "Has a tangentially related project (e.g., data analysis with financial datasets, a class project involving economic modeling) or a brief exposure through a club or competition.",
+        "low": "No discernible project or work experience connected to fintech, finance, or economics; all experience is in unrelated technical or scientific domains."
+      }
+    },
+    {
+      "name": "Entrepreneurial or Startup Mindset in Fintech/Economics",
+      "description": "Assesses evidence of entrepreneurial thinking specifically applied to financial technology or economic problems \u2014 such as founding or co-founding a venture, participating in startup accelerators, or pitching fintech ideas.",
+      "max_points": 20,
+      "scoring_guide": {
+        "high": "Has founded or co-founded a fintech/economics-related startup, participated in a fintech accelerator or incubator, or has a documented track record of ideating and executing on financial innovation.",
+        "medium": "Has participated in a general startup accelerator or entrepreneurship program (not fintech-specific), or has expressed clear entrepreneurial interest in fintech through clubs, competitions, or written work.",
+        "low": "No evidence of entrepreneurial activity or interest in the fintech/economics space; startup engagement is absent or entirely outside this domain."
+      }
+    },
+    {
+      "name": "Quantitative and Technical Skills Applicable to Fintech",
+      "description": "Measures the candidate's technical toolkit (programming, data analysis, modeling, ML/AI) as it applies to building or analyzing fintech systems, economic models, or financial data pipelines.",
+      "max_points": 15,
+      "scoring_guide": {
+        "high": "Demonstrates strong programming skills (Python, R, SQL, etc.) with explicit application to financial data, algorithmic trading, economic modeling, or fintech product development.",
+        "medium": "Has solid technical skills but application to fintech/economics is implied rather than explicit; could plausibly apply skills to the domain with minimal ramp-up.",
+        "low": "Technical skills are present but narrowly focused on unrelated domains (e.g., biomedical imaging, climate modeling) with no demonstrated or implied connection to financial systems."
+      }
+    },
+    {
+      "name": "Engagement with the VC and Startup Ecosystem",
+      "description": "Evaluates the candidate's familiarity with and participation in the broader venture capital and startup ecosystem \u2014 including attending VC events, networking with investors, understanding funding stages, or working at a VC-backed company.",
+      "max_points": 10,
+      "scoring_guide": {
+        "high": "Has worked at or with a VC firm, attended multiple investor events, has relationships with founders or investors, or has raised or sought funding for a venture.",
+        "medium": "Has attended a startup event or pitch competition, is a member of an entrepreneurship club, or has a basic understanding of the VC landscape through coursework or self-study.",
+        "low": "No evidence of engagement with the VC or startup ecosystem; no clubs, events, or experiences that connect to venture capital or early-stage investing."
+      }
+    }
+  ],
+  "metadata": {
+    "focus_prompt": "Fintech startup or economics",
+    "focus_area": "Fintech startups and economics \u2014 candidates are evaluated on their alignment with financial technology innovation, economic domain expertise, quantitative skills applicable to finance, entrepreneurial activity in the fintech space, and engagement with the VC/startup ecosystem.",
+    "created_at": "2026-02-24T05:43:06.582290Z",
+    "created_by": "claude",
+    "crackedness_is_prompt_independent": true
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "filename": "SC_Resumes_RM_-_Resume.pdf",
+  "total_crackedness": 85.1,
+  "total_fit": 27.8,
+  "candidate_description": "Romal Mitr is an exceptionally accomplished Stanford sophomore in Biomedical Computation (GPA 4.04, Tau Beta Pi) who has demonstrated remarkable initiative across health tech entrepreneurship, ML research, and environmental advocacy. As CEO of a Stanford Biodesign-featured health tech startup targeting geriatric readmission reduction, an Oxford ML researcher with a cardiovascular disease prediction model, a Siemens Healthineers intern with a pending publication, and a TEDx speaker, Romal is a genuinely 'cracked' individual by almost any measure of academic and entrepreneurial excellence. However, the candidate's profile is almost entirely oriented toward biomedical computation and health technology, with no meaningful engagement with fintech, economics, financial modeling, or the venture capital ecosystem \u2014 creating a significant fit gap for a VC+Founders Dinner focused on fintech and economics.",
+  "strengths_explanation": "Romal's crackedness score of 85.1/100 places this candidate among the top tier of Stanford undergraduates by raw capability, initiative, and achievement density. The 4.04 GPA with Tau Beta Pi, multiple pending publications, Oxford research placement, Siemens internship, and active startup founding at age 19-20 are genuinely exceptional. The cross-domain creativity (documentary filmmaker + ML researcher + startup CEO + TEDx speaker) signals rare intellectual range. However, the fit score of 27.8/100 reveals a fundamental domain mismatch: this candidate has zero fintech coursework, no economics background, no financial modeling experience, and no VC ecosystem engagement. They would be an outstanding candidate for a health tech or biomedical AI-focused dinner, but for a VC+Founders Dinner centered on fintech and economics, they lack the domain knowledge and ecosystem fluency to be a high-value participant or conversationalist. The recommendation would be to invite to a health tech or biomedical innovation event rather than this specific dinner.",
+  "detailed_scores": {
+    "claude": {
+      "crackedness_scores": [
+        {
+          "criterion": "Academic Excellence & Rigor",
+          "points_awarded": 19.2,
+          "max_points": 20,
+          "percentage": 96.0,
+          "evidence": "GPA 4.04 (above 4.0 on a 4.0 scale, indicating A+ performance), Tau Beta Pi Engineering Honors Society membership, Biomedical Computation is a highly technical interdisciplinary major at Stanford, Oxford ML research placement, Valedictorian and National Merit Scholar in high school with IB Diploma. The combination of 4.04 GPA + Tau Beta Pi + demanding BMC major is genuinely exceptional. Minor deduction for being a sophomore-equivalent (class of 2027) with less time to accumulate graduate-level coursework or publications."
+        },
+        {
+          "criterion": "Technical & Analytical Skill Depth",
+          "points_awarded": 16.8,
+          "max_points": 20,
+          "percentage": 84.0,
+          "evidence": "Proficient in Python, C++, MATLAB, LaTeX with applied math foundations. Applied ML at Oxford Internet Institute (ARMA models, K-means clustering, unsupervised learning, 83% accuracy cardiovascular model). Built computational metabolomics pipeline using Random Forest at Stanford Snyder Lab. Integrating STORM AI at Rare Genomics. Multiple pending publications. Strong applied depth in biomedical computation and ML. Deduction: skills are concentrated in biomedical/health domain rather than spanning financial engineering, systems programming, or broader CS domains; no mention of SQL, web frameworks, or software engineering at scale."
+        },
+        {
+          "criterion": "Entrepreneurial Initiative & Builder Mindset",
+          "points_awarded": 17.4,
+          "max_points": 20,
+          "percentage": 87.0,
+          "evidence": "Co-Founder and CEO of an early-stage health tech startup (ContinuumEd) featured on Stanford Biodesign website, with measurable impact claims (45% readmission reduction, 10% cost cut), received $1,000 from Stanford Center for Biodesign, launching pilot QI study with Head of Geriatrics. Founded 'Reimagining Earth' environmental initiative with real outputs (73 maps, AMC-screened documentary, TEDx Talk). Demonstrated pattern of creating from zero across multiple domains. Deduction: startup is very early stage with limited external validation beyond Stanford Biodesign recognition; $1,000 grant is modest; no revenue or significant user traction documented."
+        },
+        {
+          "criterion": "Professional Experience Quality & Trajectory",
+          "points_awarded": 15.3,
+          "max_points": 20,
+          "percentage": 76.5,
+          "evidence": "Siemens Healthineers internship (top-tier medtech firm) with pending publication on adaptive radiotherapy. Oxford Internet Institute research role (prestigious institution). Stanford Snyder Lab (Department of Genetics, top research lab) with 4 solved rare disease cases and pending publication. Rare Genomics Institute (ongoing since 2020, showing sustained commitment). Clear upward trajectory from high school research to Oxford to Siemens. Deduction: all experience is in biomedical/health domain with no fintech, finance, or business-side trajectory; Stanford Consulting role is student-run consulting, not top-tier firm; trajectory is impressive for age but lacks the elite finance/tech internship prestige the rubric favors."
+        },
+        {
+          "criterion": "Leadership & Outsized Impact",
+          "points_awarded": 7.8,
+          "max_points": 10,
+          "percentage": 78.0,
+          "evidence": "CEO/Co-Founder of health tech startup with measurable hospital partnership outcomes. Founder of Reimagining Earth with community mapathons (American Red Cross partnership), documentary screened nationally, TEDx Talk. Senior Consultant at Stanford Consulting leading client work for Google DeepMind. Consulting recommendations adopted by Stanford Hospital. Impact extends beyond individual contribution through community organizing and organizational leadership. Deduction: team sizes not specified, startup is very early, leadership scope is primarily within Stanford ecosystem or student-run organizations rather than managing large teams or generating significant revenue."
+        },
+        {
+          "criterion": "Intellectual Curiosity & Cross-Domain Thinking",
+          "points_awarded": 8.6,
+          "max_points": 10,
+          "percentage": 86.0,
+          "evidence": "Biomedical Computation major inherently crosses CS, biology, and medicine. Oxford ML research on cardiovascular wearables. Environmental initiative combining mapmaking, filmmaking, and climate science. TEDx Talk on scientific communication accessibility. Rare disease research alongside health tech entrepreneurship. Songwriting and filmmaking interests alongside technical work. The combination of computational biology + environmental advocacy + health tech entrepreneurship + documentary filmmaking is genuinely cross-domain. Deduction: cross-domain thinking stays within a health/science/tech cluster and hasn't yet extended into economics, social science, or finance in a substantive way."
+        }
+      ],
+      "fit_scores": [
+        {
+          "criterion": "Fintech or Economics Domain Knowledge",
+          "points_awarded": 4.2,
+          "max_points": 30,
+          "percentage": 14.0,
+          "evidence": "No economics coursework listed, no finance electives, no fintech projects, no financial modeling experience. The $1,000 Biodesign grant involves some awareness of healthcare economics (cost reduction framing: '10% cost cut for hospitals'), and the consulting work for Google DeepMind touches on market analysis, but these are tangential. The candidate has zero dedicated engagement with financial systems, economic theory, markets, or fintech. This is the most significant gap relative to the dinner's focus area."
+        },
+        {
+          "criterion": "Startup or VC Ecosystem Exposure",
+          "points_awarded": 10.3,
+          "max_points": 25,
+          "percentage": 41.2,
+          "evidence": "Co-Founder/CEO of a startup with Stanford Biodesign involvement (a recognized accelerator-adjacent program). Stanford Consulting role involves startup landscaping on 100+ students for Google DeepMind. Has founder experience and some accelerator-adjacent exposure through Biodesign. However, no VC internship, no venture-backed company experience, no pitch competition wins documented, no explicit engagement with VC firms or the broader venture ecosystem. Biodesign is more of a healthcare innovation program than a traditional startup accelerator. Scores in lower-medium range for having genuine founder experience but limited VC ecosystem depth."
+        },
+        {
+          "criterion": "Quantitative & Financial Modeling Capability",
+          "points_awarded": 5.8,
+          "max_points": 20,
+          "percentage": 29.0,
+          "evidence": "Strong quantitative skills exist (ARMA models, K-means clustering, Random Forest, multivariable calculus, linear algebra, metabolomics pipeline) but all applied to biomedical problems, not financial or economic ones. No financial modeling, no econometrics, no market data analysis, no valuation work. The quantitative horsepower is clearly present but has never been directed toward financial or economic problems. Scores in low-medium range: the capability exists but the application is entirely absent from finance/economics."
+        },
+        {
+          "criterion": "Clarity of Fintech/Economics Vision or Thesis",
+          "points_awarded": 2.1,
+          "max_points": 15,
+          "percentage": 14.0,
+          "evidence": "No discernible fintech or economics thesis. The candidate has a very clear health tech vision (geriatric care, rare disease, AI-driven diagnostics) but zero articulated perspective on financial systems, economic mechanisms, or fintech problems. The healthcare cost-reduction framing ('cutting costs by 10%') shows some awareness of economic impact but is not a fintech thesis. This candidate would struggle to ask sharp questions at a VC+Founders dinner focused on fintech/economics."
+        },
+        {
+          "criterion": "Network & Relationship Value for the Room",
+          "points_awarded": 5.4,
+          "max_points": 10,
+          "percentage": 54.0,
+          "evidence": "Has connections to Stanford Biodesign, Stanford Hospital (Head of Geriatrics), Oxford Internet Institute, Siemens Healthineers, and American Red Cross. TEDx Talk gives some public profile. Google DeepMind consulting connection is notable. However, network is concentrated in health tech and academic medicine rather than fintech hubs (Chicago, SF fintech, NYC finance). No connections to notable VC firms or fintech founders documented. Brings a unique health tech + computational biology perspective that could add value to dinner conversation about healthcare fintech, but is not differentiated in the fintech/VC space specifically."
+        }
+      ],
+      "total_crackedness": 85.1,
+      "total_fit": 27.8,
+      "candidate_description": "Romal Mitr is an exceptionally accomplished Stanford sophomore in Biomedical Computation (GPA 4.04, Tau Beta Pi) who has demonstrated remarkable initiative across health tech entrepreneurship, ML research, and environmental advocacy. As CEO of a Stanford Biodesign-featured health tech startup targeting geriatric readmission reduction, an Oxford ML researcher with a cardiovascular disease prediction model, a Siemens Healthineers intern with a pending publication, and a TEDx speaker, Romal is a genuinely 'cracked' individual by almost any measure of academic and entrepreneurial excellence. However, the candidate's profile is almost entirely oriented toward biomedical computation and health technology, with no meaningful engagement with fintech, economics, financial modeling, or the venture capital ecosystem \u2014 creating a significant fit gap for a VC+Founders Dinner focused on fintech and economics.",
+      "strengths_explanation": "Romal's crackedness score of 85.1/100 places this candidate among the top tier of Stanford undergraduates by raw capability, initiative, and achievement density. The 4.04 GPA with Tau Beta Pi, multiple pending publications, Oxford research placement, Siemens internship, and active startup founding at age 19-20 are genuinely exceptional. The cross-domain creativity (documentary filmmaker + ML researcher + startup CEO + TEDx speaker) signals rare intellectual range. However, the fit score of 27.8/100 reveals a fundamental domain mismatch: this candidate has zero fintech coursework, no economics background, no financial modeling experience, and no VC ecosystem engagement. They would be an outstanding candidate for a health tech or biomedical AI-focused dinner, but for a VC+Founders Dinner centered on fintech and economics, they lack the domain knowledge and ecosystem fluency to be a high-value participant or conversationalist. The recommendation would be to invite to a health tech or biomedical innovation event rather than this specific dinner."
+    }
+  }
+}

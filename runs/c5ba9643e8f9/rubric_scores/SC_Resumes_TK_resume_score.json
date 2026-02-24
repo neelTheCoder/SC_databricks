@@ -1,0 +1,128 @@
+{
+  "filename": "SC_Resumes_TK_resume.pdf",
+  "crackedness_scores": [
+    {
+      "criterion": "Demonstrated Impact & Outcomes",
+      "points_awarded": 16.3,
+      "max_points": 25,
+      "percentage": 65.2,
+      "evidence": "numbers=33, %=1, $=2, x=1, impact_terms\u22488"
+    },
+    {
+      "criterion": "Technical/Domain Depth",
+      "points_awarded": 6.9,
+      "max_points": 25,
+      "percentage": 27.6,
+      "evidence": "tech_keywords_hit=5"
+    },
+    {
+      "criterion": "Leadership & Ownership",
+      "points_awarded": 11.7,
+      "max_points": 20,
+      "percentage": 58.5,
+      "evidence": "leadership_signals_hit=7"
+    },
+    {
+      "criterion": "Selectivity & Recognition",
+      "points_awarded": 3.0,
+      "max_points": 15,
+      "percentage": 20.0,
+      "evidence": "selectivity_signals_hit=2"
+    },
+    {
+      "criterion": "Communication Clarity",
+      "points_awarded": 7.2,
+      "max_points": 15,
+      "percentage": 48.0,
+      "evidence": "headers=1, bullets=16, length_chars=3918"
+    }
+  ],
+  "fit_scores": [
+    {
+      "criterion": "Fintech or Economics Domain Knowledge",
+      "points_awarded": 8.5,
+      "max_points": 30,
+      "percentage": 28.3,
+      "evidence": "Tej's academic background is CS and Energy Science \u2014 no declared economics or fintech major/minor. Selected coursework listed includes no economics or finance courses. However, his role as President of Kiva International Micro-Loaning Organization demonstrates meaningful engagement with microfinance concepts (capital deployment, diligence, lending thesis restructuring). The DSCIM socioeconomic impact analysis in his climate research touches on economic modeling tangentially. No formal fintech or economics coursework is evident."
+    },
+    {
+      "criterion": "Fintech or Finance-Focused Project or Work Experience",
+      "points_awarded": 9.0,
+      "max_points": 25,
+      "percentage": 36.0,
+      "evidence": "The Kiva chapter leadership is the strongest fintech-adjacent signal: managing a ~$100,000 fund, performing diligence on 4000+ unbanked entrepreneurs across 72 countries, restructuring investment thesis to high-risk/high-impact model. This is meaningful microfinance/impact investing experience. His energy consulting role at Enline involved market sizing and identifying a $6B+ insurance customer segment, which is financially analytical. However, none of this is core fintech product-building or financial systems work \u2014 it's adjacent at best."
+    },
+    {
+      "criterion": "Entrepreneurial or Startup Mindset in Fintech/Economics",
+      "points_awarded": 5.0,
+      "max_points": 20,
+      "percentage": 25.0,
+      "evidence": "Tej has strong entrepreneurial credentials \u2014 founding Green Pulse EDU (25+ chapters, 10+ nations), participating in Stanford Climate Ventures Accelerator, and the Energy Foundry Cohort. However, all entrepreneurial activity is squarely in the climate/energy space, not fintech or economics. No fintech startup founding, fintech accelerator participation, or documented fintech ideation is present. The general startup mindset is evident but not applied to the fintech/economics domain."
+    },
+    {
+      "criterion": "Quantitative and Technical Skills Applicable to Fintech",
+      "points_awarded": 7.0,
+      "max_points": 15,
+      "percentage": 46.7,
+      "evidence": "Tej demonstrates strong quantitative and technical skills: econometric ML research, deploying climate models (FaIR), data-driven spatial modeling, integration of large environmental datasets, and CS coursework (Programming Methodology, Linear Algebra, Probability for CS). These skills are highly transferable to fintech (e.g., financial modeling, algorithmic systems). However, all demonstrated applications are in climate science and energy \u2014 no explicit application to financial data, trading, or fintech systems is shown."
+    },
+    {
+      "criterion": "Engagement with the VC and Startup Ecosystem",
+      "points_awarded": 5.5,
+      "max_points": 10,
+      "percentage": 55.0,
+      "evidence": "Tej is a member of Stanford Sustainable Investment Group (MCJ climate fund), participated in Stanford Climate Ventures Accelerator, Energy Foundry Cohort, and Stanford Consulting (Databricks case). He has meaningful exposure to the startup and investment ecosystem. However, engagement is climate/energy-focused rather than fintech-specific, and there is no evidence of VC firm work, investor relationships, or fundraising for a venture."
+    }
+  ],
+  "total_crackedness": 45.1,
+  "total_fit": 35.0,
+  "candidate_description": "Tej Kosaraju is a Stanford CS and Energy Science student with an impressive academic record (3.92 GPA, ACT 36) and a strong track record in climate research, nonprofit founding, and energy consulting. He has demonstrated entrepreneurial ability through Green Pulse EDU and participation in startup accelerators, as well as meaningful microfinance exposure through leading a Kiva chapter managing ~$100,000 in capital deployed to 4000+ unbanked entrepreneurs. His technical skills in econometric modeling and data science are strong, though applied exclusively to climate and energy domains.",
+  "strengths_explanation": "Tej is a weak-to-moderate fit for a Fintech startup or economics-focused dinner. His primary domain is climate and energy, not fintech or economics. While his Kiva leadership provides genuine microfinance and impact investing exposure \u2014 including fund management, diligence, and investment thesis restructuring \u2014 this is the only substantive fintech/economics signal on the resume. His quantitative and entrepreneurial skills are strong but not directed toward financial systems. He lacks economics coursework, fintech product experience, and fintech-specific entrepreneurial activity. He would benefit most from a climate tech or energy startup dinner rather than a fintech-focused one.",
+  "detailed_scores": {
+    "fit_models": {
+      "claude": {
+        "fit_scores": [
+          {
+            "criterion": "Fintech or Economics Domain Knowledge",
+            "points_awarded": 8.5,
+            "max_points": 30,
+            "percentage": 28.3,
+            "evidence": "Tej's academic background is CS and Energy Science \u2014 no declared economics or fintech major/minor. Selected coursework listed includes no economics or finance courses. However, his role as President of Kiva International Micro-Loaning Organization demonstrates meaningful engagement with microfinance concepts (capital deployment, diligence, lending thesis restructuring). The DSCIM socioeconomic impact analysis in his climate research touches on economic modeling tangentially. No formal fintech or economics coursework is evident."
+          },
+          {
+            "criterion": "Fintech or Finance-Focused Project or Work Experience",
+            "points_awarded": 9.0,
+            "max_points": 25,
+            "percentage": 36.0,
+            "evidence": "The Kiva chapter leadership is the strongest fintech-adjacent signal: managing a ~$100,000 fund, performing diligence on 4000+ unbanked entrepreneurs across 72 countries, restructuring investment thesis to high-risk/high-impact model. This is meaningful microfinance/impact investing experience. His energy consulting role at Enline involved market sizing and identifying a $6B+ insurance customer segment, which is financially analytical. However, none of this is core fintech product-building or financial systems work \u2014 it's adjacent at best."
+          },
+          {
+            "criterion": "Entrepreneurial or Startup Mindset in Fintech/Economics",
+            "points_awarded": 5.0,
+            "max_points": 20,
+            "percentage": 25.0,
+            "evidence": "Tej has strong entrepreneurial credentials \u2014 founding Green Pulse EDU (25+ chapters, 10+ nations), participating in Stanford Climate Ventures Accelerator, and the Energy Foundry Cohort. However, all entrepreneurial activity is squarely in the climate/energy space, not fintech or economics. No fintech startup founding, fintech accelerator participation, or documented fintech ideation is present. The general startup mindset is evident but not applied to the fintech/economics domain."
+          },
+          {
+            "criterion": "Quantitative and Technical Skills Applicable to Fintech",
+            "points_awarded": 7.0,
+            "max_points": 15,
+            "percentage": 46.7,
+            "evidence": "Tej demonstrates strong quantitative and technical skills: econometric ML research, deploying climate models (FaIR), data-driven spatial modeling, integration of large environmental datasets, and CS coursework (Programming Methodology, Linear Algebra, Probability for CS). These skills are highly transferable to fintech (e.g., financial modeling, algorithmic systems). However, all demonstrated applications are in climate science and energy \u2014 no explicit application to financial data, trading, or fintech systems is shown."
+          },
+          {
+            "criterion": "Engagement with the VC and Startup Ecosystem",
+            "points_awarded": 5.5,
+            "max_points": 10,
+            "percentage": 55.0,
+            "evidence": "Tej is a member of Stanford Sustainable Investment Group (MCJ climate fund), participated in Stanford Climate Ventures Accelerator, Energy Foundry Cohort, and Stanford Consulting (Databricks case). He has meaningful exposure to the startup and investment ecosystem. However, engagement is climate/energy-focused rather than fintech-specific, and there is no evidence of VC firm work, investor relationships, or fundraising for a venture."
+          }
+        ],
+        "total_fit": 35.0,
+        "candidate_description": "Tej Kosaraju is a Stanford CS and Energy Science student with an impressive academic record (3.92 GPA, ACT 36) and a strong track record in climate research, nonprofit founding, and energy consulting. He has demonstrated entrepreneurial ability through Green Pulse EDU and participation in startup accelerators, as well as meaningful microfinance exposure through leading a Kiva chapter managing ~$100,000 in capital deployed to 4000+ unbanked entrepreneurs. His technical skills in econometric modeling and data science are strong, though applied exclusively to climate and energy domains.",
+        "strengths_explanation": "Tej is a weak-to-moderate fit for a Fintech startup or economics-focused dinner. His primary domain is climate and energy, not fintech or economics. While his Kiva leadership provides genuine microfinance and impact investing exposure \u2014 including fund management, diligence, and investment thesis restructuring \u2014 this is the only substantive fintech/economics signal on the resume. His quantitative and entrepreneurial skills are strong but not directed toward financial systems. He lacks economics coursework, fintech product experience, and fintech-specific entrepreneurial activity. He would benefit most from a climate tech or energy startup dinner rather than a fintech-focused one."
+      }
+    },
+    "crackedness_is_prompt_independent": true
+  }
+}

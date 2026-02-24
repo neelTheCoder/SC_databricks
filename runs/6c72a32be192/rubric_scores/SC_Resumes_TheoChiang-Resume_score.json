@@ -1,0 +1,96 @@
+{
+  "filename": "SC_Resumes_TheoChiang-Resume.pdf",
+  "total_crackedness": 80.0,
+  "total_fit": 46.0,
+  "candidate_description": "Theo Chiang is a sophomore at Stanford pursuing a genuinely ambitious double major in Biomedical Computation and Economics (GPA 3.84), with a technical profile that is unusually deep for an undergraduate \u2014 spanning deep learning, finite element simulation, LLM engineering, and production web deployment. He has co-founded a healthcare AI startup (Halo) with a live HIPAA-compliant pilot, holds a provisional patent on a neuroimaging platform, has two conference abstracts (one as 1st author, one as 2nd author with podium presentation), and is advising Databricks product leadership through Stanford Consulting Group. His intellectual identity sits at the intersection of computational neuroscience, healthcare AI, and health economics \u2014 a distinctive and coherent combination. However, his fit for a Fintech/VC dinner is constrained by the near-total absence of financial markets knowledge, fintech domain experience, or VC ecosystem engagement beyond his own early-stage startup. His economics major has not yet produced financial modeling, econometric research, or a fintech thesis.",
+  "strengths_explanation": "Theo's crackedness score (80.0/100) is genuinely strong \u2014 he is technically exceptional, intellectually curious across domains, and has demonstrated real builder instincts with a deployed startup and multiple research outputs at an unusually early career stage. His weakness is almost entirely on fit (46.0/100): the VC+Founders Dinner is focused on fintech and economics, and Theo's entire portfolio \u2014 research, startup, coursework applications \u2014 is oriented toward healthcare AI and biomedical computation. His economics major is real but untested in financial contexts. He would be a compelling attendee at a HealthTech or BioAI dinner but arrives at this particular event without the fintech domain knowledge, financial modeling capability, or VC ecosystem exposure that would make him a high-value participant in conversations about market structure, financial products, or venture-backed company building in the fintech space.",
+  "detailed_scores": {
+    "claude": {
+      "crackedness_scores": [
+        {
+          "criterion": "Academic Excellence & Rigor",
+          "points_awarded": 15.7,
+          "max_points": 20,
+          "percentage": 78.5,
+          "evidence": "GPA 3.84/4.0 at Stanford in a genuinely demanding double major (Biomedical Computation + Economics) \u2014 a highly technical interdisciplinary combination. National Merit Finalist and 4.0/4.0 in high school with ACT 35 signal strong baseline intellectual horsepower. Coursework includes Healthcare Economics & Policy, Healthcare AI Seminar, CS Probability Theory, Algorithms & Data Structures, Organic Chemistry, and Biochemistry \u2014 demonstrating real rigor. However, GPA falls just below the 3.9+ threshold for the top band, and no Tau Beta Pi or equivalent honors distinction is listed. No graduate-level coursework explicitly noted. Solid upper-medium academic profile."
+        },
+        {
+          "criterion": "Technical & Analytical Skill Depth",
+          "points_awarded": 17.8,
+          "max_points": 20,
+          "percentage": 89.0,
+          "evidence": "Exceptional breadth and depth: Python, MATLAB, R, C++, JavaScript, SQL, PyTorch, MONAI, Keras, Pandas, Flask, FastAPI, ITK, plus specialized tools like LS-DYNA (finite element analysis), SPM, FSL, ANTs, DSI Studio. Applied in real, high-stakes contexts: built a foundation deep learning model achieving >400x runtime reduction, designed UNET CNN with custom LNCC loss, deployed multiprocessing pipelines over 200,000+ brain scans, engineered a production-facing web platform with provisional patent pending, and implemented finite element simulation subroutines. This is genuinely multi-domain applied technical work well beyond coursework. Slight deduction for no explicit quantitative financial modeling or econometric methods despite economics major."
+        },
+        {
+          "criterion": "Entrepreneurial Initiative & Builder Mindset",
+          "points_awarded": 16.4,
+          "max_points": 20,
+          "percentage": 82.0,
+          "evidence": "Co-founded Halo, a B2B AI-native healthcare startup with a deployed HIPAA-compliant pilot across an SF health network achieving 99.9% uptime and identifying five-figure compliance errors \u2014 real product with real deployment. Also won 1st Place $500 research grant from Stanford Biodesign Scholars for an EMS triage decision-support tool concept. Provisional patent pending on neuroimaging platform. Teaching Assistant for MED175B supporting entrepreneurial projects. Strong builder profile with multiple self-initiated projects. Deduction because Halo appears early-stage without disclosed revenue/users beyond pilot, and no formal accelerator participation (e.g., Stanford Climate Ventures) is listed."
+        },
+        {
+          "criterion": "Professional Experience Quality & Trajectory",
+          "points_awarded": 14.2,
+          "max_points": 20,
+          "percentage": 71.0,
+          "evidence": "Research at Stanford CAFN (AI research intern with publication, patent, and invited speaker credit) is strong and substantive. CamLab Stanford Bioengineering REU with 1st-author abstract at BMES conference is competitive. Stanford Consulting Group advising Databricks product leadership on LLM architecture is notable industry exposure. Stanford Healthcare Consulting Group as Project Manager with 20% site usage increase shows applied impact. Pediatric Orthopaedic Surgery data internship adds breadth. However, all roles are Stanford-internal or Stanford-adjacent \u2014 no FAANG, top-tier VC/PE, elite fintech, or external top-tier research lab. Trajectory is upward and accelerating but lacks external validation from highly competitive outside organizations."
+        },
+        {
+          "criterion": "Leadership & Outsized Impact",
+          "points_awarded": 7.3,
+          "max_points": 10,
+          "percentage": 73.0,
+          "evidence": "Lead Financial Officer supervising resource allocation across 6 teams at Stanford Students for Biodesign and Biopharma. Project Manager at Stanford Healthcare Consulting Group leading technical redesign. Co-founder of Halo startup. Board Member of United Students for Veterans Health with $2,000 in funding acquired. Teaching Assistant for MED175B. Water Polo Treasurer. Multiple concurrent leadership roles with some quantified outcomes (6 teams, $2K funding, 20% site usage increase). Impact is real but mostly localized to Stanford ecosystem and early-stage; no large-scale organizational leadership or clearly scaled impact beyond individual contribution."
+        },
+        {
+          "criterion": "Intellectual Curiosity & Cross-Domain Thinking",
+          "points_awarded": 8.6,
+          "max_points": 10,
+          "percentage": 86.0,
+          "evidence": "The Biomedical Computation + Economics double major is a genuinely unusual and intellectually ambitious combination. Coursework spans neuroscience (Cellular Trafficking & Neurodegeneration), genetics (Genes, Memes & Behavior), organic chemistry, biochemistry, healthcare economics & policy, CS probability theory, and AI \u2014 a remarkably wide intellectual footprint. Applied outputs cross domains: neuroimaging AI, biomechanics simulation, healthcare economics startup, LLM-based consulting. The combination of computational neuroscience, health economics, and AI entrepreneurship produces a distinctive intellectual identity. Minor deduction because the economics thread hasn't yet produced a distinctive research output or publication."
+        }
+      ],
+      "fit_scores": [
+        {
+          "criterion": "Fintech or Economics Domain Knowledge",
+          "points_awarded": 13.4,
+          "max_points": 30,
+          "percentage": 44.7,
+          "evidence": "Economics is one of two declared majors, and Healthcare Economics & Policy is listed as relevant coursework \u2014 this is substantive. However, the economics knowledge is applied almost exclusively to healthcare, not to financial technology, markets, credit, payments, or financial systems. Halo (prior auth and claims auditing) touches healthcare billing/compliance but is not fintech in the traditional sense. No financial modeling, no economics research publication, no fintech internship, no coursework in finance, econometrics, or financial markets. The candidate can discuss healthcare economics credibly but would struggle to hold a deep conversation about market structure, financial products, or economic mechanisms outside the healthcare context. Upper-low to lower-medium fit."
+        },
+        {
+          "criterion": "Startup or VC Ecosystem Exposure",
+          "points_awarded": 13.7,
+          "max_points": 25,
+          "percentage": 54.8,
+          "evidence": "Co-founded Halo with a deployed pilot \u2014 genuine founder experience. Teaching Assistant for Biodesign Fundamentals (MED175B) which has entrepreneurial content. Stanford Consulting Group advising Databricks product leadership provides some ecosystem exposure. Won research grant judged by Stanford Biodesign Scholars. However, no VC internship, no formal accelerator participation (no Y Combinator, Stanford StartX, or equivalent), no venture-backed company employment, and no clear evidence of understanding VC deal mechanics, cap tables, or fund dynamics. Startup experience is real but early-stage and healthcare-specific. Mid-medium band."
+        },
+        {
+          "criterion": "Quantitative & Financial Modeling Capability",
+          "points_awarded": 7.8,
+          "max_points": 20,
+          "percentage": 39.0,
+          "evidence": "Strong quantitative skills exist \u2014 logistic regression ML model for clinical outcomes, deep learning architectures, finite element simulation, multiprocessing pipelines \u2014 but all applied to biomedical/computational problems, not financial or economic ones. No evidence of econometric analysis, financial modeling, valuation work, market data analysis, or application of statistical methods to financial problems. R is listed as a language (relevant for econometrics) but no econometrics coursework or project is mentioned. The quantitative horsepower is clearly present but has not been directed toward financial or economic modeling. Upper-low band."
+        },
+        {
+          "criterion": "Clarity of Fintech/Economics Vision or Thesis",
+          "points_awarded": 5.2,
+          "max_points": 15,
+          "percentage": 34.7,
+          "evidence": "The candidate has a coherent narrative, but it centers on healthcare AI and biomedical computation \u2014 not fintech or economics in the traditional sense. Halo addresses healthcare billing compliance (prior auth, claims auditing) which has a financial dimension but is not a fintech thesis. No articulated perspective on financial inclusion, DeFi, payments, credit markets, or economic research questions. The economics major suggests interest but no thesis or problem statement in the fintech/economics space is visible from the resume. The candidate would likely ask sharp questions about healthcare AI at the dinner but may struggle to engage deeply on core fintech/VC topics."
+        },
+        {
+          "criterion": "Network & Relationship Value for the Room",
+          "points_awarded": 5.9,
+          "max_points": 10,
+          "percentage": 59.0,
+          "evidence": "Bay Area native (650 area code, Nueva School in San Mateo) with connections to Stanford's biomedical and consulting ecosystem. Advising Databricks product leadership provides one notable industry connection. ISMRM 2025 conference presentation and BMES conference abstract give some academic network reach. However, network is primarily Stanford-centric and biomedical/AI-focused rather than fintech, VC, or economics-focused. No connections to Chicago, NYC fintech hubs, no notable finance or VC figures mentioned, no public profile (blog, open-source with significant following, writing). Brings a unique biomedical AI + economics perspective that could enrich conversation but is not differentiated in the fintech/VC network sense."
+        }
+      ],
+      "total_crackedness": 80.0,
+      "total_fit": 46.0,
+      "candidate_description": "Theo Chiang is a sophomore at Stanford pursuing a genuinely ambitious double major in Biomedical Computation and Economics (GPA 3.84), with a technical profile that is unusually deep for an undergraduate \u2014 spanning deep learning, finite element simulation, LLM engineering, and production web deployment. He has co-founded a healthcare AI startup (Halo) with a live HIPAA-compliant pilot, holds a provisional patent on a neuroimaging platform, has two conference abstracts (one as 1st author, one as 2nd author with podium presentation), and is advising Databricks product leadership through Stanford Consulting Group. His intellectual identity sits at the intersection of computational neuroscience, healthcare AI, and health economics \u2014 a distinctive and coherent combination. However, his fit for a Fintech/VC dinner is constrained by the near-total absence of financial markets knowledge, fintech domain experience, or VC ecosystem engagement beyond his own early-stage startup. His economics major has not yet produced financial modeling, econometric research, or a fintech thesis.",
+      "strengths_explanation": "Theo's crackedness score (80.0/100) is genuinely strong \u2014 he is technically exceptional, intellectually curious across domains, and has demonstrated real builder instincts with a deployed startup and multiple research outputs at an unusually early career stage. His weakness is almost entirely on fit (46.0/100): the VC+Founders Dinner is focused on fintech and economics, and Theo's entire portfolio \u2014 research, startup, coursework applications \u2014 is oriented toward healthcare AI and biomedical computation. His economics major is real but untested in financial contexts. He would be a compelling attendee at a HealthTech or BioAI dinner but arrives at this particular event without the fintech domain knowledge, financial modeling capability, or VC ecosystem exposure that would make him a high-value participant in conversations about market structure, financial products, or venture-backed company building in the fintech space."
+    }
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "filename": "SC_Resumes_TK_resume.pdf",
+  "total_crackedness": 83.0,
+  "total_fit": 60.8,
+  "candidate_description": "Tej Kosaraju is a Stanford CS + Energy Science double major with a 3.92 GPA who has built an impressive portfolio of climate-focused research, nonprofit founding, and startup ecosystem engagement. He has conducted computational climate research at both Stanford and Cambridge, founded an international nonprofit with measurable legislative impact, led a $100K microfinance fund serving 4,000+ unbanked entrepreneurs, and participated in multiple startup accelerators. His profile is characterized by genuine intellectual breadth, strong quantitative skills applied to climate/environmental problems, and early but real exposure to startup and financial ecosystems \u2014 particularly through his Kiva leadership and Enline consulting work. His primary narrative is climate and energy, with fintech and economics appearing as adjacent interests rather than core focus areas.",
+  "strengths_explanation": "Tej's standout strengths are his exceptional academic credentials (3.92 GPA, double major, prestigious fellowships), his proven ability to build and scale organizations from zero (Green Pulse EDU to 25+ international chapters, Kiva to 150+ members), and his genuine cross-domain intellectual profile that bridges computation, climate science, policy, and early-stage business strategy. The Cambridge research presentation to Nobel Laureates and the Enline GTM work demonstrate he can operate at the frontier of both research and commercial contexts. His primary weakness for this specific event is that his fintech and economics domain knowledge, while present through Kiva microfinance and Enline market analysis, is not yet the core of his identity \u2014 he is fundamentally a climate technologist who has touched finance, rather than a fintech or economics thinker who uses technical tools. His quantitative skills have not been directed at financial problems in a high-stakes context, and he lacks dedicated economics coursework or a clear fintech thesis. He would be a valuable dinner participant for climate finance conversations but may not have the depth to engage on core fintech infrastructure, credit markets, or economic theory questions that define the event's focus.",
+  "detailed_scores": {
+    "claude": {
+      "crackedness_scores": [
+        {
+          "criterion": "Academic Excellence & Rigor",
+          "points_awarded": 17.3,
+          "max_points": 20,
+          "percentage": 86.5,
+          "evidence": "GPA 3.92 with a demanding double major in CS and Energy Science & Engineering at Stanford. ACT 36 signals raw intellectual horsepower. Bruce Fishkin Fellow and Mercedes BeVisioneers Fellow are notable honors. Coursework includes rigorous technical foundations (Probability for CS, Mathematical Foundations for Computing, Computer Org and Systems). However, no graduate-level coursework listed, no Tau Beta Pi or equivalent engineering honor society, and no Google Scholar publications, which prevents a top-tier score."
+        },
+        {
+          "criterion": "Technical & Analytical Skill Depth",
+          "points_awarded": 15.8,
+          "max_points": 20,
+          "percentage": 79.0,
+          "evidence": "Strong applied technical work: deployed FaIR climate model at Cambridge, built IBTrACS-based data grids integrating environmental variables for 300+ tropical cyclones, and conducted DSCIM socioeconomic impact analysis. Demonstrates Python-level data science and econometric ML capability. However, no explicit programming languages listed, no GitHub/repos cited, no ML framework specifics (e.g., TensorFlow, PyTorch), and technical depth appears concentrated in climate modeling rather than spanning multiple domains. The applied work is real and impressive but narrower than a top-tier technical candidate."
+        },
+        {
+          "criterion": "Entrepreneurial Initiative & Builder Mindset",
+          "points_awarded": 17.6,
+          "max_points": 20,
+          "percentage": 88.0,
+          "evidence": "Founded Green Pulse EDU, scaling to 25+ chapters in 10+ nations with measurable legislative impact (Illinois HB4895, Evanston plastic bag ban). Participated in Stanford Climate Ventures Accelerator with an active startup project (Greenhill HVAC Startup). Consulted for Enline, an AI energy startup, developing GTM strategy and identifying a $6B+ non-obvious customer segment. Energy Foundry Cohort participation adds further accelerator exposure. Multiple builder signals across nonprofit founding, startup consulting, and accelerator participation. Slightly below top score because no venture-backed or revenue-generating startup founded directly."
+        },
+        {
+          "criterion": "Professional Experience Quality & Trajectory",
+          "points_awarded": 15.2,
+          "max_points": 20,
+          "percentage": 76.0,
+          "evidence": "Research at Stanford Global Policy Lab and University of Cambridge Centre for Atmospheric Science are prestigious academic roles with substantive outputs (presented at CCIR Symposium to Nobel Laureates). Enline consulting role shows early-stage startup exposure with real deliverables (market sizing, GTM strategy, $6B+ segment thesis). However, no FAANG, top-tier VC, PE, or elite fintech internships. Trajectory is strong within climate/energy research but lacks the blue-chip corporate or finance brand names that would push this to the top tier. The Cambridge role is particularly impressive for an undergraduate."
+        },
+        {
+          "criterion": "Leadership & Outsized Impact",
+          "points_awarded": 8.7,
+          "max_points": 10,
+          "percentage": 87.0,
+          "evidence": "President of Kiva chapter managing ~$100,000 fund with 150+ member team, deploying capital to 4,000+ unbanked entrepreneurs across 72 countries \u2014 highly quantified and impactful. Founded nonprofit with 25+ international chapters and direct legislative outcomes. Science Olympiad National Champion as captain. Impact clearly extends well beyond individual contribution with multiple quantified outcomes. Slight deduction for the Kiva role being a local chapter of an established organization rather than a fully independent initiative."
+        },
+        {
+          "criterion": "Intellectual Curiosity & Cross-Domain Thinking",
+          "points_awarded": 8.4,
+          "max_points": 10,
+          "percentage": 84.0,
+          "evidence": "Genuinely interdisciplinary profile: CS + Energy Science Engineering + econometric climate modeling + policy advocacy + microfinance + business strategy. The combination of computational climate research, socioeconomic impact modeling (DSCIM), legislative writing, and GTM strategy for an AI energy startup demonstrates cross-domain synthesis. Interests list (Yuval Noah Harari, Vaclav Smil, BG2-Pod, Science Fiction) reinforces intellectual breadth. The cross-pollination has produced real outputs (legislation, research presentations, startup strategy). Slight deduction because the intellectual identity, while broad, is heavily anchored in climate/energy rather than producing truly novel cross-domain insights in fintech or economics specifically."
+        }
+      ],
+      "fit_scores": [
+        {
+          "criterion": "Fintech or Economics Domain Knowledge",
+          "points_awarded": 16.2,
+          "max_points": 30,
+          "percentage": 54.0,
+          "evidence": "Kiva chapter presidency is the strongest fintech/economics signal \u2014 managing a $100K fund, performing diligence on loans, deploying capital to unbanked entrepreneurs across 72 countries, and restructuring investment thesis to high-risk/high-impact model. This demonstrates real exposure to microfinance, credit markets, and financial inclusion. DSCIM socioeconomic impact analysis touches economic modeling. Enline role involved market sizing and financial risk reframing. However, no dedicated economics coursework listed, no finance electives, no econometrics course (despite doing econometric ML), and no explicit fintech project. The financial knowledge is applied but incidental to a climate/energy primary focus rather than intentional economics training."
+        },
+        {
+          "criterion": "Startup or VC Ecosystem Exposure",
+          "points_awarded": 18.4,
+          "max_points": 25,
+          "percentage": 73.6,
+          "evidence": "Stanford Climate Ventures Accelerator participation with active startup project (Greenhill HVAC Startup) is strong direct signal. Energy Foundry Cohort adds another accelerator layer. Consulting for Enline (AI energy startup) on GTM strategy demonstrates startup operational thinking. Stanford Sustainable Investment Group (MCJ climate fund) and Stanford Consulting (Databricks case) add ecosystem exposure. SPBA Business Insights cohort rounds out the picture. No direct VC internship or venture-backed founding role, which prevents a top score, but the breadth of accelerator and startup-adjacent experience is well above average."
+        },
+        {
+          "criterion": "Quantitative & Financial Modeling Capability",
+          "points_awarded": 11.3,
+          "max_points": 20,
+          "percentage": 56.5,
+          "evidence": "Econometric ML research at Global Policy Lab with spatial climate impact modeling (DSCIM) demonstrates quantitative modeling capability. FaIR model deployment at Cambridge with disaggregation of IPCC pathways shows comfort with complex quantitative systems. Kiva fund management involved capital deployment diligence. However, these quantitative skills are directed at climate/environmental problems rather than financial or economic modeling specifically. No mention of financial modeling tools (Excel, Bloomberg), no econometrics coursework listed, no valuation or risk modeling experience. The quantitative capability is real but not yet applied to financial problems in a high-stakes context."
+        },
+        {
+          "criterion": "Clarity of Fintech/Economics Vision or Thesis",
+          "points_awarded": 7.8,
+          "max_points": 15,
+          "percentage": 52.0,
+          "evidence": "The Enline role shows an emerging thesis around climate risk as financial risk (reframing VGM as financial risk mitigation, identifying insurance as a $6B+ segment) \u2014 this is a genuinely interesting fintech-adjacent perspective. The Kiva work shows interest in financial inclusion and microfinance for unbanked populations. However, these are not yet synthesized into a coherent fintech or economics thesis. The candidate's primary narrative is climate/energy, with fintech appearing as a secondary lens. They could hold an interesting conversation about climate finance or financial inclusion but lack a fully developed point of view on a specific fintech problem."
+        },
+        {
+          "criterion": "Network & Relationship Value for the Room",
+          "points_awarded": 7.1,
+          "max_points": 10,
+          "percentage": 71.0,
+          "evidence": "Chicago background (fintech hub) with connections to Illinois legislative circles (HB4895 advocacy) is a differentiator. Cambridge research network and Nobel Laureate symposium presentation suggest access to elite academic circles. International nonprofit with 10+ country chapters suggests global network. Mercedes BeVisioneers and Bruce Fishkin fellowships connect to corporate and philanthropic networks. MCJ climate fund exposure connects to climate VC. However, no explicit connections to named VCs, fintech founders, or finance figures. The network is broad and interesting but not deeply embedded in the VC/fintech ecosystem specifically."
+        }
+      ],
+      "total_crackedness": 83.0,
+      "total_fit": 60.8,
+      "candidate_description": "Tej Kosaraju is a Stanford CS + Energy Science double major with a 3.92 GPA who has built an impressive portfolio of climate-focused research, nonprofit founding, and startup ecosystem engagement. He has conducted computational climate research at both Stanford and Cambridge, founded an international nonprofit with measurable legislative impact, led a $100K microfinance fund serving 4,000+ unbanked entrepreneurs, and participated in multiple startup accelerators. His profile is characterized by genuine intellectual breadth, strong quantitative skills applied to climate/environmental problems, and early but real exposure to startup and financial ecosystems \u2014 particularly through his Kiva leadership and Enline consulting work. His primary narrative is climate and energy, with fintech and economics appearing as adjacent interests rather than core focus areas.",
+      "strengths_explanation": "Tej's standout strengths are his exceptional academic credentials (3.92 GPA, double major, prestigious fellowships), his proven ability to build and scale organizations from zero (Green Pulse EDU to 25+ international chapters, Kiva to 150+ members), and his genuine cross-domain intellectual profile that bridges computation, climate science, policy, and early-stage business strategy. The Cambridge research presentation to Nobel Laureates and the Enline GTM work demonstrate he can operate at the frontier of both research and commercial contexts. His primary weakness for this specific event is that his fintech and economics domain knowledge, while present through Kiva microfinance and Enline market analysis, is not yet the core of his identity \u2014 he is fundamentally a climate technologist who has touched finance, rather than a fintech or economics thinker who uses technical tools. His quantitative skills have not been directed at financial problems in a high-stakes context, and he lacks dedicated economics coursework or a clear fintech thesis. He would be a valuable dinner participant for climate finance conversations but may not have the depth to engage on core fintech infrastructure, credit markets, or economic theory questions that define the event's focus."
+    }
+  }
+}

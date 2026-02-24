@@ -1,0 +1,128 @@
+{
+  "filename": "SC_Resumes_Neel_Ahuja_-_Resume.pdf",
+  "crackedness_scores": [
+    {
+      "criterion": "Demonstrated Impact & Outcomes",
+      "points_awarded": 17.9,
+      "max_points": 25,
+      "percentage": 71.6,
+      "evidence": "numbers=57, %=7, $=2, x=0, impact_terms\u224813"
+    },
+    {
+      "criterion": "Technical/Domain Depth",
+      "points_awarded": 13.9,
+      "max_points": 25,
+      "percentage": 55.6,
+      "evidence": "tech_keywords_hit=10"
+    },
+    {
+      "criterion": "Leadership & Ownership",
+      "points_awarded": 5.0,
+      "max_points": 20,
+      "percentage": 25.0,
+      "evidence": "leadership_signals_hit=3"
+    },
+    {
+      "criterion": "Selectivity & Recognition",
+      "points_awarded": 6.0,
+      "max_points": 15,
+      "percentage": 40.0,
+      "evidence": "selectivity_signals_hit=4"
+    },
+    {
+      "criterion": "Communication Clarity",
+      "points_awarded": 9.6,
+      "max_points": 15,
+      "percentage": 64.0,
+      "evidence": "headers=54, bullets=3, length_chars=6633"
+    }
+  ],
+  "fit_scores": [
+    {
+      "criterion": "Fintech or Economics Domain Knowledge",
+      "points_awarded": 8.0,
+      "max_points": 30,
+      "percentage": 26.7,
+      "evidence": "No declared economics or fintech major/minor. Coursework listed (Programming Abstractions, Computer Systems, Linear Algebra, Probability for CS) has no direct economics or finance component. The FALCON project demonstrates some self-directed engagement with blockchain/crypto fraud detection, which touches fintech concepts, but there is no formal coursework, research papers, or certifications in economics or financial systems. Background is primarily CS/AI with a tangential fintech project."
+    },
+    {
+      "criterion": "Fintech or Finance-Focused Project or Work Experience",
+      "points_awarded": 14.0,
+      "max_points": 25,
+      "percentage": 56.0,
+      "evidence": "FALCON project is a direct fintech application \u2014 built an XGBoost classifier to detect fraudulent Ethereum transactions with 92% accuracy, deployed on a website with 20+ users processing 100+ blockchain transactions in real-time. This is a meaningful, hands-on fintech project. No internships at fintech companies, banks, or financial institutions. Other work (SAIL, NJIT Zhang Lab, Newristics) is in AI/biomedical/marketing domains with no financial focus."
+    },
+    {
+      "criterion": "Entrepreneurial or Startup Mindset in Fintech/Economics",
+      "points_awarded": 5.0,
+      "max_points": 20,
+      "percentage": 25.0,
+      "evidence": "Secured $2,000 in district funding by pitching a school security solution to the Board of Education, showing some entrepreneurial execution. Member of Stanford Consulting club. No fintech-specific startup founding, accelerator participation, or documented fintech ideation/pitching. General entrepreneurial signals exist but none are targeted at fintech or economics."
+    },
+    {
+      "criterion": "Quantitative and Technical Skills Applicable to Fintech",
+      "points_awarded": 10.0,
+      "max_points": 15,
+      "percentage": 66.7,
+      "evidence": "Strong technical toolkit: Python, R, SQL, PyTorch, Numpy, Pandas, XGBoost \u2014 all directly applicable to fintech. The FALCON project explicitly applies these skills to financial/blockchain data (fraud detection on Ethereum transactions). Statistical methods (ANOVA, regression, cross-validation, L2 regularization) are demonstrated. Skills are clearly transferable to fintech, with at least one explicit application to financial data."
+    },
+    {
+      "criterion": "Engagement with the VC and Startup Ecosystem",
+      "points_awarded": 4.0,
+      "max_points": 10,
+      "percentage": 40.0,
+      "evidence": "Member of Stanford Consulting, which provides some exposure to business/startup thinking. No explicit mention of VC events, investor relationships, startup accelerators, or fundraising beyond the $2,000 school district pitch. No VC firm work or documented engagement with the venture capital ecosystem."
+    }
+  ],
+  "total_crackedness": 52.4,
+  "total_fit": 41.0,
+  "candidate_description": "Neel Ahuja is a Stanford CS (AI Track) freshman with strong technical credentials in machine learning and software engineering. He has published peer-reviewed research, won national science competitions, and built multiple deployed software products. His most relevant fintech contribution is FALCON, a blockchain fraud detection classifier built with XGBoost on Ethereum transaction data. His broader experience spans biomedical research, NLP/AI benchmarking at SAIL, and marketing ML at Newristics \u2014 with fintech being a focused but limited slice of his portfolio.",
+  "strengths_explanation": "Neel is a moderate fit for this fintech-focused dinner. His FALCON project is a genuine, technically sophisticated fintech application demonstrating direct engagement with blockchain fraud detection \u2014 a real fintech problem. His quantitative and programming skills (Python, PyTorch, XGBoost, Pandas, SQL) are highly applicable to fintech product development. However, his overall profile is primarily AI/CS research and biomedical science, with no economics coursework, no fintech internships, no finance-domain academic work, and limited VC ecosystem engagement. He has the technical foundation to contribute meaningfully to fintech conversations but lacks the domain depth, entrepreneurial fintech focus, or investor network that would make him a strong fit for this specific event.",
+  "detailed_scores": {
+    "fit_models": {
+      "claude": {
+        "fit_scores": [
+          {
+            "criterion": "Fintech or Economics Domain Knowledge",
+            "points_awarded": 8.0,
+            "max_points": 30,
+            "percentage": 26.7,
+            "evidence": "No declared economics or fintech major/minor. Coursework listed (Programming Abstractions, Computer Systems, Linear Algebra, Probability for CS) has no direct economics or finance component. The FALCON project demonstrates some self-directed engagement with blockchain/crypto fraud detection, which touches fintech concepts, but there is no formal coursework, research papers, or certifications in economics or financial systems. Background is primarily CS/AI with a tangential fintech project."
+          },
+          {
+            "criterion": "Fintech or Finance-Focused Project or Work Experience",
+            "points_awarded": 14.0,
+            "max_points": 25,
+            "percentage": 56.0,
+            "evidence": "FALCON project is a direct fintech application \u2014 built an XGBoost classifier to detect fraudulent Ethereum transactions with 92% accuracy, deployed on a website with 20+ users processing 100+ blockchain transactions in real-time. This is a meaningful, hands-on fintech project. No internships at fintech companies, banks, or financial institutions. Other work (SAIL, NJIT Zhang Lab, Newristics) is in AI/biomedical/marketing domains with no financial focus."
+          },
+          {
+            "criterion": "Entrepreneurial or Startup Mindset in Fintech/Economics",
+            "points_awarded": 5.0,
+            "max_points": 20,
+            "percentage": 25.0,
+            "evidence": "Secured $2,000 in district funding by pitching a school security solution to the Board of Education, showing some entrepreneurial execution. Member of Stanford Consulting club. No fintech-specific startup founding, accelerator participation, or documented fintech ideation/pitching. General entrepreneurial signals exist but none are targeted at fintech or economics."
+          },
+          {
+            "criterion": "Quantitative and Technical Skills Applicable to Fintech",
+            "points_awarded": 10.0,
+            "max_points": 15,
+            "percentage": 66.7,
+            "evidence": "Strong technical toolkit: Python, R, SQL, PyTorch, Numpy, Pandas, XGBoost \u2014 all directly applicable to fintech. The FALCON project explicitly applies these skills to financial/blockchain data (fraud detection on Ethereum transactions). Statistical methods (ANOVA, regression, cross-validation, L2 regularization) are demonstrated. Skills are clearly transferable to fintech, with at least one explicit application to financial data."
+          },
+          {
+            "criterion": "Engagement with the VC and Startup Ecosystem",
+            "points_awarded": 4.0,
+            "max_points": 10,
+            "percentage": 40.0,
+            "evidence": "Member of Stanford Consulting, which provides some exposure to business/startup thinking. No explicit mention of VC events, investor relationships, startup accelerators, or fundraising beyond the $2,000 school district pitch. No VC firm work or documented engagement with the venture capital ecosystem."
+          }
+        ],
+        "total_fit": 41.0,
+        "candidate_description": "Neel Ahuja is a Stanford CS (AI Track) freshman with strong technical credentials in machine learning and software engineering. He has published peer-reviewed research, won national science competitions, and built multiple deployed software products. His most relevant fintech contribution is FALCON, a blockchain fraud detection classifier built with XGBoost on Ethereum transaction data. His broader experience spans biomedical research, NLP/AI benchmarking at SAIL, and marketing ML at Newristics \u2014 with fintech being a focused but limited slice of his portfolio.",
+        "strengths_explanation": "Neel is a moderate fit for this fintech-focused dinner. His FALCON project is a genuine, technically sophisticated fintech application demonstrating direct engagement with blockchain fraud detection \u2014 a real fintech problem. His quantitative and programming skills (Python, PyTorch, XGBoost, Pandas, SQL) are highly applicable to fintech product development. However, his overall profile is primarily AI/CS research and biomedical science, with no economics coursework, no fintech internships, no finance-domain academic work, and limited VC ecosystem engagement. He has the technical foundation to contribute meaningfully to fintech conversations but lacks the domain depth, entrepreneurial fintech focus, or investor network that would make him a strong fit for this specific event."
+      }
+    },
+    "crackedness_is_prompt_independent": true
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "filename": "SC_Resumes_RohanMovva-Resume.pdf",
+  "total_crackedness": 82.7,
+  "total_fit": 74.0,
+  "candidate_description": "Rohan Movva is a Stanford sophomore (Class of 2027) pursuing a double major in Economics and Computer Science with a near-perfect 3.99 GPA. He is an unusually accomplished underclassman who has already accumulated a remarkable breadth of high-prestige experiences: founding and managing a $2.3M investment fund with a 39% annualized return, serving as the sole White House-appointed intern in the Treasury Secretary's front office (producing nationally covered economic analyses), securing an incoming JPMorgan Technology IBD role, and holding VP or director-level leadership positions across five Stanford organizations simultaneously. He brings genuine quantitative financial modeling skills (Treasury term premia model, LBO/DCF work, Stata/R econometrics) and cross-domain intellectual range spanning macro policy, biotech, cybersecurity, and product strategy.",
+  "strengths_explanation": "Rohan's standout strengths are his exceptional GPA paired with elite professional trajectory at an unusually early career stage \u2014 the Treasury role alone (sole White House-appointed intern, producing deliverables for the President and Treasury Secretary) would distinguish most senior candidates, let alone a college sophomore. His founding of a $2.3M fund with documented outperformance is a rare signal of genuine financial acumen and entrepreneurial initiative. The breadth of leadership roles (EVP of Stanford's largest business club, Portfolio Manager of 19 analysts, Board-level consulting director) demonstrates an ability to operate at scale across multiple organizations simultaneously. His primary limitation for this specific dinner is the absence of a clear fintech or startup-building thesis \u2014 his profile reads as a future finance/policy leader rather than a fintech founder or economist with a specific problem to solve. Startup ecosystem exposure is secondhand (podcast, competitions) rather than immersive (accelerator, VC internship, founding a tech company). The intellectual breadth, while impressive, has not yet crystallized into a distinctive point of view that would make him an immediately obvious fit for a VC+Founders dinner focused on fintech company building.",
+  "detailed_scores": {
+    "claude": {
+      "crackedness_scores": [
+        {
+          "criterion": "Academic Excellence & Rigor",
+          "points_awarded": 18.7,
+          "max_points": 20,
+          "percentage": 93.5,
+          "evidence": "3.99/4.00 GPA is exceptional and near-perfect. Double major in Economics and Computer Science at Stanford is a rigorous combination. Coursework includes Applied Econometrics, Market Design, Financial Markets, and Data Science \u2014 all demanding. No mention of Tau Beta Pi, graduate-level coursework, or Google Scholar publications, which prevents a top-tier score, but the GPA and dual major rigor are genuinely outstanding."
+        },
+        {
+          "criterion": "Technical & Analytical Skill Depth",
+          "points_awarded": 14.3,
+          "max_points": 20,
+          "percentage": 71.5,
+          "evidence": "Uses Stata and R for econometric analysis (Fed Challenge), built an original forward-looking econometric model of Treasury term premia, conducted DCF/LBO/comparables modeling, and applied ML/statistical methods to financial problems. However, the resume lacks explicit mention of Python, C++, or programming languages beyond Stata/R, and there are no deployed tools, GitHub repos, or published papers. Technical depth is real but skews toward financial modeling and econometrics rather than software engineering or ML, limiting the ceiling score."
+        },
+        {
+          "criterion": "Entrepreneurial Initiative & Builder Mindset",
+          "points_awarded": 15.8,
+          "max_points": 20,
+          "percentage": 79.0,
+          "evidence": "Founded Milton Capital Incubator Fund, raising and managing a $2.3M portfolio \u2014 a genuine founding act with real capital and measurable outcomes (39% annualized return). Developed 'Forever Filter' with a provisional patent. Grand Prize Winner at Duke Fuqua's New Ideas Competition signals entrepreneurial thinking. However, no accelerator participation, no product with external users/revenue beyond the fund, and no venture-backed startup. The fund founding is impressive but sits closer to asset management than product/company building."
+        },
+        {
+          "criterion": "Professional Experience Quality & Trajectory",
+          "points_awarded": 17.2,
+          "max_points": 20,
+          "percentage": 86.0,
+          "evidence": "Incoming JPMorgan Technology IBD Summer Analyst (top-tier), White House-appointed Treasury intern (sole intern in Secretary's front office, produced nationally covered 'CapEx Comeback' chart and contributed to White House Crypto Report), Ames Capital PE internship (1% acceptance rate), Wall Street Capital Partners IBD internship. Clear upward trajectory from PE \u2192 Treasury \u2192 JPMorgan. The Treasury role is particularly distinctive. Minor deduction for Wall Street Capital Partners being a less recognizable firm and the consulting work being club-based rather than professional firm employment."
+        },
+        {
+          "criterion": "Leadership & Outsized Impact",
+          "points_awarded": 8.6,
+          "max_points": 10,
+          "percentage": 86.0,
+          "evidence": "Executive VP of Stanford Pre-Business Association (Stanford's largest business club, overseeing ~10 annual projects), Portfolio Manager leading 19 analysts at Stanford Blyth Fund, Project Director at Stanford Consulting (Board of Directors, <5% acceptance), VP roles across 3+ organizations simultaneously. Led 15-person team for Disney consulting engagement. Quantified outcomes include 30% readership growth, 40% event engagement increase, 300% mailing list growth, 20% digital viewership boost. Breadth of leadership is exceptional for an underclassman; slight deduction as most impact is within Stanford ecosystem rather than externally scaled."
+        },
+        {
+          "criterion": "Intellectual Curiosity & Cross-Domain Thinking",
+          "points_awarded": 8.1,
+          "max_points": 10,
+          "percentage": 81.0,
+          "evidence": "Economics + CS double major is a genuinely interdisciplinary combination. Spans financial markets (Treasury term premia model), biotech (Stanford Students in Biodesign podcast hosting VCs and founders), cybersecurity (Stanford Applied Cybersecurity VP), product strategy (Google Pixel Studio), and policy (White House crypto and tariff work). The Treasury crypto report contribution and biodesign podcast hosting suggest genuine cross-domain curiosity. However, the intellectual outputs feel more applied/executional than theoretically novel \u2014 no published research or distinctive intellectual thesis has emerged yet from the cross-pollination."
+        }
+      ],
+      "fit_scores": [
+        {
+          "criterion": "Fintech or Economics Domain Knowledge",
+          "points_awarded": 24.8,
+          "max_points": 30,
+          "percentage": 82.7,
+          "evidence": "Economics major with coursework in Applied Econometrics, Market Design, and Financial Markets. Applied knowledge in Treasury (term premia model, crypto report, tariff/labor market analysis), JPMorgan IBD (M&A and capital-raising in tech), PE diligence at Ames Capital, and LBO/DCF/comparables modeling at Wall Street Capital Partners. Stanford Blyth Fund portfolio management with stock pitches. The Treasury term premia model is a particularly strong signal of applied economics knowledge. Slight deduction: no dedicated fintech startup experience or economics research publication; domain knowledge is strong but more finance/banking-oriented than fintech-product-oriented."
+        },
+        {
+          "criterion": "Startup or VC Ecosystem Exposure",
+          "points_awarded": 16.3,
+          "max_points": 25,
+          "percentage": 65.2,
+          "evidence": "Hosts biotech VC/founder podcast at Stanford Students in Biodesign, giving regular exposure to VC thinking. Won Duke Fuqua's New Ideas Competition. Founded Milton Capital Incubator Fund (investment/incubator framing). Consulting for early-stage and growth companies through Stanford clubs. However, no direct VC internship, no accelerator participation (e.g., Stanford StartX, Y Combinator), no founding role in a venture-backed company, and no clear evidence of understanding VC deal mechanics beyond the investor side of capital markets. Ecosystem exposure is real but secondhand rather than immersive."
+        },
+        {
+          "criterion": "Quantitative & Financial Modeling Capability",
+          "points_awarded": 16.7,
+          "max_points": 20,
+          "percentage": 83.5,
+          "evidence": "Built original forward-looking econometric model of Treasury term premia used by senior Treasury advisors. Conducted DCF, comparables, and LBO models at Wall Street Capital Partners and Ames Capital. Used Stata/R for Fed Challenge labor and financial market analysis. Manages $2.3M portfolio with risk-adjusted allocation models and hybrid hedging strategy integrating options and commodities. Authored CapEx Comeback chart and tariff/labor market analyses for Treasury Secretary. Strong quantitative financial modeling capability with real-world stakes. Slight deduction: no evidence of ML applied to financial data or published econometric research."
+        },
+        {
+          "criterion": "Clarity of Fintech/Economics Vision or Thesis",
+          "points_awarded": 8.4,
+          "max_points": 15,
+          "percentage": 56.0,
+          "evidence": "The resume reveals strong interest in financial markets, policy economics, and investment \u2014 but no single coherent thesis or problem statement emerges. Work spans PE, IBD, Treasury policy, portfolio management, consulting, biotech, and cybersecurity. The breadth is impressive but makes it hard to identify what specific fintech or economics problem this candidate is passionate about solving. The Treasury crypto report contribution hints at potential interest in digital assets/policy, and the term premia model suggests macro interest, but these threads aren't woven into a clear narrative. This candidate would be engaging at dinner but might not arrive with a sharp, focused question."
+        },
+        {
+          "criterion": "Network & Relationship Value for the Room",
+          "points_awarded": 7.8,
+          "max_points": 10,
+          "percentage": 78.0,
+          "evidence": "White House Treasury connection (Secretary's front office) is a genuinely rare and high-value network node. JPMorgan IBD incoming analyst connects to SF tech banking. Consulting relationships with Google, Disney, Morgan Stanley, NPR. TEDx speaker and National Journalism Convention speaker suggest some public profile. Special Congressional Commendation adds political network. Biotech VC/founder podcast gives exposure to that ecosystem. Atlanta (Milton, GA) origin adds slight geographic diversity. However, no clear fintech hub connections (Chicago, NYC fintech specifically), no known public research profile, and network is still largely being built rather than established."
+        }
+      ],
+      "total_crackedness": 82.7,
+      "total_fit": 74.0,
+      "candidate_description": "Rohan Movva is a Stanford sophomore (Class of 2027) pursuing a double major in Economics and Computer Science with a near-perfect 3.99 GPA. He is an unusually accomplished underclassman who has already accumulated a remarkable breadth of high-prestige experiences: founding and managing a $2.3M investment fund with a 39% annualized return, serving as the sole White House-appointed intern in the Treasury Secretary's front office (producing nationally covered economic analyses), securing an incoming JPMorgan Technology IBD role, and holding VP or director-level leadership positions across five Stanford organizations simultaneously. He brings genuine quantitative financial modeling skills (Treasury term premia model, LBO/DCF work, Stata/R econometrics) and cross-domain intellectual range spanning macro policy, biotech, cybersecurity, and product strategy.",
+      "strengths_explanation": "Rohan's standout strengths are his exceptional GPA paired with elite professional trajectory at an unusually early career stage \u2014 the Treasury role alone (sole White House-appointed intern, producing deliverables for the President and Treasury Secretary) would distinguish most senior candidates, let alone a college sophomore. His founding of a $2.3M fund with documented outperformance is a rare signal of genuine financial acumen and entrepreneurial initiative. The breadth of leadership roles (EVP of Stanford's largest business club, Portfolio Manager of 19 analysts, Board-level consulting director) demonstrates an ability to operate at scale across multiple organizations simultaneously. His primary limitation for this specific dinner is the absence of a clear fintech or startup-building thesis \u2014 his profile reads as a future finance/policy leader rather than a fintech founder or economist with a specific problem to solve. Startup ecosystem exposure is secondhand (podcast, competitions) rather than immersive (accelerator, VC internship, founding a tech company). The intellectual breadth, while impressive, has not yet crystallized into a distinctive point of view that would make him an immediately obvious fit for a VC+Founders dinner focused on fintech company building."
+    }
+  }
+}

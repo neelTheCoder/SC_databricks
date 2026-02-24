@@ -1,0 +1,128 @@
+{
+  "filename": "SC_Resumes_RohanMovva-Resume.pdf",
+  "crackedness_scores": [
+    {
+      "criterion": "Demonstrated Impact & Outcomes",
+      "points_awarded": 15.7,
+      "max_points": 25,
+      "percentage": 62.8,
+      "evidence": "numbers=47, %=7, $=4, x=0, impact_terms\u22486"
+    },
+    {
+      "criterion": "Technical/Domain Depth",
+      "points_awarded": 4.2,
+      "max_points": 25,
+      "percentage": 16.8,
+      "evidence": "tech_keywords_hit=3"
+    },
+    {
+      "criterion": "Leadership & Ownership",
+      "points_awarded": 15.0,
+      "max_points": 20,
+      "percentage": 75.0,
+      "evidence": "leadership_signals_hit=9"
+    },
+    {
+      "criterion": "Selectivity & Recognition",
+      "points_awarded": 3.0,
+      "max_points": 15,
+      "percentage": 20.0,
+      "evidence": "selectivity_signals_hit=2"
+    },
+    {
+      "criterion": "Communication Clarity",
+      "points_awarded": 3.0,
+      "max_points": 15,
+      "percentage": 20.0,
+      "evidence": "headers=0, bullets=0, length_chars=7209"
+    }
+  ],
+  "fit_scores": [
+    {
+      "criterion": "Fintech or Economics Domain Knowledge",
+      "points_awarded": 29.0,
+      "max_points": 30,
+      "percentage": 96.7,
+      "evidence": "Declared Economics and Computer Science double major at Stanford with a 3.99 GPA. Coursework explicitly includes Economic Analysis, Applied Econometrics, Market Design, Data Science, and Financial Markets. Authored an econometric model of Treasury term premia at the U.S. Department of the Treasury. Contributed to the White House Crypto Report and produced analyses on tariffs, labor markets, and tax policy. Led research on labor and financial market dynamics for the Stanford Federal Reserve Challenge Team using Stata/R."
+    },
+    {
+      "criterion": "Fintech or Finance-Focused Project or Work Experience",
+      "points_awarded": 25.0,
+      "max_points": 25,
+      "percentage": 100.0,
+      "evidence": "Incoming J.P. Morgan Technology Investment Banking Summer Analyst. Founded and manages a $2.3M investment fund (Milton Capital Incubator Fund) with a 39% annualized return. Interned at U.S. Department of the Treasury as a White House-appointed intern. Interned at Wall Street Capital Partners supporting $75M+ M&A transactions with DCF/LBO/comparables modeling. Interned at Ames Capital Partners (1% acceptance rate) supporting $200M+ acquisition diligence. Portfolio Manager at Stanford Blyth Fund managing a six-figure segment of Stanford's endowment. Consulting engagement with Morgan Stanley on PE strategy."
+    },
+    {
+      "criterion": "Entrepreneurial or Startup Mindset in Fintech/Economics",
+      "points_awarded": 17.5,
+      "max_points": 20,
+      "percentage": 87.5,
+      "evidence": "Founded Milton Capital Incubator Fund, raising and managing $2.3M \u2014 a clear entrepreneurial act in the finance/investment space. Grand Prize Winner of Duke Fuqua's New Ideas Competition signals entrepreneurial ideation. Strategy & Growth consulting across multiple clients demonstrates startup-adjacent execution mindset. However, no explicit fintech-specific accelerator or incubator participation is documented, and the fund is investment-focused rather than a fintech product startup."
+    },
+    {
+      "criterion": "Quantitative and Technical Skills Applicable to Fintech",
+      "points_awarded": 14.0,
+      "max_points": 15,
+      "percentage": 93.3,
+      "evidence": "Computer Science co-major with coursework in Programming Methods and Data Science. Used Stata and R explicitly for financial and labor market data analysis on the Federal Reserve Challenge Team. Designed an original forward-looking econometric model of Treasury term premia. Employed risk-adjusted allocation models and hybrid hedging strategies at Milton Capital. DCF, LBO, and comparables modeling at Wall Street Capital Partners and Ames Capital. Strong quantitative application directly to financial systems is well-evidenced."
+    },
+    {
+      "criterion": "Engagement with the VC and Startup Ecosystem",
+      "points_awarded": 9.0,
+      "max_points": 10,
+      "percentage": 90.0,
+      "evidence": "Hosts a podcast at Stanford Students in Biodesign featuring biotech VCs and founders, demonstrating direct VC network engagement. Executive VP of Stanford Pre-Business Association, organizing industry workshops and speaker events. Project Director at Stanford Consulting with board-level involvement. Strategy consulting for Morgan Stanley on PE strategy via Preqin. Private equity analyst internship at Ames Capital Partners. Broad ecosystem engagement is strong; slightly less direct evidence of personal fundraising or deep VC-side relationships beyond the podcast."
+    }
+  ],
+  "total_crackedness": 40.9,
+  "total_fit": 94.5,
+  "candidate_description": "Rohan Movva is a Stanford junior double-majoring in Economics and Computer Science (3.99 GPA) with an extraordinarily dense and high-caliber record in finance, economics, and investment. He has founded and manages a $2.3M investment fund with a 39% annualized return, interned at the U.S. Treasury as a White House-appointed intern authoring analyses for the Treasury Secretary and President, and is an incoming J.P. Morgan Technology Investment Banking analyst. He has additional experience in private equity, investment banking, and economic research, complemented by strong quantitative skills in econometric modeling, financial data analysis, and portfolio management.",
+  "strengths_explanation": "Rohan is an exceptionally strong fit for a Fintech/Economics-focused VC+Founders Dinner. His profile is almost entirely centered on finance and economics \u2014 from his declared major and coursework to every major work experience. He has real-world exposure across investment banking, private equity, public-sector economic policy, and fund management, all directly relevant to the event's focus. His founding of a $2.3M fund demonstrates entrepreneurial execution in the financial domain, and his quantitative skills are explicitly applied to financial modeling and econometrics. His podcast engagement with biotech VCs and his consulting work further demonstrate familiarity with the startup and investor ecosystem. There is virtually no misalignment with the event theme.",
+  "detailed_scores": {
+    "fit_models": {
+      "claude": {
+        "fit_scores": [
+          {
+            "criterion": "Fintech or Economics Domain Knowledge",
+            "points_awarded": 29.0,
+            "max_points": 30,
+            "percentage": 96.7,
+            "evidence": "Declared Economics and Computer Science double major at Stanford with a 3.99 GPA. Coursework explicitly includes Economic Analysis, Applied Econometrics, Market Design, Data Science, and Financial Markets. Authored an econometric model of Treasury term premia at the U.S. Department of the Treasury. Contributed to the White House Crypto Report and produced analyses on tariffs, labor markets, and tax policy. Led research on labor and financial market dynamics for the Stanford Federal Reserve Challenge Team using Stata/R."
+          },
+          {
+            "criterion": "Fintech or Finance-Focused Project or Work Experience",
+            "points_awarded": 25.0,
+            "max_points": 25,
+            "percentage": 100.0,
+            "evidence": "Incoming J.P. Morgan Technology Investment Banking Summer Analyst. Founded and manages a $2.3M investment fund (Milton Capital Incubator Fund) with a 39% annualized return. Interned at U.S. Department of the Treasury as a White House-appointed intern. Interned at Wall Street Capital Partners supporting $75M+ M&A transactions with DCF/LBO/comparables modeling. Interned at Ames Capital Partners (1% acceptance rate) supporting $200M+ acquisition diligence. Portfolio Manager at Stanford Blyth Fund managing a six-figure segment of Stanford's endowment. Consulting engagement with Morgan Stanley on PE strategy."
+          },
+          {
+            "criterion": "Entrepreneurial or Startup Mindset in Fintech/Economics",
+            "points_awarded": 17.5,
+            "max_points": 20,
+            "percentage": 87.5,
+            "evidence": "Founded Milton Capital Incubator Fund, raising and managing $2.3M \u2014 a clear entrepreneurial act in the finance/investment space. Grand Prize Winner of Duke Fuqua's New Ideas Competition signals entrepreneurial ideation. Strategy & Growth consulting across multiple clients demonstrates startup-adjacent execution mindset. However, no explicit fintech-specific accelerator or incubator participation is documented, and the fund is investment-focused rather than a fintech product startup."
+          },
+          {
+            "criterion": "Quantitative and Technical Skills Applicable to Fintech",
+            "points_awarded": 14.0,
+            "max_points": 15,
+            "percentage": 93.3,
+            "evidence": "Computer Science co-major with coursework in Programming Methods and Data Science. Used Stata and R explicitly for financial and labor market data analysis on the Federal Reserve Challenge Team. Designed an original forward-looking econometric model of Treasury term premia. Employed risk-adjusted allocation models and hybrid hedging strategies at Milton Capital. DCF, LBO, and comparables modeling at Wall Street Capital Partners and Ames Capital. Strong quantitative application directly to financial systems is well-evidenced."
+          },
+          {
+            "criterion": "Engagement with the VC and Startup Ecosystem",
+            "points_awarded": 9.0,
+            "max_points": 10,
+            "percentage": 90.0,
+            "evidence": "Hosts a podcast at Stanford Students in Biodesign featuring biotech VCs and founders, demonstrating direct VC network engagement. Executive VP of Stanford Pre-Business Association, organizing industry workshops and speaker events. Project Director at Stanford Consulting with board-level involvement. Strategy consulting for Morgan Stanley on PE strategy via Preqin. Private equity analyst internship at Ames Capital Partners. Broad ecosystem engagement is strong; slightly less direct evidence of personal fundraising or deep VC-side relationships beyond the podcast."
+          }
+        ],
+        "total_fit": 94.5,
+        "candidate_description": "Rohan Movva is a Stanford junior double-majoring in Economics and Computer Science (3.99 GPA) with an extraordinarily dense and high-caliber record in finance, economics, and investment. He has founded and manages a $2.3M investment fund with a 39% annualized return, interned at the U.S. Treasury as a White House-appointed intern authoring analyses for the Treasury Secretary and President, and is an incoming J.P. Morgan Technology Investment Banking analyst. He has additional experience in private equity, investment banking, and economic research, complemented by strong quantitative skills in econometric modeling, financial data analysis, and portfolio management.",
+        "strengths_explanation": "Rohan is an exceptionally strong fit for a Fintech/Economics-focused VC+Founders Dinner. His profile is almost entirely centered on finance and economics \u2014 from his declared major and coursework to every major work experience. He has real-world exposure across investment banking, private equity, public-sector economic policy, and fund management, all directly relevant to the event's focus. His founding of a $2.3M fund demonstrates entrepreneurial execution in the financial domain, and his quantitative skills are explicitly applied to financial modeling and econometrics. His podcast engagement with biotech VCs and his consulting work further demonstrate familiarity with the startup and investor ecosystem. There is virtually no misalignment with the event theme."
+      }
+    },
+    "crackedness_is_prompt_independent": true
+  }
+}
