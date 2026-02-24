@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VC+Founders Dinner | Resume Intelligence</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+        body { font-family: 'Inter', sans-serif; background-color: #0f172a; color: #f1f5f9; }
+        .glass { background: rgba(30, 41, 59, 0.7); backdrop-filter: blur(12px); border: 1px solid rgba(255,255,255,0.1); }
+    </style>
+</head>
+<body class="min-h-screen flex items-center justify-center p-6">
+    <div class="max-w-3xl w-full space-y-8 text-center">
+        <header class="space-y-4">
+            <div class="inline-block px-3 py-1 text-xs font-semibold tracking-wider text-blue-400 uppercase bg-blue-400/10 rounded-full">
+                Ensemble LLM Scoring Active
+            </div>
+            <h1 class="text-5xl font-bold tracking-tight text-white">VC+Founders <span class="text-blue-500">Dinner</span></h1>
+            <p class="text-lg text-slate-400">Automated candidate evaluation using Claude 3.5 Sonnet & Gemini 2.0 Flash.</p>
+        </header>
+
+        <main class="glass rounded-2xl p-8 shadow-2xl">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 text-left">
+                <div class="p-4 rounded-xl bg-slate-800/50 border border-slate-700">
+                    <h3 class="font-semibold text-blue-400 mb-2">1. Rubric Generation</h3>
+                    <p class="text-sm text-slate-400">Analyzes event requirements to build a custom scoring framework.</p>
+                </div>
+                <div class="p-4 rounded-xl bg-slate-800/50 border border-slate-700">
+                    <h3 class="font-semibold text-green-400 mb-2">2. Intelligence Scoring</h3>
+                    <p class="text-sm text-slate-400">Scores "Crackedness" and "Fit" with decimal-point precision.</p>
+                </div>
+            </div>
+
+            <div class="mt-8 pt-8 border-t border-slate-700">
+                <div class="flex items-center justify-center space-x-2 text-yellow-500 bg-yellow-500/10 p-4 rounded-lg">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd" />
+                    </svg>
+                    <span class="text-sm font-medium">CLI Mode Detected</span>
+                </div>
+                <p class="mt-4 text-xs text-slate-500 leading-relaxed">
+                    This deployment is currently configured as a backend processing engine. <br>
+                    To run a score, use the terminal: <code class="text-blue-300">python score_resumes.py --rubric rubric.json</code>
+                </p>
+            </div>
+        </main>
+
+        <footer class="text-slate-500 text-xs">
+            &copy; 2026 Resume Intelligence Engine • Powered by Anthropic & Google AI
+        </footer>
+    </div>
+</body>
+</html>
