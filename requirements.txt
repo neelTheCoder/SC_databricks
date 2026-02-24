@@ -1,0 +1,8 @@
+flask
+werkzeug
+anthropic
+google-generativeai
+PyPDF2
+python-docx
+openpyxl
+pandas
