@@ -209,7 +209,7 @@ Return the rubric as a JSON object with this structure:
         
         try:
             response = self.claude_client.messages.create(
-                model="claude-sonnet-4-20250514",
+                model="claude-sonnet-4-6",
                 max_tokens=4000,
                 temperature=0.3,
                 system=system_prompt,
