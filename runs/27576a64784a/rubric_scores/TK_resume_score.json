@@ -1,0 +1,103 @@
+{
+  "filename": "TK_resume.pdf",
+  "total_crackedness": 76.0,
+  "total_fit": 34.6,
+  "candidate_description": "Tej Kosaraju is a high-achieving Stanford junior double-majoring in CS and Energy Science & Engineering with a 3.92 GPA and a perfect ACT 36. He is a genuine builder and leader \u2014 having founded an international climate nonprofit (Green Pulse EDU, 25+ chapters, 10+ nations), managed a $100K Kiva micro-lending fund with 150+ members, conducted computational climate research at both Stanford's Global Policy Lab and Cambridge's Centre for Atmospheric Science, and participated in Stanford's Climate Ventures Accelerator. His profile reflects exceptional raw talent, entrepreneurial drive, and cross-disciplinary thinking at the intersection of CS, climate science, and policy. However, his entire professional identity is oriented around climate and energy \u2014 there is essentially zero healthcare exposure, no biomedical or clinical experience, no health-focused AI work, and no engagement with the healthcare AI ecosystem.",
+  "strengths_explanation": "Tej stands out as a genuinely cracked candidate by almost any measure of raw talent and initiative: perfect ACT, near-4.0 GPA at Stanford, dual major, two prestigious research roles with quantitative outputs, a founded nonprofit with real international scale, and meaningful venture experience through Climate Ventures and Enline. His Kiva leadership (managing $100K, 150+ members, 4000+ loan recipients) is particularly impressive for an undergraduate. The critical weakness for this specific event is the near-total absence of healthcare domain fit. His ML work is econometric and geospatial rather than biomedical, his networks are climate/energy-focused, and he has articulated no healthcare problem he cares about solving. He would be an exceptional candidate for a Climate Tech VC dinner but requires significant domain pivoting to be relevant at a Healthcare AI founders event. His transferable skills (founder mindset, quantitative modeling, cross-disciplinary thinking, commercial GTM instincts) give him potential, but potential is all that exists on the healthcare side.",
+  "detailed_scores": {
+    "claude": {
+      "crackedness_scores": [
+        {
+          "criterion": "Academic Excellence & Rigor",
+          "points_awarded": 18.3,
+          "max_points": 20,
+          "percentage": 91.5,
+          "evidence": "GPA 3.92 at Stanford with a dual major in CS and Energy Science & Engineering is genuinely impressive. ACT 36 (perfect score) is a top-tier signal. Bruce Fishkin Fellow and Mercedes BeVisioneers Fellow indicate competitive academic distinction. Coursework includes Stanford Climate Ventures Accelerator and rigorous technical courses. Slight deduction because the coursework listed, while solid, doesn't include advanced graduate-level CS courses (e.g., ML, algorithms, OS) that would signal truly exceptional technical depth beyond the dual major."
+        },
+        {
+          "criterion": "Research Depth & Impact",
+          "points_awarded": 15.7,
+          "max_points": 22,
+          "percentage": 71.4,
+          "evidence": "Two substantive research roles: Global Policy Lab at Stanford (current, integrating COOP rain gauge data with IBTrACS for 300+ tropical cyclones, DSCIM socioeconomic modeling) and Centre for Atmospheric Science at Cambridge (FaIR model deployment, SSP disaggregation, quantitative findings on regional GHG drivers). Presented at CCIR Research Symposium to Nobel Laureates \u2014 a meaningful external recognition signal. However, no formal publications, no preprints, no Google Scholar profile mentioned, and no first-author credit. Research is real and rigorous but stops short of the publication threshold for a high score."
+        },
+        {
+          "criterion": "Technical Skill & Engineering Execution",
+          "points_awarded": 12.4,
+          "max_points": 20,
+          "percentage": 62.0,
+          "evidence": "Demonstrated applied technical work: IBTrACS-based data grid construction, FaIR climate model deployment, rain-field heatmap design, DSCIM socioeconomic analysis, and econometric ML framing. CS major at Stanford implies foundational engineering competence. However, no GitHub mentioned, no specific ML frameworks cited (PyTorch, TensorFlow, scikit-learn), no deployed products or open-source contributions referenced. The technical work is real but described at a high level without specifics on stack depth, code quality, or scale of engineering output. 'Econometric ML' framing is somewhat vague."
+        },
+        {
+          "criterion": "Entrepreneurial & Venture Initiative",
+          "points_awarded": 14.2,
+          "max_points": 18,
+          "percentage": 78.9,
+          "evidence": "Founded Green Pulse EDU, scaled to 25+ chapters in 10+ nations \u2014 genuine founder experience with measurable traction. Participated in Stanford Climate Ventures Accelerator (competitive program) and Energy Foundry Cohort. Contributed to Greenhill HVAC Startup through Climate Ventures. GTM strategy work at Enline (AI energy startup) shows commercial thinking. However, no venture is revenue-generating or VC-backed, and the nonprofit founding, while impressive in scale, is not a for-profit startup. The entrepreneurial profile is strong but not quite at the 'funded startup with users' tier."
+        },
+        {
+          "criterion": "Leadership & Organizational Impact",
+          "points_awarded": 8.6,
+          "max_points": 10,
+          "percentage": 86.0,
+          "evidence": "President of Kiva chapter managing ~$100K fund with 150+ member team, deploying capital to 4000+ entrepreneurs across 72 countries \u2014 exceptional scope and measurable impact. Restructured investment thesis to high-risk/high-impact model, showing strategic leadership. Founder of Green Pulse EDU with 25+ chapters and 5000+ students reached. Advocacy for Illinois HB4895 and Evanston plastic bag ban shows policy-level impact. Slight deduction because both roles are extracurricular/nonprofit rather than professional organizational leadership."
+        },
+        {
+          "criterion": "Industry Experience & Internship Caliber",
+          "points_awarded": 6.8,
+          "max_points": 10,
+          "percentage": 68.0,
+          "evidence": "Enline (AI for Energy Systems Startup in Portugal) is a real industry role with substantive GTM strategy work \u2014 validated a $6B+ customer segment and developed a novel thesis around insurance as a VGM risk-mitigation play. This shows commercial sophistication. However, Enline is a small startup, not a top-tier tech or biotech firm. Cambridge research role is prestigious institutionally but academic rather than industry. No internships at Google, NVIDIA, top hospitals, or leading AI labs. Industry experience is meaningful but not elite-tier by prestige standards."
+        }
+      ],
+      "fit_scores": [
+        {
+          "criterion": "Healthcare Domain Knowledge",
+          "points_awarded": 2.8,
+          "max_points": 22,
+          "percentage": 12.7,
+          "evidence": "Virtually no healthcare exposure on this resume. Background is entirely in climate science, energy systems, environmental policy, and CS. No biomedical coursework, no clinical experience, no EHR/medical imaging/genomics work, no mention of HIPAA or FDA. The candidate is deeply domain-expert in climate/energy but has essentially zero demonstrated healthcare knowledge. This is the most significant fit gap for a Healthcare AI event."
+        },
+        {
+          "criterion": "AI/ML Technical Depth for Healthcare Applications",
+          "points_awarded": 5.3,
+          "max_points": 25,
+          "percentage": 21.2,
+          "evidence": "The candidate has real ML/AI exposure \u2014 'Econometric ML Climate Researcher' title, DSCIM modeling, FaIR model deployment, IBTrACS data grid work. These suggest familiarity with data pipelines and quantitative modeling. However, none of this is applied to healthcare data. No medical imaging, no clinical NLP, no genomics, no patient outcome prediction. The ML skills appear more econometric/geospatial than deep learning. No frameworks (PyTorch, TensorFlow) mentioned. Potential to transfer skills exists but is entirely unrealized in healthcare context."
+        },
+        {
+          "criterion": "Startup & Founder Mindset Alignment",
+          "points_awarded": 13.1,
+          "max_points": 18,
+          "percentage": 72.8,
+          "evidence": "Strong founder signals: built Green Pulse EDU from scratch to 25+ international chapters, participated in Stanford Climate Ventures Accelerator and Energy Foundry Cohort, contributed to Greenhill HVAC Startup, and did GTM strategy at Enline. Shows comfort with ambiguity, user outreach (5000+ students), and commercial thinking (insurance segment thesis). However, all entrepreneurial activity is in climate/energy, not healthcare. The founder mindset is clearly present but not yet directed toward healthcare AI, which is the relevant domain for this event."
+        },
+        {
+          "criterion": "Interdisciplinary Thinking (Bio + CS + Business)",
+          "points_awarded": 10.4,
+          "max_points": 18,
+          "percentage": 57.8,
+          "evidence": "Dual major in CS and Energy Science & Engineering demonstrates genuine cross-disciplinary commitment. Kiva leadership shows financial/business acumen (fund management, investment thesis restructuring). GTM strategy at Enline adds commercial dimension. Stanford Consulting (Databricks case) and Sustainable Investment Group (MCJ climate fund) add business exposure. However, the interdisciplinary bridge is CS + Energy/Policy + Business \u2014 not the Bio + CS + Business combination most relevant for healthcare AI. No biology, biochemistry, or biomedical coursework evident."
+        },
+        {
+          "criterion": "Network & Community Engagement in Health/AI Ecosystem",
+          "points_awarded": 1.8,
+          "max_points": 10,
+          "percentage": 18.0,
+          "evidence": "Active in Stanford Climate Ventures, Energy Club, Stanford Sustainable Investment Group, SPBA Business Insights cohort \u2014 all climate/energy/finance communities. No evidence of engagement with Stanford AI in Medicine, BMIR, health-focused accelerators, HLTH, HIMSS, or any healthcare AI community. No healthcare mentors or advisors mentioned. Network appears entirely oriented toward climate tech and energy, not healthcare AI."
+        },
+        {
+          "criterion": "Clarity of Healthcare AI Problem Focus",
+          "points_awarded": 1.2,
+          "max_points": 7,
+          "percentage": 17.1,
+          "evidence": "There is no discernible healthcare AI problem focus anywhere on this resume. The candidate has a very clear and consistent thread \u2014 climate change, energy systems, environmental policy \u2014 but this thread points entirely away from healthcare. No mention of any healthcare problem, no tangential healthcare project, no stated interest in health. The involvement in healthcare AI, if any, would be entirely opportunistic given this profile."
+        }
+      ],
+      "total_crackedness": 76.0,
+      "total_fit": 34.6,
+      "candidate_description": "Tej Kosaraju is a high-achieving Stanford junior double-majoring in CS and Energy Science & Engineering with a 3.92 GPA and a perfect ACT 36. He is a genuine builder and leader \u2014 having founded an international climate nonprofit (Green Pulse EDU, 25+ chapters, 10+ nations), managed a $100K Kiva micro-lending fund with 150+ members, conducted computational climate research at both Stanford's Global Policy Lab and Cambridge's Centre for Atmospheric Science, and participated in Stanford's Climate Ventures Accelerator. His profile reflects exceptional raw talent, entrepreneurial drive, and cross-disciplinary thinking at the intersection of CS, climate science, and policy. However, his entire professional identity is oriented around climate and energy \u2014 there is essentially zero healthcare exposure, no biomedical or clinical experience, no health-focused AI work, and no engagement with the healthcare AI ecosystem.",
+      "strengths_explanation": "Tej stands out as a genuinely cracked candidate by almost any measure of raw talent and initiative: perfect ACT, near-4.0 GPA at Stanford, dual major, two prestigious research roles with quantitative outputs, a founded nonprofit with real international scale, and meaningful venture experience through Climate Ventures and Enline. His Kiva leadership (managing $100K, 150+ members, 4000+ loan recipients) is particularly impressive for an undergraduate. The critical weakness for this specific event is the near-total absence of healthcare domain fit. His ML work is econometric and geospatial rather than biomedical, his networks are climate/energy-focused, and he has articulated no healthcare problem he cares about solving. He would be an exceptional candidate for a Climate Tech VC dinner but requires significant domain pivoting to be relevant at a Healthcare AI founders event. His transferable skills (founder mindset, quantitative modeling, cross-disciplinary thinking, commercial GTM instincts) give him potential, but potential is all that exists on the healthcare side."
+    }
+  }
+}

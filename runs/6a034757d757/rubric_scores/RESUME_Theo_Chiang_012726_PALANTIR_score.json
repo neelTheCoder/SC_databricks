@@ -1,0 +1,110 @@
+{
+  "filename": "RESUME_Theo_Chiang_012726_PALANTIR.pdf",
+  "total_crackedness": 90.8,
+  "total_fit": 80.4,
+  "candidate_description": "Theo Chiang is a Stanford sophomore/junior pursuing the exact dual major (Biomedical Computation + Economics) that the rubric identifies as exemplary, with a 3.84 GPA and National Merit Finalist distinction from the highly selective Nueva School. He is simultaneously co-founding Halo (a B2B AI healthcare startup with a live HIPAA-compliant pilot), conducting deep learning research at Stanford's CAFN neuroimaging lab (provisional patent pending, ISMRM conference abstract), contributing to NFL headgear biomechanics simulation research (BMES 1st author abstract), advising Databricks product leadership on AI strategy through Stanford Consulting Group, and serving as TA for Stanford's Biodesign Fundamentals course \u2014 all while maintaining leadership roles in five student organizations. His technical stack spans neuroimaging AI, finite element simulation, full-stack development, and clinical data systems, with genuine market understanding of healthcare economics and regulatory frameworks (HIPAA, CMS, ICD/CPT coding). He is operating 2-3 years ahead of his peer cohort in terms of research output, startup traction, and professional responsibility.",
+  "strengths_explanation": "Theo's standout quality is the extraordinary density of high-signal activity for his career stage \u2014 he is not just collecting experiences but generating original outputs (patents, publications, a live startup, conference presentations) that most students don't achieve until graduate school or beyond. The Halo startup is particularly compelling because it targets prior authorization, a well-understood pain point with clear enterprise buyers, and he has already achieved a live pilot with a real SF health network \u2014 demonstrating not just technical ability but commercial execution. His technical depth in health AI is genuine and rare: he can discuss UNET CNN architectures for MRI normalization, finite element simulation for traumatic brain injury, and LLM-based claims auditing with equal fluency. The primary gaps are in VC ecosystem awareness (no direct investor-facing experience disclosed) and external employer validation (all experiences are Stanford-internal). At a VC+Founders dinner, he would be one of the most technically credible and entrepreneurially active undergraduates in the room, and the Halo pilot gives him a concrete fundraising conversation to anchor discussions with investors.",
+  "detailed_scores": {
+    "claude": {
+      "crackedness_scores": [
+        {
+          "criterion": "Academic & Intellectual Horsepower",
+          "points_awarded": 19.2,
+          "max_points": 20,
+          "percentage": 96.0,
+          "evidence": "Stanford BS candidate in Biomedical Computation AND Economics \u2014 precisely the dual major cited as exemplary in the rubric's 'high' scoring guide. 3.84 GPA is strong but not perfect. National Merit Finalist from Nueva School (itself a highly selective, academically rigorous private school known for gifted students). Coursework spans Healthcare AI, Algorithms, Neurodegeneration, Organic Chemistry, and Biochemistry \u2014 demonstrating genuine cross-disciplinary intellectual range. ACT 35 and PSAT 1500 further confirm elite academic horsepower. Slight deduction for GPA not being 3.9+ and no explicit honors/dean's list mention."
+        },
+        {
+          "criterion": "Tier of Experience & Employer Prestige",
+          "points_awarded": 16.8,
+          "max_points": 20,
+          "percentage": 84.0,
+          "evidence": "Stanford CAFN research lab (legitimate Stanford PI lab with neuroimaging focus), Stanford Bioengineering REU (competitive NSF-adjacent program), Stanford Department of Pediatric Orthopaedic Surgery, Stanford Consulting Group advising Databricks product leadership, and Stanford Healthcare Consulting Group. All experiences are within the Stanford ecosystem \u2014 highly credible but not yet at the level of Google/Meta/Goldman/Sequoia/NIH-level external validation. No external elite employer (Big Tech, top VC, elite finance). The Databricks advisory relationship is notable but through a student consulting group. Strong pattern but lacks the external elite employer stamp."
+        },
+        {
+          "criterion": "Founder / Builder Instinct",
+          "points_awarded": 17.6,
+          "max_points": 20,
+          "percentage": 88.0,
+          "evidence": "Co-founded Halo, a B2B AI-native healthcare startup with a live HIPAA-compliant pilot deployed across an SF health network \u2014 this is real building, not a class project. Built and deployed an open-source production-facing web platform for neuroimaging inference with a provisional patent pending. Developed an LLM platform for Databricks speaker screening. Built multiprocessing pipelines processing 200,000+ brain scans. Won a research grant for an EMS triage decision-support tool concept. Clear pattern of creating from scratch across multiple domains. Slight deduction because Halo is early-stage with limited disclosed traction metrics and the patent is only provisional."
+        },
+        {
+          "criterion": "Trajectory & Velocity",
+          "points_awarded": 18.3,
+          "max_points": 15,
+          "percentage": 122.0,
+          "evidence": "NOTE \u2014 capped at max 15. Expected graduation June 2027 (likely sophomore/junior), yet has: co-founded a startup with a live pilot, holds a provisional patent, is 2nd author on an ISMRM conference abstract, 1st author on a BMES abstract, invited speaker at Stanford Radiological Sciences Lab, TA for a Stanford medical school course, and is advising Databricks product leadership. This is extraordinary velocity for someone likely in their second year of college. Each experience compounds meaningfully on the last \u2014 from data intern to research intern to co-founder to consulting on AI strategy. Clearly 2-3 years ahead of typical peers."
+        },
+        {
+          "criterion": "Trajectory & Velocity",
+          "points_awarded": 14.7,
+          "max_points": 15,
+          "percentage": 98.0,
+          "evidence": "Expected graduation June 2027 (likely sophomore/junior), yet has: co-founded a startup with a live pilot, holds a provisional patent, is 2nd author on an ISMRM conference abstract, 1st author on a BMES abstract, invited speaker at Stanford Radiological Sciences Lab, TA for a Stanford medical school course, and is advising Databricks product leadership. This is extraordinary velocity for someone likely in their second year of college. Each experience compounds meaningfully \u2014 from data intern to research intern to co-founder to consulting on AI strategy. Clearly 2-3 years ahead of typical peers. Tiny deduction: some experiences overlap temporally in ways that suggest breadth over depth at moments."
+        },
+        {
+          "criterion": "Impact & Quantified Outcomes",
+          "points_awarded": 13.4,
+          "max_points": 15,
+          "percentage": 89.3,
+          "evidence": "Strong quantification present: >400x runtime reduction in neuroimaging model, 200,000+ brain scans processed, 20% increase in site usage for Stanford Health Care pilot, 99.9% uptime for Halo, 5-figure coding/compliance errors identified, 250+ EHRs collected across 17 features, $2000 in funding acquired, $500 research grant won, 15 public studies integrated. Multiple conference abstracts and a patent pending add credibility. Deductions: Halo's revenue/customer metrics are vague ('5 figures' in errors identified, not revenue), and some bullet points describe responsibilities rather than outcomes (e.g., 'Implemented algorithm to compute optimal spatial transformations')."
+        },
+        {
+          "criterion": "Uniqueness & Differentiated Profile",
+          "points_awarded": 9.1,
+          "max_points": 10,
+          "percentage": 91.0,
+          "evidence": "Theo occupies a genuinely rare intersection: Stanford Biomedical Computation + Economics dual major, active co-founder of a healthcare AI startup, neuroimaging deep learning researcher with a provisional patent, biomechanics simulation contributor, and healthcare consulting advisor to Databricks \u2014 all simultaneously as an underclassman. The combination of computational neuroscience depth, healthcare economics understanding, and active startup building is highly distinctive. The 'only person who' factor is strong: few people can credibly discuss UNET CNN architectures for MRI normalization AND prior authorization workflows AND NFL headgear finite element simulation. Minor deduction: the profile is very Stanford-centric, which is common in this candidate pool."
+        }
+      ],
+      "fit_scores": [
+        {
+          "criterion": "Startup & Entrepreneurship Orientation",
+          "points_awarded": 22.3,
+          "max_points": 25,
+          "percentage": 89.2,
+          "evidence": "Co-founder of Halo (B2B AI healthcare startup) with a live HIPAA-compliant pilot \u2014 entrepreneurship is clearly a central theme. TA for Biodesign Fundamentals (MED175B), Lead Financial Officer at Stanford Students for Biodesign and Biopharma, won a $500 research grant for an EMS triage tool concept. Has sought out startup-adjacent experiences consistently. The startup is early-stage and traction metrics are limited (no disclosed ARR, customer count, or funding raised), which prevents a perfect score. But the orientation is unmistakably entrepreneurial."
+        },
+        {
+          "criterion": "VC & Investor Ecosystem Awareness",
+          "points_awarded": 9.8,
+          "max_points": 20,
+          "percentage": 49.0,
+          "evidence": "No direct VC internship or investor-facing role disclosed. Has participated in pitch-adjacent activities (research grant competition judged by Stanford Biodesign Scholars, Biodesign club involvement). As a co-founder of Halo, has likely had some investor conversations, but none are disclosed. The Biodesign program has strong connections to the MedTech VC ecosystem. No mention of university VC fund, angel investing, or direct VC firm experience. This is the weakest area of fit \u2014 the profile is founder-oriented but not yet demonstrably VC-ecosystem-aware."
+        },
+        {
+          "criterion": "Domain Relevance & Technical Depth",
+          "points_awarded": 19.1,
+          "max_points": 20,
+          "percentage": 95.5,
+          "evidence": "Exceptional domain depth at the intersection of health tech and AI \u2014 arguably the hottest startup vertical. Technical skills span: deep learning (PyTorch, MONAI, UNET CNNs), neuroimaging (SPM, FSL, ANTs, DSI Studio), biomechanics simulation (LS-DYNA, finite element analysis), clinical data (ICD/CPT codes, HIPAA compliance, EHR data), and full-stack development (Flask, FastAPI, JavaScript). Coursework in Healthcare Economics & Policy adds market understanding. Could credibly be a technical co-founder in health AI, neurotech, or medical devices. The breadth is extraordinary for an underclassman. Tiny deduction: some tools (Fusion 360, Agisoft Metashape) suggest breadth that may dilute depth in any single area."
+        },
+        {
+          "criterion": "Network & Community Engagement",
+          "points_awarded": 11.2,
+          "max_points": 15,
+          "percentage": 74.7,
+          "evidence": "Stanford Students for Biodesign and Biopharma (Lead Financial Officer + TA), United Students for Veterans Health (Board Member), Stanford Consulting Group, Stanford Healthcare Consulting Group, Stanford Men's Club Water Polo (Treasurer), Kappa Sigma (Philanthropy Chair). Multiple active leadership roles across relevant communities. Biodesign program has strong ecosystem connections. However, no mention of accelerator programs (YC, Dorm Room Fund), hackathon wins, or external founder fellowships. Network appears strong within Stanford but not yet demonstrably extended into the broader startup/VC ecosystem."
+        },
+        {
+          "criterion": "Dinner Conversational Value",
+          "points_awarded": 8.7,
+          "max_points": 10,
+          "percentage": 87.0,
+          "evidence": "Has multiple compelling conversation anchors: building a healthcare AI startup (Halo) addressing prior authorization \u2014 a $35B+ problem in US healthcare; neuroimaging deep learning with a provisional patent; NFL headgear biomechanics simulation; advising Databricks on AI product strategy. Can speak credibly to both the technical and business dimensions of health AI. The prior auth space is actively being discussed in VC circles (multiple funded startups). Would be a sought-after conversation partner. Minor deduction: as an underclassman, may lack the business maturity to fully hold court with senior VCs on market dynamics and fundraising strategy."
+        },
+        {
+          "criterion": "Stage Appropriateness",
+          "points_awarded": 9.3,
+          "max_points": 10,
+          "percentage": 93.0,
+          "evidence": "Expected graduation June 2027 \u2014 likely a sophomore or junior, meaning 1-2 years before graduation. This is nearly ideal timing: early enough to be hungry and coachable, advanced enough to have real projects and a startup to discuss. Halo is at the pilot stage where VC introductions could be directly catalytic for fundraising. The research pipeline (patents, publications) creates natural conversation hooks with deep tech investors. Slight deduction: being mid-undergrad means some VCs may view them as 'too early' for a serious funding conversation, though the dinner format is well-suited for relationship-building at this stage."
+        }
+      ],
+      "total_crackedness": 90.8,
+      "total_fit": 80.4,
+      "candidate_description": "Theo Chiang is a Stanford sophomore/junior pursuing the exact dual major (Biomedical Computation + Economics) that the rubric identifies as exemplary, with a 3.84 GPA and National Merit Finalist distinction from the highly selective Nueva School. He is simultaneously co-founding Halo (a B2B AI healthcare startup with a live HIPAA-compliant pilot), conducting deep learning research at Stanford's CAFN neuroimaging lab (provisional patent pending, ISMRM conference abstract), contributing to NFL headgear biomechanics simulation research (BMES 1st author abstract), advising Databricks product leadership on AI strategy through Stanford Consulting Group, and serving as TA for Stanford's Biodesign Fundamentals course \u2014 all while maintaining leadership roles in five student organizations. His technical stack spans neuroimaging AI, finite element simulation, full-stack development, and clinical data systems, with genuine market understanding of healthcare economics and regulatory frameworks (HIPAA, CMS, ICD/CPT coding). He is operating 2-3 years ahead of his peer cohort in terms of research output, startup traction, and professional responsibility.",
+      "strengths_explanation": "Theo's standout quality is the extraordinary density of high-signal activity for his career stage \u2014 he is not just collecting experiences but generating original outputs (patents, publications, a live startup, conference presentations) that most students don't achieve until graduate school or beyond. The Halo startup is particularly compelling because it targets prior authorization, a well-understood pain point with clear enterprise buyers, and he has already achieved a live pilot with a real SF health network \u2014 demonstrating not just technical ability but commercial execution. His technical depth in health AI is genuine and rare: he can discuss UNET CNN architectures for MRI normalization, finite element simulation for traumatic brain injury, and LLM-based claims auditing with equal fluency. The primary gaps are in VC ecosystem awareness (no direct investor-facing experience disclosed) and external employer validation (all experiences are Stanford-internal). At a VC+Founders dinner, he would be one of the most technically credible and entrepreneurially active undergraduates in the room, and the Halo pilot gives him a concrete fundraising conversation to anchor discussions with investors."
+    }
+  }
+}

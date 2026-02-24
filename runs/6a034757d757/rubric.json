@@ -1,0 +1,130 @@
+{
+  "crackedness_criteria": [
+    {
+      "name": "Academic & Intellectual Horsepower",
+      "description": "Measures the caliber of educational institutions, academic achievements, selectivity of programs, and evidence of intellectual curiosity or distinction (e.g., honors, research, dual majors in demanding fields).",
+      "max_points": 20,
+      "scoring_guide": {
+        "high": "Top-tier institution (T10 university) with a rigorous or unusual dual major (e.g., Biomedical Computation + Economics at Stanford), honors distinctions, dean's list, or notable academic awards. Evidence of cross-disciplinary thinking.",
+        "medium": "Strong university (T25-50) with a solid major, or top-tier school with a less differentiated academic profile. Some academic achievements but nothing that stands out sharply.",
+        "low": "Less selective institution or no notable academic distinctions. Standard single major with no evidence of intellectual stretch or achievement."
+      }
+    },
+    {
+      "name": "Tier of Experience & Employer Prestige",
+      "description": "Evaluates the selectivity and prestige of internships, jobs, research labs, or programs the candidate has participated in. Reflects how competitive peers found them.",
+      "max_points": 20,
+      "scoring_guide": {
+        "high": "Experience at highly selective employers or programs: top-tier tech companies (Google, Meta, Apple), elite finance (Goldman, Sequoia, a16z), leading research labs (NIH, Stanford labs), or competitive fellowships (Thiel, NSF, Rhodes). Multiple such experiences.",
+        "medium": "Experience at well-regarded but less elite organizations, or one strong experience alongside more standard ones. Shows ambition but not yet a pattern of elite selection.",
+        "low": "Limited work experience, or experience primarily at non-selective organizations with no clear signal of competitive selection."
+      }
+    },
+    {
+      "name": "Founder / Builder Instinct",
+      "description": "Measures evidence that the candidate has built things from scratch \u2014 startups, side projects, research initiatives, clubs, or products \u2014 demonstrating initiative, ownership, and a bias toward action.",
+      "max_points": 20,
+      "scoring_guide": {
+        "high": "Has founded or co-founded a company, launched a product with real users/traction, led a significant research project with tangible outputs, or built a notable organization from the ground up. Clear evidence of creating something from nothing.",
+        "medium": "Has started a project or initiative but with limited scale or follow-through. Contributed meaningfully to an early-stage effort but in a supporting role. Shows builder instinct without full ownership.",
+        "low": "No evidence of founding or building. Primarily a participant or contributor in established organizations with no self-initiated projects."
+      }
+    },
+    {
+      "name": "Trajectory & Velocity",
+      "description": "Assesses how quickly the candidate is progressing relative to their age/stage. Are they ahead of the curve? Is each step a meaningful upgrade in responsibility, impact, or selectivity?",
+      "max_points": 15,
+      "scoring_guide": {
+        "high": "Clearly ahead of peers for their age/year \u2014 e.g., a sophomore with senior-level internships, someone who has already shipped a product or published research, or rapid progression in roles. Each experience is a clear step up.",
+        "medium": "On a solid but expected trajectory. Progressing normally through internships and experiences appropriate for their stage, without notable acceleration.",
+        "low": "Trajectory appears flat or inconsistent. Gaps in experience, lateral moves without clear growth, or experiences that don't compound on each other."
+      }
+    },
+    {
+      "name": "Impact & Quantified Outcomes",
+      "description": "Looks for concrete, measurable results in past roles \u2014 revenue generated, users acquired, papers published, systems built, teams led. Differentiates doers from participants.",
+      "max_points": 15,
+      "scoring_guide": {
+        "high": "Resume includes specific, quantified achievements: 'grew user base by X%,' 'built system serving Y users,' 'raised $Z,' 'published in [journal],' 'led team of N.' Numbers and outcomes are prominent and credible.",
+        "medium": "Some evidence of impact but mostly qualitative. Describes responsibilities rather than results. A few metrics present but not a consistent pattern.",
+        "low": "Purely descriptive resume with no quantified outcomes. Unclear what the candidate actually accomplished vs. what they were assigned to do."
+      }
+    },
+    {
+      "name": "Uniqueness & Differentiated Profile",
+      "description": "Rewards candidates who have an unusual, memorable combination of skills, experiences, or perspectives that make them stand out in a room of high achievers. The 'only person who...' factor.",
+      "max_points": 10,
+      "scoring_guide": {
+        "high": "Has a genuinely rare combination \u2014 e.g., deep technical biomedical background + economics + startup experience, or an unusual personal story, international experience, or niche expertise that creates a distinctive identity.",
+        "medium": "Solid profile but one that many strong candidates might share. Competent across multiple areas but not strikingly unusual.",
+        "low": "Profile is largely interchangeable with many other candidates at similar schools. No clear differentiating angle or memorable hook."
+      }
+    }
+  ],
+  "fit_criteria": [
+    {
+      "name": "Startup & Entrepreneurship Orientation",
+      "description": "Measures how directly the candidate is oriented toward founding, joining, or building startups \u2014 the core purpose of a VC+Founders dinner.",
+      "max_points": 25,
+      "scoring_guide": {
+        "high": "Currently a founder, actively building a startup, or has a clear and credible near-term plan to start a company. Has sought out startup-adjacent experiences (early-stage companies, startup internships, founder communities). Entrepreneurship is a central theme of their profile.",
+        "medium": "Interested in startups and has some exposure (internship at a startup, startup-related coursework or clubs), but entrepreneurship is not yet the dominant theme. Could plausibly become a founder.",
+        "low": "Profile is primarily oriented toward large corporations, academia, or finance with no clear startup interest. Little evidence of entrepreneurial curiosity or risk appetite."
+      }
+    },
+    {
+      "name": "VC & Investor Ecosystem Awareness",
+      "description": "Assesses familiarity with the venture capital world \u2014 whether through internships, research, angel investing, or demonstrated knowledge of the funding ecosystem.",
+      "max_points": 20,
+      "scoring_guide": {
+        "high": "Has interned at a VC firm, worked in a startup in a role that interfaced with investors, participated in pitch competitions, or has otherwise demonstrated direct engagement with the VC ecosystem. Understands how venture works.",
+        "medium": "Some awareness of VC (e.g., involved in a university VC fund, attended startup events, has a mentor in VC) but no direct professional experience in the ecosystem.",
+        "low": "No apparent connection to or interest in venture capital. Profile suggests unfamiliarity with how startups are funded or how the investor-founder relationship works."
+      }
+    },
+    {
+      "name": "Domain Relevance & Technical Depth",
+      "description": "Evaluates whether the candidate's domain expertise (biotech, software, fintech, etc.) is relevant to high-growth startup opportunities and whether they have the technical depth to build in that domain.",
+      "max_points": 20,
+      "scoring_guide": {
+        "high": "Deep expertise in a high-value startup domain (e.g., biomedical/health tech, AI/ML, fintech, climate tech) with both technical skills and market understanding. Could credibly be a technical co-founder or domain expert at a venture-backed company.",
+        "medium": "Solid domain knowledge in a relevant area but either lacks technical depth or market understanding. Could contribute meaningfully to a startup but may need a co-founder to fill gaps.",
+        "low": "Domain expertise is either not relevant to high-growth startup opportunities or is too shallow to be a meaningful differentiator in a founding team."
+      }
+    },
+    {
+      "name": "Network & Community Engagement",
+      "description": "Measures how embedded the candidate is in startup and innovation communities \u2014 founder networks, accelerators, university entrepreneurship programs, hackathons, etc.",
+      "max_points": 15,
+      "scoring_guide": {
+        "high": "Actively involved in multiple startup communities: university entrepreneurship clubs, accelerator programs (YC, Dorm Room Fund, etc.), hackathon organizer or winner, startup-focused fellowships. Has a warm network in the ecosystem.",
+        "medium": "Some community involvement \u2014 attended events, member of one relevant club or program \u2014 but not deeply embedded. Network is developing.",
+        "low": "Little to no evidence of engagement with startup or innovation communities. Appears to be operating outside the ecosystem."
+      }
+    },
+    {
+      "name": "Dinner Conversational Value",
+      "description": "Assesses whether this candidate would add unique, substantive value to dinner conversations with VCs and founders \u2014 do they have interesting ideas, experiences, or perspectives to share?",
+      "max_points": 10,
+      "scoring_guide": {
+        "high": "Has a compelling story, a startup idea they're actively working on, deep expertise in a hot sector, or a unique perspective (e.g., immigrant founder, domain expert turned entrepreneur) that would make them a sought-after conversation partner at the table.",
+        "medium": "Interesting background that could spark good conversation, but may not have a strong 'hook' or current project to anchor discussions around.",
+        "low": "Profile suggests the candidate would primarily be a listener at the dinner rather than a contributor. Limited unique perspective or current project to discuss."
+      }
+    },
+    {
+      "name": "Stage Appropriateness",
+      "description": "Evaluates whether the candidate is at the right career stage to benefit from and contribute to a VC+Founders dinner \u2014 not too junior to be lost, not so senior that a dinner adds little value.",
+      "max_points": 10,
+      "scoring_guide": {
+        "high": "At an inflection point \u2014 about to graduate, recently graduated, or in the early stages of a startup \u2014 where connections made at this dinner could be directly catalytic. Hungry, coachable, and ready to act on introductions.",
+        "medium": "Slightly early (freshman/sophomore with limited experience) or slightly later (established professional who may not need the network as urgently). Still valuable but timing is not ideal.",
+        "low": "Either too early in their journey to meaningfully engage with VCs and founders, or already so established that the dinner format adds limited marginal value to their trajectory."
+      }
+    }
+  ],
+  "metadata": {
+    "focus_area": "VC and Founder networking dinner \u2014 identifying high-potential candidates at the intersection of entrepreneurship, technical depth, and venture ecosystem awareness, with a candidate pool anchored by Stanford-level biomedical/economics profiles",
+    "created_by": "claude"
+  }
+}

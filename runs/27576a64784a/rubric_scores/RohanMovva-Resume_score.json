@@ -1,0 +1,103 @@
+{
+  "filename": "RohanMovva-Resume.pdf",
+  "total_crackedness": 66.3,
+  "total_fit": 42.9,
+  "candidate_description": "Rohan Movva is a Stanford junior pursuing Economics and Computer Science with a near-perfect 3.99 GPA and an extraordinarily dense resume for his class year. He has built a remarkable track record in finance and business \u2014 founding and managing a $2.3M investment fund with a 39% annualized return, interning at J.P. Morgan Technology IB, serving as the sole White House-appointed intern in the Treasury Secretary's front office, and holding VP/director-level leadership positions across five Stanford organizations simultaneously. He is a TEDx speaker, Congressional Commendation recipient, and grand prize winner of a national business competition. However, his profile is overwhelmingly finance and consulting-oriented, with limited technical depth in AI/ML and only surface-level engagement with healthcare as a domain \u2014 primarily through his Biodesign podcast VP role and one pharma consulting project.",
+  "strengths_explanation": "Rohan's raw 'crackedness' is genuinely impressive: the GPA, the Treasury appointment, the fund management, and the sheer volume of high-caliber leadership roles signal exceptional drive and execution ability. He would be one of the most accomplished underclassmen in any room. However, his fit for a Healthcare AI founders dinner is materially weaker. His technical skills are econometric rather than ML/AI, his healthcare exposure is investor-facing rather than clinical or scientific, and there is no evidence of a specific healthcare problem he is trying to solve. He is more likely on a path toward finance, venture capital, or policy than toward founding a healthcare AI company. The Biodesign involvement is a genuine signal of interest, but it has not yet translated into technical or clinical depth. For this specific event, he would be a strong networker and business thinker but would struggle to engage credibly on healthcare AI technical or clinical topics.",
+  "detailed_scores": {
+    "claude": {
+      "crackedness_scores": [
+        {
+          "criterion": "Academic Excellence & Rigor",
+          "points_awarded": 18.3,
+          "max_points": 20,
+          "percentage": 91.5,
+          "evidence": "GPA of 3.99/4.00 at Stanford is exceptional and places him in the top tier. Dual degree in Economics and Computer Science reflects intellectual breadth. However, coursework listed (Economic Analysis, Applied Econometrics, Financial Markets, Data Science) is more finance/econ-oriented than deeply technical engineering or hard sciences. No mention of honors societies like Phi Beta Kappa or Tau Beta Pi, no standardized test scores listed, and no advanced graduate-level coursework. The GPA alone is near-perfect, but the curriculum rigor skews toward business/econ rather than the most demanding technical tracks."
+        },
+        {
+          "criterion": "Research Depth & Impact",
+          "points_awarded": 7.2,
+          "max_points": 22,
+          "percentage": 32.7,
+          "evidence": "The Federal Reserve Challenge Team role involved Stata/R analysis and monetary policy research, which is the closest to formal research. The Treasury internship involved an econometric model of term premia and high-visibility policy deliverables including the 'CapEx Comeback' chart. However, there are no peer-reviewed publications, no Google Scholar profile, no lab affiliation with a named PI, no preprints, and no conference presentations in an academic sense. The work is applied policy analysis rather than independent scientific research. Research depth is limited and outputs are government/policy documents rather than academic contributions."
+        },
+        {
+          "criterion": "Technical Skill & Engineering Execution",
+          "points_awarded": 9.4,
+          "max_points": 20,
+          "percentage": 47.0,
+          "evidence": "Mentions Stata and R for econometric analysis in the Fed Challenge role, and has a provisional patent ('Forever Filter') suggesting some engineering execution. CS is part of his degree. However, no GitHub mentioned, no ML frameworks listed (PyTorch, TensorFlow, etc.), no complex software projects described, no bioinformatics or data engineering pipelines. Technical skills appear to be primarily quantitative/statistical (econometrics, financial modeling) rather than software engineering or AI/ML. The CS coursework is listed as 'Programming Methods' and 'Data Science' \u2014 foundational but not advanced. Technical depth is real but narrowly financial/econometric."
+        },
+        {
+          "criterion": "Entrepreneurial & Venture Initiative",
+          "points_awarded": 13.6,
+          "max_points": 18,
+          "percentage": 75.6,
+          "evidence": "Founded the Milton Capital Incubator Fund, raising and managing a $2.3M portfolio with a 39% annualized return \u2014 this is genuine entrepreneurial initiative with real capital at stake. Grand Prize Winner of Duke Fuqua's New Ideas Competition signals startup/venture thinking. Has a provisional patent. Consulting for multiple clients through Stanford clubs shows builder mentality. However, no formal startup founded in tech/health, no accelerator participation (YC, etc.), and the fund is investment-oriented rather than product/company building. The entrepreneurial profile is strong but skewed toward finance rather than company creation."
+        },
+        {
+          "criterion": "Leadership & Organizational Impact",
+          "points_awarded": 9.1,
+          "max_points": 10,
+          "percentage": 91.0,
+          "evidence": "Exceptional breadth of leadership: Executive VP of Stanford Pre-Business Association (Stanford's largest business club), Portfolio Manager leading 19 analysts at Stanford Blyth Fund, Project Director at Stanford Consulting (board-level, <5% acceptance), VP roles in Stanford Students in Biodesign, Stanford Applied Cybersecurity, and Stanford Product Pathways. Measurable outcomes: 40% event engagement increase, 300% mailing list growth, 30% readership growth. Leading 15-person teams in consulting projects. The volume and seniority of leadership roles across multiple organizations is genuinely impressive for an underclassman."
+        },
+        {
+          "criterion": "Industry Experience & Internship Caliber",
+          "points_awarded": 8.7,
+          "max_points": 10,
+          "percentage": 87.0,
+          "evidence": "J.P. Morgan Technology Investment Banking (incoming) is top-tier finance. White House-appointed Treasury internship is highly selective and prestigious \u2014 sole intern in the Secretary's front office with direct access to the Treasury Secretary and President-level deliverables. Ames Capital Partners PE internship (1% acceptance rate). Wall Street Capital Partners IB internship. These are high-caliber finance experiences. However, for a healthcare AI context, none of these internships are in tech, biotech, or healthcare companies. The prestige is undeniable but the domain relevance is limited."
+        }
+      ],
+      "fit_scores": [
+        {
+          "criterion": "Healthcare Domain Knowledge",
+          "points_awarded": 6.8,
+          "max_points": 22,
+          "percentage": 30.9,
+          "evidence": "VP role in Stanford Students in Biodesign (hosting podcast with biotech VCs/founders, overseeing Probe Magazine on biotech) shows genuine interest in the healthcare/biotech space. Consulting project for Emcure Pharmaceuticals on GTM strategy for a nutraceutical line. PE sourcing at Ames Capital included medical devices. However, there is no formal biomedical coursework, no clinical research experience, no work with EHR/medical imaging/genomics data, no pre-med track, and no demonstrated understanding of clinical workflows, FDA regulation, or HIPAA. Healthcare exposure is tangential and investor/business-oriented rather than scientific or clinical."
+        },
+        {
+          "criterion": "AI/ML Technical Depth for Healthcare Applications",
+          "points_awarded": 5.3,
+          "max_points": 25,
+          "percentage": 21.2,
+          "evidence": "Data Science is listed as a course, and Stata/R are used for econometric analysis. The provisional patent ('Forever Filter') is unexplained but could involve some technical implementation. However, there is no evidence of PyTorch, TensorFlow, scikit-learn, or any ML framework usage. No AI/ML projects are described, no healthcare data modeling, no NLP, no medical imaging work, no genomics. The CS component of his degree likely includes some ML exposure, but it has not been applied to healthcare or even general AI problems based on the resume. This is a significant gap for a healthcare AI event."
+        },
+        {
+          "criterion": "Startup & Founder Mindset Alignment",
+          "points_awarded": 11.4,
+          "max_points": 18,
+          "percentage": 63.3,
+          "evidence": "Strong signals of founder mindset: founded and runs a $2.3M investment fund, won Duke Fuqua's New Ideas Competition (grand prize), holds a provisional patent, TEDx speaker, Congressional Commendation. Multiple consulting engagements show problem-solving and client-facing execution. However, the entrepreneurial orientation is heavily financial (fund management, IB, PE) rather than product/company building in tech or health. No accelerator participation, no evidence of user interviews or product iteration, no startup in health/bio/tech. The mindset is present but channeled toward finance and consulting rather than zero-to-one company building."
+        },
+        {
+          "criterion": "Interdisciplinary Thinking (Bio + CS + Business)",
+          "points_awarded": 11.7,
+          "max_points": 18,
+          "percentage": 65.0,
+          "evidence": "The Economics + CS dual degree is a strong foundation for interdisciplinary thinking. Business/finance expertise is deep and demonstrated. CS provides technical grounding. Biodesign involvement adds a biotech layer. Consulting across Google (product), Disney (market), Morgan Stanley (PE), Emcure (pharma GTM) shows ability to operate across domains. However, the bio/health component is thin \u2014 it's investor-level awareness rather than scientific depth. The CS is more quantitative/econometric than engineering. The interdisciplinary profile is strong on business+economics, moderate on CS, and weak on bio/clinical science."
+        },
+        {
+          "criterion": "Network & Community Engagement in Health/AI Ecosystem",
+          "points_awarded": 5.6,
+          "max_points": 10,
+          "percentage": 56.0,
+          "evidence": "VP in Stanford Students in Biodesign with podcast hosting biotech VCs and founders \u2014 this is meaningful network engagement in the health/biotech space. Probe Magazine curates biotech content. However, no mention of Stanford AI in Medicine, BMIR, HLTH, HIMSS, or other health AI-specific communities. No AI-focused communities mentioned. The network appears to be primarily finance/consulting (JPM, PE firms, Stanford business clubs) with a secondary biotech interest through Biodesign. Engagement is real but not deeply embedded in the healthcare AI ecosystem specifically."
+        },
+        {
+          "criterion": "Clarity of Healthcare AI Problem Focus",
+          "points_awarded": 2.1,
+          "max_points": 7,
+          "percentage": 30.0,
+          "evidence": "There is no discernible specific healthcare AI problem focus on this resume. The Biodesign involvement shows interest in the biotech/health space at a high level, and the Emcure consulting project touches pharma, but these are scattered and investor/business-oriented. No consistent thread points toward a specific healthcare problem (e.g., diagnostics, drug discovery, clinical documentation). The candidate's primary focus is clearly finance, investment, and consulting. Healthcare AI appears incidental rather than conviction-driven."
+        }
+      ],
+      "total_crackedness": 66.3,
+      "total_fit": 42.9,
+      "candidate_description": "Rohan Movva is a Stanford junior pursuing Economics and Computer Science with a near-perfect 3.99 GPA and an extraordinarily dense resume for his class year. He has built a remarkable track record in finance and business \u2014 founding and managing a $2.3M investment fund with a 39% annualized return, interning at J.P. Morgan Technology IB, serving as the sole White House-appointed intern in the Treasury Secretary's front office, and holding VP/director-level leadership positions across five Stanford organizations simultaneously. He is a TEDx speaker, Congressional Commendation recipient, and grand prize winner of a national business competition. However, his profile is overwhelmingly finance and consulting-oriented, with limited technical depth in AI/ML and only surface-level engagement with healthcare as a domain \u2014 primarily through his Biodesign podcast VP role and one pharma consulting project.",
+      "strengths_explanation": "Rohan's raw 'crackedness' is genuinely impressive: the GPA, the Treasury appointment, the fund management, and the sheer volume of high-caliber leadership roles signal exceptional drive and execution ability. He would be one of the most accomplished underclassmen in any room. However, his fit for a Healthcare AI founders dinner is materially weaker. His technical skills are econometric rather than ML/AI, his healthcare exposure is investor-facing rather than clinical or scientific, and there is no evidence of a specific healthcare problem he is trying to solve. He is more likely on a path toward finance, venture capital, or policy than toward founding a healthcare AI company. The Biodesign involvement is a genuine signal of interest, but it has not yet translated into technical or clinical depth. For this specific event, he would be a strong networker and business thinker but would struggle to engage credibly on healthcare AI technical or clinical topics."
+    }
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "crackedness_criteria": [
+    {
+      "name": "Academic Excellence & Rigor",
+      "description": "Measures GPA, coursework difficulty, academic honors, and intellectual horsepower demonstrated through formal education at Stanford or comparable institutions.",
+      "max_points": 20,
+      "scoring_guide": {
+        "high": "GPA 3.9+ with honors distinctions (e.g., Tau Beta Pi), highly technical double major or demanding single major, evidence of graduate-level coursework or research publications listed on Google Scholar. Demonstrates exceptional academic ceiling.",
+        "medium": "GPA 3.5\u20133.89 or strong GPA in a rigorous single major, relevant coursework in CS/engineering/economics, no major academic honors but solid performance in demanding curriculum.",
+        "low": "GPA below 3.5 or unspecified, limited coursework rigor, no academic distinctions, or academic record that does not stand out relative to the Stanford peer group."
+      }
+    },
+    {
+      "name": "Technical & Analytical Skill Depth",
+      "description": "Measures the depth and breadth of hard skills \u2014 programming languages, quantitative methods, research tools, and domain-specific technical competencies that signal ability to build or analyze at a high level.",
+      "max_points": 20,
+      "scoring_guide": {
+        "high": "Proficient in multiple programming languages (e.g., Python, C++, MATLAB, SQL) AND demonstrates applied use in real projects or research. Has quantitative modeling, ML/AI, or financial engineering skills evidenced by concrete outputs (repos, papers, deployed tools).",
+        "medium": "Competent in 1\u20132 relevant technical areas with some applied experience, but depth is narrower or application is more coursework-based than project/industry-based.",
+        "low": "Minimal technical skills listed, no evidence of applied technical work, or skills are generic and not substantiated by projects or experience."
+      }
+    },
+    {
+      "name": "Entrepreneurial Initiative & Builder Mindset",
+      "description": "Measures whether the candidate has taken initiative to create something \u2014 a startup, product, research project, club, or venture \u2014 beyond assigned coursework or internships.",
+      "max_points": 20,
+      "scoring_guide": {
+        "high": "Has founded or co-founded a startup, launched a product with real users/revenue, led a significant independent research initiative, or built something from zero with measurable impact. Participation in accelerators (e.g., Stanford Climate Ventures Accelerator) with active project counts strongly.",
+        "medium": "Has participated in hackathons, led a student organization, contributed meaningfully to an early-stage project, or taken on a leadership role in an entrepreneurial context without full founding credit.",
+        "low": "No evidence of self-initiated projects or entrepreneurial activity beyond standard coursework; primarily a consumer of opportunities rather than a creator."
+      }
+    },
+    {
+      "name": "Professional Experience Quality & Trajectory",
+      "description": "Measures the prestige, relevance, and growth trajectory of internships, research roles, or full-time experience. Evaluates whether the candidate is accelerating and landing increasingly competitive opportunities.",
+      "max_points": 20,
+      "scoring_guide": {
+        "high": "Internships or research roles at top-tier firms (FAANG, leading VC/PE, elite fintech, top research labs), with clear upward trajectory and substantive contributions (not just task completion). Evidence of repeat offers, promotions, or expanding scope.",
+        "medium": "Solid internship or research experience at reputable organizations with some demonstrated impact, but either at mid-tier firms or with less evidence of standout performance or trajectory.",
+        "low": "Limited professional experience, roles at less competitive organizations, or experience that appears peripheral with no clear narrative of growth or increasing responsibility."
+      }
+    },
+    {
+      "name": "Leadership & Outsized Impact",
+      "description": "Measures whether the candidate has led teams, organizations, or initiatives and created impact beyond themselves \u2014 scaling their influence through others or through systems they built.",
+      "max_points": 10,
+      "scoring_guide": {
+        "high": "Held formal leadership positions (president, founder, team lead, PI-level research) with quantifiable outcomes (members grown, revenue generated, papers published, users acquired). Impact clearly extends beyond individual contribution.",
+        "medium": "Some leadership experience (committee lead, project manager, team member with leadership responsibilities) but impact is more localized or outcomes are less clearly quantified.",
+        "low": "No meaningful leadership roles or impact is entirely individual with no evidence of multiplying effort through others."
+      }
+    },
+    {
+      "name": "Intellectual Curiosity & Cross-Domain Thinking",
+      "description": "Measures whether the candidate demonstrates genuine curiosity that crosses disciplinary boundaries \u2014 combining technical, economic, scientific, and humanistic thinking in ways that signal original thought.",
+      "max_points": 10,
+      "scoring_guide": {
+        "high": "Pursues genuinely interdisciplinary work (e.g., biomedical computation + economics, CS + energy science, AI + finance) with evidence that the combination produces novel insights or projects. Engages with ideas outside their primary field in a substantive way.",
+        "medium": "Dual major or minor that suggests breadth, or coursework spanning multiple domains, but the cross-pollination hasn't yet produced distinctive outputs or a clear intellectual identity.",
+        "low": "Narrowly focused on a single domain with no evidence of curiosity beyond core requirements; intellectual profile is conventional for their major."
+      }
+    }
+  ],
+  "fit_criteria": [
+    {
+      "name": "Fintech or Economics Domain Knowledge",
+      "description": "Measures direct knowledge of financial technology, financial systems, economic theory, or markets \u2014 through coursework, research, projects, or work experience specifically in these domains.",
+      "max_points": 30,
+      "scoring_guide": {
+        "high": "Has dedicated coursework in economics, finance, or fintech AND has applied this knowledge in a real context (fintech internship, economics research with publication/presentation, financial modeling project, startup in the space). The candidate can hold a substantive conversation with a VC about market structure, financial products, or economic mechanisms.",
+        "medium": "Has relevant coursework (e.g., economics major or minor, finance electives) or one tangential work experience in a financial context, but has not yet deeply applied this knowledge in a project or professional setting.",
+        "low": "Minimal or no coursework, research, or experience in fintech or economics. Domain knowledge appears incidental rather than intentional."
+      }
+    },
+    {
+      "name": "Startup or VC Ecosystem Exposure",
+      "description": "Measures familiarity with the startup and venture capital ecosystem \u2014 through accelerators, VC internships, startup employment, founder networks, or entrepreneurship programs.",
+      "max_points": 25,
+      "scoring_guide": {
+        "high": "Has worked at a VC firm, been part of a startup accelerator (e.g., Stanford Climate Ventures Accelerator), founded a venture-backed or revenue-generating company, or has a clear track record of engaging with the startup ecosystem in a substantive role. Understands how VCs think about deals, markets, and founders.",
+        "medium": "Has attended startup events, participated in pitch competitions, worked at an early-stage company in a non-founding role, or taken entrepreneurship coursework \u2014 but hasn't yet had deep VC or founder-level exposure.",
+        "low": "No meaningful exposure to the startup or VC ecosystem. Background is primarily academic or corporate with no signal of interest in or understanding of venture-backed company building."
+      }
+    },
+    {
+      "name": "Quantitative & Financial Modeling Capability",
+      "description": "Measures the candidate's ability to work with financial data, build economic models, or apply quantitative methods to financial or economic problems \u2014 a core skill for both fintech builders and economists.",
+      "max_points": 20,
+      "scoring_guide": {
+        "high": "Has built financial models, conducted econometric analysis, worked with market data, or applied ML/statistical methods to financial problems in a research or professional context. Can speak credibly about valuation, risk, or economic measurement.",
+        "medium": "Has relevant coursework in statistics, econometrics, or financial mathematics, and some project-based application, but hasn't yet applied these skills in a high-stakes professional or research context.",
+        "low": "No evidence of quantitative financial or economic modeling. Technical skills exist but have not been directed toward financial or economic problems."
+      }
+    },
+    {
+      "name": "Clarity of Fintech/Economics Vision or Thesis",
+      "description": "Measures whether the candidate has a clear, articulated perspective on a problem in fintech or economics they want to solve or study \u2014 signaling they will be an engaged, value-adding dinner participant.",
+      "max_points": 15,
+      "scoring_guide": {
+        "high": "Resume or profile reveals a coherent narrative around a specific fintech problem (e.g., financial inclusion, DeFi infrastructure, payments, credit markets) or economics research question. The candidate has a point of view, not just credentials. This person will ask sharp questions at the dinner.",
+        "medium": "Some thematic focus is visible (e.g., interest in climate finance, healthcare economics, or emerging markets) but it's not yet fully developed into a clear thesis or problem statement.",
+        "low": "No discernible focus or thesis in fintech or economics. Interests appear scattered or the candidate has not yet developed a perspective on what they want to work on in this space."
+      }
+    },
+    {
+      "name": "Network & Relationship Value for the Room",
+      "description": "Measures whether the candidate brings a network, perspective, or background that adds value to the dinner conversation and to other attendees \u2014 including geographic diversity, industry connections, or unique vantage points.",
+      "max_points": 10,
+      "scoring_guide": {
+        "high": "Has connections to fintech hubs (Chicago, SF, NYC), has worked with or for notable figures in finance or tech, brings a unique geographic or demographic perspective (e.g., emerging market experience, non-traditional background), or has a public profile (research, writing, open-source) that makes them known in the community.",
+        "medium": "Has some relevant connections or a moderately interesting background story, but network value is primarily local (Stanford) or not yet differentiated from the typical Stanford CS/Econ student.",
+        "low": "Network and background are largely undifferentiated from peers; unlikely to bring a unique perspective or connection that enriches the dinner conversation beyond their individual credentials."
+      }
+    }
+  ],
+  "metadata": {
+    "focus_area": "Fintech startup founders and economics-focused candidates for a VC+Founders Dinner; prioritizes candidates who combine technical depth with financial/economic domain knowledge and startup ecosystem engagement",
+    "created_by": "claude"
+  }
+}

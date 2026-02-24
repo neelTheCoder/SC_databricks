@@ -1,0 +1,130 @@
+{
+  "crackedness_criteria": [
+    {
+      "name": "Academic Excellence & Rigor",
+      "description": "Measures the candidate's academic performance, selectivity of coursework, and intellectual horsepower as evidenced by GPA, standardized scores, honors, and depth of technical curriculum",
+      "max_points": 20,
+      "scoring_guide": {
+        "high": "GPA 3.9+ or top engineering honors (e.g., Tau Beta Pi), exceptionally rigorous technical coursework load, near-perfect standardized test scores (ACT 35+/SAT 1550+), or demonstrated academic awards/distinctions. Pursues advanced coursework beyond standard curriculum.",
+        "medium": "GPA 3.5\u20133.89, solid technical coursework, some academic recognition but not top-tier honors. Standard curriculum with a few standout courses.",
+        "low": "GPA below 3.5 or not listed, minimal academic distinction, coursework does not reflect exceptional rigor or intellectual ambition."
+      }
+    },
+    {
+      "name": "Research Depth & Impact",
+      "description": "Measures the quality, independence, and real-world impact of research experience \u2014 including publications, conference presentations, Google Scholar presence, and lab leadership",
+      "max_points": 22,
+      "scoring_guide": {
+        "high": "Published or submitted papers (peer-reviewed journals or top conferences), Google Scholar profile with citations, first-author or significant contributor credit, research at a top lab with named PI, or research that has been externally recognized. Clear evidence of independent scientific thinking.",
+        "medium": "Active research role in a university or industry lab with tangible outputs (poster, preprint, or ongoing project), but no formal publication. Contributes meaningfully to a research agenda without leading it.",
+        "low": "Minimal or no research experience, or research listed without clear outputs, contributions, or continuity. Coursework projects listed as 'research.'"
+      }
+    },
+    {
+      "name": "Technical Skill & Engineering Execution",
+      "description": "Measures hands-on technical ability across software engineering, AI/ML, data science, or biomedical tools \u2014 including the complexity and scale of projects built",
+      "max_points": 20,
+      "scoring_guide": {
+        "high": "Demonstrates mastery of multiple high-relevance technical stacks (e.g., Python, ML frameworks, bioinformatics pipelines, C++). Has built complex, deployed, or open-source projects with real users or measurable outcomes. GitHub or portfolio shows consistent, high-quality output.",
+        "medium": "Proficient in core technical tools with evidence of applying them in projects or internships. Projects are functional but limited in scope, scale, or originality. Skills are listed but partially evidenced.",
+        "low": "Limited technical skills listed with little project evidence, or skills are generic and not demonstrated through concrete work. No GitHub, portfolio, or project outcomes referenced."
+      }
+    },
+    {
+      "name": "Entrepreneurial & Venture Initiative",
+      "description": "Measures the candidate's drive to build, launch, or lead ventures \u2014 including startups founded, accelerator participation, venture-backed projects, or entrepreneurial extracurriculars",
+      "max_points": 18,
+      "scoring_guide": {
+        "high": "Has founded or co-founded a startup (with traction, funding, or users), participated in a competitive accelerator (e.g., Stanford Climate Ventures, Y Combinator, etc.), or led a venture-oriented project with real-world outcomes. Shows a clear builder mentality.",
+        "medium": "Has participated in hackathons, startup competitions, or entrepreneurship clubs with some tangible output. May have explored a startup idea without full launch, or contributed to an early-stage venture in a non-founding role.",
+        "low": "No meaningful entrepreneurial activity. Extracurriculars are purely academic or social with no evidence of initiative to build or launch something independently."
+      }
+    },
+    {
+      "name": "Leadership & Organizational Impact",
+      "description": "Measures the candidate's ability to lead teams, organizations, or initiatives \u2014 including club leadership, team management at internships, or founding community efforts",
+      "max_points": 10,
+      "scoring_guide": {
+        "high": "Holds or has held a significant leadership position (president, director, team lead) in a recognized organization, with evidence of growing the organization, managing people, or delivering measurable outcomes under their leadership.",
+        "medium": "Active member or officer in clubs/organizations, or led a specific project within a larger team. Leadership is present but scope is limited or impact is not clearly articulated.",
+        "low": "No leadership roles listed, or participation is purely as a member with no evidence of initiative or responsibility for others."
+      }
+    },
+    {
+      "name": "Industry Experience & Internship Caliber",
+      "description": "Measures the prestige, relevance, and depth of internship or work experience \u2014 including the selectivity of employers and the sophistication of work performed",
+      "max_points": 10,
+      "scoring_guide": {
+        "high": "Internship(s) at top-tier tech, biotech, or healthcare companies (e.g., Google, NVIDIA, top hospitals, leading AI labs), or a research internship at a nationally recognized institution. Work involved meaningful technical or scientific contribution, not just shadowing.",
+        "medium": "Internship at a mid-tier company or startup with some relevant technical work. Experience is real but may be limited in scope, prestige, or duration.",
+        "low": "No internship experience, or experience is in unrelated fields with no transferable skills relevant to AI, healthcare, or entrepreneurship."
+      }
+    }
+  ],
+  "fit_criteria": [
+    {
+      "name": "Healthcare Domain Knowledge",
+      "description": "Measures the candidate's understanding of and exposure to healthcare systems, clinical workflows, medical data, or biomedical science \u2014 the foundation needed to build meaningful healthcare AI",
+      "max_points": 22,
+      "scoring_guide": {
+        "high": "Formal training in biomedical computation, pre-med coursework, clinical research experience, or direct work with EHR/medical imaging/genomics data. Can speak credibly to healthcare pain points, regulatory environment (FDA, HIPAA), or clinical validation. Major or concentration is healthcare-adjacent.",
+        "medium": "Some exposure to healthcare through coursework, a project, or a tangential internship, but lacks depth or direct clinical/biomedical experience. Understands the space at a surface level.",
+        "low": "No meaningful healthcare exposure. Background is purely in general CS, engineering, or unrelated fields with no evidence of interest in or knowledge of healthcare."
+      }
+    },
+    {
+      "name": "AI/ML Technical Depth for Healthcare Applications",
+      "description": "Measures the candidate's specific AI/ML skills and whether they have been applied to healthcare-relevant problems such as diagnostics, drug discovery, clinical NLP, medical imaging, or patient outcome prediction",
+      "max_points": 25,
+      "scoring_guide": {
+        "high": "Has built or researched AI/ML models applied directly to healthcare data (e.g., medical imaging classification, clinical NLP, genomic analysis, drug-target interaction). Familiar with relevant frameworks (PyTorch, TensorFlow, scikit-learn) and healthcare-specific data challenges (class imbalance, small datasets, interpretability). Published or presented work in this space is a strong signal.",
+        "medium": "Strong general ML/AI skills applied to non-healthcare domains, or healthcare-adjacent AI work (e.g., bioinformatics, general NLP) without direct clinical application. Shows potential to transfer skills but hasn't done so yet.",
+        "low": "Limited AI/ML experience overall, or AI skills exist but have never been applied to anything remotely related to healthcare, biology, or life sciences."
+      }
+    },
+    {
+      "name": "Startup & Founder Mindset Alignment",
+      "description": "Measures how well the candidate's profile aligns with the founder journey \u2014 including comfort with ambiguity, product thinking, user empathy, and the drive to build from zero to one in a high-stakes domain like healthcare",
+      "max_points": 18,
+      "scoring_guide": {
+        "high": "Has founded or seriously explored a startup (ideally in health/bio/tech), participated in accelerators, or demonstrated a pattern of identifying problems and building solutions independently. Shows evidence of talking to users, iterating on ideas, or pitching to investors. Comfortable operating in early-stage, resource-constrained environments.",
+        "medium": "Has participated in entrepreneurship programs, hackathons, or case competitions with a healthcare or tech focus. Interested in founding but hasn't yet taken the leap. Shows product curiosity and problem-solving orientation.",
+        "low": "No entrepreneurial activity or interest evident. Profile suggests a preference for established institutions (academia, big tech) with no signals of wanting to build a company."
+      }
+    },
+    {
+      "name": "Interdisciplinary Thinking (Bio + CS + Business)",
+      "description": "Measures the candidate's ability to bridge multiple disciplines \u2014 the hallmark of successful healthcare AI founders who must navigate science, engineering, clinical reality, and business model simultaneously",
+      "max_points": 18,
+      "scoring_guide": {
+        "high": "Formally studying or demonstrably skilled in at least two of: computer science/AI, biomedical science/biology, economics/business, or clinical medicine. Has applied cross-disciplinary thinking in a project or research context (e.g., building a health economics model, combining ML with wet lab data, or designing a clinical trial with a computational component).",
+        "medium": "Primarily strong in one discipline with meaningful exposure to a second. For example, a CS major who has taken biology courses and worked on a health project, or a biomed major who has learned to code and applied it to research.",
+        "low": "Siloed in a single discipline with no evidence of cross-domain curiosity or application. Unlikely to navigate the complexity of healthcare AI without significant gaps."
+      }
+    },
+    {
+      "name": "Network & Community Engagement in Health/AI Ecosystem",
+      "description": "Measures the candidate's existing connections to and engagement with the healthcare AI ecosystem \u2014 including relevant clubs, conferences, mentors, or professional communities that signal genuine commitment to the space",
+      "max_points": 10,
+      "scoring_guide": {
+        "high": "Active in Stanford or broader health/AI communities (e.g., Stanford AI in Medicine, BMIR, health-focused accelerators, HLTH, HIMSS, or similar). Has mentors or advisors in healthcare AI. Attended or presented at relevant conferences. LinkedIn shows connections to founders, VCs, or clinicians in the space.",
+        "medium": "Some engagement with relevant communities but not deeply embedded. May be a member of a health or AI club without a leadership role, or has attended one relevant event or conference.",
+        "low": "No evidence of engagement with healthcare AI communities, events, or networks. Connections appear to be purely academic or in unrelated industries."
+      }
+    },
+    {
+      "name": "Clarity of Healthcare AI Problem Focus",
+      "description": "Measures whether the candidate has identified a specific, credible problem in healthcare they care about solving \u2014 a key signal of readiness for a VC+Founders dinner where conversations go deep on problem spaces",
+      "max_points": 7,
+      "scoring_guide": {
+        "high": "Resume or profile reveals a consistent thread of work pointing toward a specific healthcare problem (e.g., rare disease diagnosis, mental health triage, clinical documentation burden, drug discovery). The candidate has clearly thought deeply about a problem space and has relevant experience to back it up.",
+        "medium": "General interest in healthcare AI is evident but without a focused problem area. Work spans multiple unrelated healthcare topics or is too broad to suggest a specific thesis.",
+        "low": "No discernible focus on any healthcare problem. Involvement in healthcare appears opportunistic or incidental rather than driven by genuine problem conviction."
+      }
+    }
+  ],
+  "metadata": {
+    "focus_area": "Healthcare AI startup founders and aspiring founders \u2014 evaluating both raw talent/achievement and specific alignment with building AI-driven solutions in the healthcare sector",
+    "created_by": "claude"
+  }
+}

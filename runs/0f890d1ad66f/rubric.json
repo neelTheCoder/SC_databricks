@@ -1,0 +1,120 @@
+{
+  "crackedness_criteria": [
+    {
+      "name": "Academic Excellence & Rigor",
+      "description": "Measures GPA, standardized test scores, academic honors, and selectivity/difficulty of coursework. Reflects raw intellectual horsepower and work ethic in a structured environment.",
+      "max_points": 20,
+      "scoring_guide": {
+        "high": "GPA 3.9+ (or 4.0+ on 4.0 scale), honors societies (e.g., Tau Beta Pi), top standardized scores (ACT 35+/SAT 1550+), enrolled in highly competitive dual-degree or specialized programs. Exemplars: 4.04 GPA with Tau Beta Pi, 3.92 GPA with ACT 36.",
+        "medium": "GPA 3.5\u20133.89, solid academic standing, some honors or recognition, standard degree program at a top university. Demonstrates competence but not exceptional distinction.",
+        "low": "GPA below 3.5 or not listed, no academic honors, no evidence of academic distinction beyond baseline admission to a top school."
+      }
+    },
+    {
+      "name": "Startup & Entrepreneurial Initiative",
+      "description": "Measures whether the candidate has founded, co-founded, or held a formative early role at a startup. Distinguishes between those who have taken the leap versus those who have only observed or supported entrepreneurship.",
+      "max_points": 25,
+      "scoring_guide": {
+        "high": "Has founded or co-founded a company (even early-stage), launched a product with real users or revenue, or held a C-suite/founding-team role at a startup. Evidence of shipping something real, raising money, or acquiring customers.",
+        "medium": "Has worked at an early-stage startup in a meaningful role (e.g., first 10 employees, core engineering or product), participated in an accelerator program (e.g., Stanford Climate Ventures Accelerator), or built a side project with demonstrable traction.",
+        "low": "Startup exposure limited to coursework, case competitions, or club involvement with no evidence of building or shipping anything independently."
+      }
+    },
+    {
+      "name": "Technical & Analytical Depth",
+      "description": "Measures the candidate's demonstrated technical skills \u2014 coding, research, quantitative modeling, or engineering \u2014 that signal the ability to build or analyze at a high level.",
+      "max_points": 20,
+      "scoring_guide": {
+        "high": "Proficient in multiple technical domains (e.g., Python, C++, ML frameworks, financial modeling), has published research or holds patents, has a GitHub with substantive projects, or has applied technical skills in a real-world product or research context.",
+        "medium": "Solid technical skills in one or two areas, coursework in relevant technical subjects, some project or research experience that demonstrates application of skills beyond classroom.",
+        "low": "Limited technical skills listed, no evidence of applied technical work, skills appear surface-level or purely theoretical."
+      }
+    },
+    {
+      "name": "High-Signal Work & Research Experience",
+      "description": "Measures the prestige, impact, and relevance of internships, research positions, and professional roles. Looks for brand-name employers, research labs, or roles with outsized responsibility for someone at their career stage.",
+      "max_points": 20,
+      "scoring_guide": {
+        "high": "Internships or roles at top-tier firms (top VC funds, FAANG, elite startups, national labs), published research with citations (e.g., Google Scholar presence), or roles where they demonstrably led projects or produced outputs beyond their years.",
+        "medium": "Solid internships at reputable companies or university research labs, some evidence of independent contribution, but roles are more standard for a Stanford student.",
+        "low": "Limited or no professional experience, roles are purely administrative or low-impact, or experience is confined to campus clubs without external validation."
+      }
+    },
+    {
+      "name": "Leadership & Ownership Mindset",
+      "description": "Measures whether the candidate has taken on leadership roles \u2014 in clubs, research, projects, or organizations \u2014 that demonstrate initiative, accountability, and the ability to mobilize others.",
+      "max_points": 10,
+      "scoring_guide": {
+        "high": "Founded or led a significant organization, held a president/director/lead role with measurable outcomes, or demonstrated clear ownership over a team or project with real stakes.",
+        "medium": "Active member or officer in clubs/organizations, some leadership responsibilities, but more of a contributor than a driver.",
+        "low": "No evidence of leadership roles or initiative beyond individual contributor work."
+      }
+    },
+    {
+      "name": "Trajectory & Upside Signal",
+      "description": "Measures the candidate's growth rate and future potential \u2014 are they accelerating? Do they show signs of compounding achievement over time? Particularly important for younger candidates (e.g., freshmen/sophomores).",
+      "max_points": 5,
+      "scoring_guide": {
+        "high": "Clear upward trajectory: achievements are getting bigger and more impactful over time, early-year candidates already have outsized accomplishments, or there is a coherent narrative of compounding growth.",
+        "medium": "Steady but linear progression, achievements are consistent but not accelerating, narrative is solid but not exceptional.",
+        "low": "Flat or unclear trajectory, achievements seem scattered or declining, no clear narrative of growth or compounding momentum."
+      }
+    }
+  ],
+  "fit_criteria": [
+    {
+      "name": "Economics & Business Acumen",
+      "description": "Measures direct engagement with economics \u2014 as a major, coursework, research focus, or applied work. For an Economics Startup dinner, candidates should demonstrate they understand economic principles, markets, or business fundamentals.",
+      "max_points": 30,
+      "scoring_guide": {
+        "high": "Economics is a declared major or concentration, has taken advanced economics coursework (econometrics, micro/macro theory, behavioral economics), has conducted economics research, or has applied economic thinking in a startup or investment context.",
+        "medium": "Some economics coursework or exposure (e.g., intro econ, business courses), minor or secondary focus on economics, or economics appears in their work context but is not a primary focus.",
+        "low": "No economics coursework, major, or applied experience. Economics is entirely absent from their profile."
+      }
+    },
+    {
+      "name": "Startup Ecosystem Engagement",
+      "description": "Measures how embedded the candidate is in the startup world \u2014 as a founder, investor, accelerator participant, or active community member. Fit for a Founders Dinner requires genuine startup orientation, not just academic interest.",
+      "max_points": 25,
+      "scoring_guide": {
+        "high": "Has founded a company, participated in a startup accelerator (e.g., Stanford Climate Ventures, Y Combinator), worked at an early-stage startup in a core role, or has made angel investments. Actively building or has built something.",
+        "medium": "Has interned at a startup, participated in startup-adjacent programs (pitch competitions, entrepreneurship clubs), or has a clear stated interest in founding with some supporting evidence.",
+        "low": "No meaningful startup engagement. Interest in startups is implied but not demonstrated through any concrete action or experience."
+      }
+    },
+    {
+      "name": "VC & Investment Awareness",
+      "description": "Measures whether the candidate understands the venture capital ecosystem \u2014 through internships at VC firms, investment research, portfolio analysis, or demonstrated knowledge of how startups are funded and scaled.",
+      "max_points": 20,
+      "scoring_guide": {
+        "high": "Has interned at or worked with a VC firm, angel group, or investment fund; has conducted investment research or due diligence; understands cap tables, term sheets, or startup financing; or has a Google Scholar/research profile related to entrepreneurial finance.",
+        "medium": "Has taken courses in venture capital or entrepreneurial finance, has attended VC-related events or programs, or has peripheral exposure to investment through adjacent roles.",
+        "low": "No evidence of VC awareness, investment knowledge, or engagement with the funding side of the startup ecosystem."
+      }
+    },
+    {
+      "name": "Domain Relevance to Economic Innovation",
+      "description": "Measures whether the candidate's technical or domain expertise is applicable to building economically-oriented startups \u2014 e.g., fintech, climate economics, health economics, AI/ML applied to markets, or data-driven business models.",
+      "max_points": 15,
+      "scoring_guide": {
+        "high": "Domain expertise directly applicable to economic innovation (e.g., AI/ML for financial modeling, climate tech with economic components, biotech with commercialization focus, energy economics). Their technical skills + economics interest form a coherent startup thesis.",
+        "medium": "Domain expertise is adjacent \u2014 strong technical skills that could be applied to economic problems, but the connection is not yet explicit or demonstrated.",
+        "low": "Domain expertise is unrelated to economic innovation, or the candidate has not demonstrated any connection between their technical skills and economic or business applications."
+      }
+    },
+    {
+      "name": "Founder Mindset & Builder Identity",
+      "description": "Measures whether the candidate self-identifies and behaves as a builder/founder \u2014 through side projects, independent ventures, or a demonstrated pattern of creating things rather than just consuming or studying them.",
+      "max_points": 10,
+      "scoring_guide": {
+        "high": "Has independently built products, apps, tools, or businesses outside of class requirements. Shows a pattern of 'seeing a problem and building a solution.' Has shipped things to real users or customers.",
+        "medium": "Has worked on projects with some independence, participated in hackathons or build-a-thons, or has a stated goal of founding a company with some supporting evidence of preparation.",
+        "low": "No evidence of independent building. All projects are class-assigned or employer-directed. No demonstrated founder identity."
+      }
+    }
+  ],
+  "metadata": {
+    "focus_area": "Economics Startup \u2014 candidates evaluated for alignment with economic thinking, startup ecosystem engagement, and VC awareness, alongside overall talent and achievement signals",
+    "created_by": "claude"
+  }
+}

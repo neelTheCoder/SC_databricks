@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Resume Scorer</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-slate-900 text-slate-100 min-h-screen p-8">
+  <div class="max-w-3xl mx-auto space-y-8">
+    <header class="space-y-2">
+      <h1 class="text-3xl font-bold text-blue-400">Resume Intelligence Engine</h1>
+      <p class="text-slate-400">Drag & drop resumes. Generate a rubric. Score + rank.</p>
+    </header>
+
+    <form id="uploadForm" class="space-y-6 bg-slate-800 p-6 rounded-xl border border-slate-700">
+      <div class="grid grid-cols-2 gap-4">
+        <div>
+          <label class="block text-sm font-medium mb-1">Anthropic API Key</label>
+          <input type="password" id="anthropicKey"
+                 class="w-full bg-slate-900 border border-slate-600 rounded p-2 text-sm" />
+        </div>
+        <div>
+          <label class="block text-sm font-medium mb-1">Google API Key</label>
+          <input type="password" id="googleKey"
+                 class="w-full bg-slate-900 border border-slate-600 rounded p-2 text-sm" />
+        </div>
+      </div>
+
+      <div>
+        <label class="block text-sm font-medium mb-1">Event Focus</label>
+        <input type="text" id="prompt" required
+               placeholder='e.g. "AI Infrastructure Founders"'
+               class="w-full bg-slate-900 border border-slate-600 rounded p-2" />
+      </div>
+
+      <div class="flex items-center gap-2">
+        <input id="ensemble" type="checkbox" checked class="h-4 w-4" />
+        <label for="ensemble" class="text-sm text-slate-300">
+          Ensemble mode (Claude + Gemini). Uncheck for Claude-only.
+        </label>
+      </div>
+
+      <div class="space-y-2">
+        <label class="block text-sm font-medium">Resumes (PDF, DOCX, TXT)</label>
+
+        <div id="dropzone"
+             class="border-2 border-dashed border-slate-600 rounded-xl p-6 bg-slate-900/30">
+          <p class="text-slate-300">
+            Drag & drop files here, or
+
+            <label class="text-blue-400 underline cursor-pointer">
+              browse files
+              <input type="file" id="resumeFiles" multiple accept=".pdf,.docx,.txt" class="hidden" />
+            </label>
+
+            <span class="text-slate-500 mx-2">or</span>
+
+            <label class="text-blue-400 underline cursor-pointer">
+              choose folder
+              <input type="file" id="resumeFolder" webkitdirectory directory multiple class="hidden" />
+            </label>
+          </p>
+          <p class="text-xs text-slate-500 mt-2">
+            Tip: you can drop multiple files at once. Folder upload works best in Chrome/Edge.
+          </p>
+        </div>
+
+        <div id="fileList" class="text-sm text-slate-300"></div>
+      </div>
+
+      <button type="submit" id="submitBtn"
+              class="w-full bg-blue-600 hover:bg-blue-500 py-3 rounded-lg font-bold transition">
+        Generate Rubric & Score
+      </button>
+
+      <div id="status" class="hidden text-sm text-slate-300"></div>
+    </form>
+
+    <div id="downloads" class="hidden bg-slate-800 p-6 rounded-xl border border-slate-700 space-y-3">
+      <h2 class="text-xl font-bold">Downloads</h2>
+      <div class="space-y-2 text-sm">
+        <a id="rubricLink" class="text-blue-400 underline" href="#" target="_blank">Download rubric.json</a><br />
+        <a id="rankingsLink" class="text-blue-400 underline" href="#" target="_blank">Download candidate_rankings.xlsx</a><br />
+        <a id="scoresLink" class="text-blue-400 underline" href="#" target="_blank">Download rubric_scores.zip</a>
+      </div>
+    </div>
+
+    <div id="results" class="hidden space-y-4">
+      <h2 class="text-xl font-bold">Ranked Results</h2>
+      <div id="resultsList" class="space-y-2"></div>
+    </div>
+  </div>
+
+  <script>
+    let droppedFiles = [];
+
+    const dropzone = document.getElementById('dropzone');
+    const fileInput = document.getElementById('resumeFiles');
+    const folderInput = document.getElementById('resumeFolder');
+    const fileList = document.getElementById('fileList');
+    const statusEl = document.getElementById('status');
+
+    // Optional: if you want to only allow specific extensions for folder uploads too.
+    const allowedExts = new Set(['pdf', 'docx', 'txt']);
+    function isAllowed(file) {
+      const parts = file.name.split('.');
+      const ext = (parts.length > 1 ? parts.pop() : '').toLowerCase();
+      return allowedExts.has(ext);
+    }
+
+    function renderFileList() {
+      if (!droppedFiles.length) {
+        fileList.innerHTML = '';
+        return;
+      }
+      fileList.innerHTML = `
+        <div class="mt-2">
+          <div class="font-semibold mb-1">Selected files:</div>
+          <ul class="list-disc ml-5">
+            ${droppedFiles.map(f => `<li>${f.webkitRelativePath || f.name}</li>`).join('')}
+          </ul>
+        </div>
+      `;
+    }
+
+    function addFiles(files) {
+      for (const f of files) {
+        if (isAllowed(f)) droppedFiles.push(f);
+      }
+      // de-dupe by name (simple)
+      const seen = new Set();
+      droppedFiles = droppedFiles.filter(f => (seen.has(f.name) ? false : seen.add(f.name)));
+      renderFileList();
+    }
+
+    dropzone.addEventListener('dragover', (e) => {
+      e.preventDefault();
+      dropzone.classList.add('border-blue-500');
+    });
+
+    dropzone.addEventListener('dragleave', () => {
+      dropzone.classList.remove('border-blue-500');
+    });
+
+    dropzone.addEventListener('drop', (e) => {
+      e.preventDefault();
+      dropzone.classList.remove('border-blue-500');
+      addFiles(e.dataTransfer.files);
+    });
+
+    fileInput.addEventListener('change', (e) => addFiles(e.target.files));
+    folderInput.addEventListener('change', (e) => addFiles(e.target.files));
+
+    document.getElementById('uploadForm').onsubmit = async (e) => {
+      e.preventDefault();
+
+      const btn = document.getElementById('submitBtn');
+      btn.disabled = true;
+      btn.innerText = "Processing (can take a bit)...";
+
+      statusEl.classList.remove('hidden');
+      statusEl.textContent = "Uploading & scoring...";
+
+      const formData = new FormData();
+      formData.append('anthropic_key', document.getElementById('anthropicKey').value);
+      formData.append('google_key', document.getElementById('googleKey').value);
+      formData.append('prompt', document.getElementById('prompt').value);
+      formData.append('ensemble', document.getElementById('ensemble').checked ? "true" : "false");
+
+      for (const f of droppedFiles) formData.append('files', f);
+
+      try {
+        const response = await fetch('/api/process', { method: 'POST', body: formData });
+        const data = await response.json();
+
+        if (!response.ok) {
+          throw new Error(data.error || "Unknown server error");
+        }
+
+        // Downloads
+        document.getElementById('downloads').classList.remove('hidden');
+        document.getElementById('rubricLink').href = data.rubric_download;
+        document.getElementById('rankingsLink').href = data.rankings_download;
+        document.getElementById('scoresLink').href = data.detailed_scores_download;
+
+        // Results
+        document.getElementById('results').classList.remove('hidden');
+        const list = document.getElementById('resultsList');
+        list.innerHTML = data.results.map(res => `
+          <div class="bg-slate-800 p-4 rounded border-l-4 border-blue-500">
+            <div class="flex justify-between items-baseline gap-4">
+              <div>
+                <div class="font-bold">
+                  #${res.rank} — ${res.filename}
+                </div>
+                <div class="text-xs text-slate-400 mt-1">
+                  Crackedness: ${res.total_crackedness} • Fit: ${res.total_fit}
+                </div>
+              </div>
+              <div class="text-blue-400 font-bold text-lg">
+                ${res.composite_score}
+              </div>
+            </div>
+            <p class="text-sm text-slate-300 mt-3">${res.candidate_description || ""}</p>
+            <p class="text-xs text-slate-400 mt-2">${res.strengths_explanation || ""}</p>
+          </div>
+        `).join('');
+
+        statusEl.textContent = "Done.";
+      } catch (err) {
+        console.error(err);
+        alert(err.message || "Error processing resumes.");
+        statusEl.textContent = "Error.";
+      } finally {
+        btn.disabled = false;
+        btn.innerText = "Generate Rubric & Score";
+      }
+    };
+  </script>
+</body>
+</html>
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Resume Scorer</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-slate-900 text-slate-100 min-h-screen p-8">
+  <div class="max-w-3xl mx-auto space-y-8">
+    <header class="space-y-2">
+      <h1 class="text-3xl font-bold text-blue-400">Resume Intelligence Engine</h1>
+      <p class="text-slate-400">Drag & drop resumes. Generate a rubric. Score + rank.</p>
+    </header>
+
+    <form id="uploadForm" class="space-y-6 bg-slate-800 p-6 rounded-xl border border-slate-700">
+      <div class="grid grid-cols-2 gap-4">
+        <div>
+          <label class="block text-sm font-medium mb-1">Anthropic API Key</label>
+          <input type="password" id="anthropicKey"
+                 class="w-full bg-slate-900 border border-slate-600 rounded p-2 text-sm" />
+        </div>
+        <div>
+          <label class="block text-sm font-medium mb-1">Google API Key</label>
+          <input type="password" id="googleKey"
+                 class="w-full bg-slate-900 border border-slate-600 rounded p-2 text-sm" />
+        </div>
+      </div>
+
+      <div>
+        <label class="block text-sm font-medium mb-1">Event Focus</label>
+        <input type="text" id="prompt" required
+               placeholder='e.g. "AI Infrastructure Founders"'
+               class="w-full bg-slate-900 border border-slate-600 rounded p-2" />
+      </div>
+
+      <div class="flex items-center gap-2">
+        <input id="ensemble" type="checkbox" checked class="h-4 w-4" />
+        <label for="ensemble" class="text-sm text-slate-300">
+          Ensemble mode (Claude + Gemini). Uncheck for Claude-only.
+        </label>
+      </div>
+
+      <div class="space-y-2">
+        <label class="block text-sm font-medium">Resumes (PDF, DOCX, TXT)</label>
+
+        <div id="dropzone"
+             class="border-2 border-dashed border-slate-600 rounded-xl p-6 bg-slate-900/30">
+          <p class="text-slate-300">
+            Drag & drop files here, or
+            <label class="text-blue-400 underline cursor-pointer">
+              browse
+              <input type="file" id="resumeFiles" multiple accept=".pdf,.docx,.txt" class="hidden" />
+            </label>
+          </p>
+          <p class="text-xs text-slate-500 mt-2">Tip: you can drop multiple files at once.</p>
+        </div>
+
+        <div id="fileList" class="text-sm text-slate-300"></div>
+      </div>
+
+      <button type="submit" id="submitBtn"
+              class="w-full bg-blue-600 hover:bg-blue-500 py-3 rounded-lg font-bold transition">
+        Generate Rubric & Score
+      </button>
+
+      <div id="status" class="hidden text-sm text-slate-300"></div>
+    </form>
+
+    <div id="downloads" class="hidden bg-slate-800 p-6 rounded-xl border border-slate-700 space-y-3">
+      <h2 class="text-xl font-bold">Downloads</h2>
+      <div class="space-y-2 text-sm">
+        <a id="rubricLink" class="text-blue-400 underline" href="#" target="_blank">Download rubric.json</a><br />
+        <a id="rankingsLink" class="text-blue-400 underline" href="#" target="_blank">Download candidate_rankings.xlsx</a><br />
+        <a id="scoresLink" class="text-blue-400 underline" href="#" target="_blank">Download rubric_scores.zip</a>
+      </div>
+    </div>
+
+    <div id="results" class="hidden space-y-4">
+      <h2 class="text-xl font-bold">Ranked Results</h2>
+      <div id="resultsList" class="space-y-2"></div>
+    </div>
+  </div>
+
+  <script>
+    let droppedFiles = [];
+
+    const dropzone = document.getElementById('dropzone');
+    const fileInput = document.getElementById('resumeFiles');
+    const fileList = document.getElementById('fileList');
+    const statusEl = document.getElementById('status');
+
+    function renderFileList() {
+      if (!droppedFiles.length) {
+        fileList.innerHTML = '';
+        return;
+      }
+      fileList.innerHTML = `
+        <div class="mt-2">
+          <div class="font-semibold mb-1">Selected files:</div>
+          <ul class="list-disc ml-5">
+            ${droppedFiles.map(f => `<li>${f.name}</li>`).join('')}
+          </ul>
+        </div>
+      `;
+    }
+
+    function addFiles(files) {
+      for (const f of files) droppedFiles.push(f);
+      // de-dupe by name (simple)
+      const seen = new Set();
+      droppedFiles = droppedFiles.filter(f => (seen.has(f.name) ? false : seen.add(f.name)));
+      renderFileList();
+    }
+
+    dropzone.addEventListener('dragover', (e) => {
+      e.preventDefault();
+      dropzone.classList.add('border-blue-500');
+    });
+
+    dropzone.addEventListener('dragleave', () => {
+      dropzone.classList.remove('border-blue-500');
+    });
+
+    dropzone.addEventListener('drop', (e) => {
+      e.preventDefault();
+      dropzone.classList.remove('border-blue-500');
+      addFiles(e.dataTransfer.files);
+    });
+
+    fileInput.addEventListener('change', (e) => addFiles(e.target.files));
+
+    document.getElementById('uploadForm').onsubmit = async (e) => {
+      e.preventDefault();
+
+      const btn = document.getElementById('submitBtn');
+      btn.disabled = true;
+      btn.innerText = "Processing (can take a bit)...";
+
+      statusEl.classList.remove('hidden');
+      statusEl.textContent = "Uploading & scoring...";
+
+      const formData = new FormData();
+      formData.append('anthropic_key', document.getElementById('anthropicKey').value);
+      formData.append('google_key', document.getElementById('googleKey').value);
+      formData.append('prompt', document.getElementById('prompt').value);
+      formData.append('ensemble', document.getElementById('ensemble').checked ? "true" : "false");
+
+      for (const f of droppedFiles) formData.append('files', f);
+
+      try {
+        const response = await fetch('/api/process', { method: 'POST', body: formData });
+        const data = await response.json();
+
+        if (!response.ok) {
+          throw new Error(data.error || "Unknown server error");
+        }
+
+        // Downloads
+        document.getElementById('downloads').classList.remove('hidden');
+        document.getElementById('rubricLink').href = data.rubric_download;
+        document.getElementById('rankingsLink').href = data.rankings_download;
+        document.getElementById('scoresLink').href = data.detailed_scores_download;
+
+        // Results
+        document.getElementById('results').classList.remove('hidden');
+        const list = document.getElementById('resultsList');
+        list.innerHTML = data.results.map(res => `
+          <div class="bg-slate-800 p-4 rounded border-l-4 border-blue-500">
+            <div class="flex justify-between items-baseline gap-4">
+              <div>
+                <div class="font-bold">
+                  #${res.rank} — ${res.filename}
+                </div>
+                <div class="text-xs text-slate-400 mt-1">
+                  Crackedness: ${res.total_crackedness} • Fit: ${res.total_fit}
+                </div>
+              </div>
+              <div class="text-blue-400 font-bold text-lg">
+                ${res.composite_score}
+              </div>
+            </div>
+            <p class="text-sm text-slate-300 mt-3">${res.candidate_description || ""}</p>
+            <p class="text-xs text-slate-400 mt-2">${res.strengths_explanation || ""}</p>
+          </div>
+        `).join('');
+
+        statusEl.textContent = "Done.";
+      } catch (err) {
+        console.error(err);
+        alert(err.message || "Error processing resumes.");
+        statusEl.textContent = "Error.";
+      } finally {
+        btn.disabled = false;
+        btn.innerText = "Generate Rubric & Score";
+      }
+    };
+  </script>
+</body>
+</html> -->

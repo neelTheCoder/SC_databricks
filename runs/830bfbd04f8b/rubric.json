@@ -1,0 +1,120 @@
+{
+  "crackedness_criteria": [
+    {
+      "name": "Academic Excellence & Rigor",
+      "description": "Measures GPA, selectivity of institution, difficulty of coursework, and academic honors. Reflects raw intellectual horsepower and discipline.",
+      "max_points": 20,
+      "scoring_guide": {
+        "high": "GPA 3.9+ at a top-tier institution (e.g., Stanford), enrolled in a highly technical or dual major (CS, BME, Math, Economics), academic honors such as Tau Beta Pi or Dean's List, and coursework that goes beyond requirements (graduate-level classes, specialized tracks like AI). Earns 16-20 points.",
+        "medium": "GPA 3.5-3.89, solid major at a strong institution, some honors or advanced coursework but nothing exceptional. Earns 8-15 points.",
+        "low": "GPA below 3.5 or not listed, less rigorous major or institution, minimal academic distinction. Earns 0-7 points."
+      }
+    },
+    {
+      "name": "Entrepreneurial Initiative & Startup Experience",
+      "description": "Measures whether the candidate has founded, co-founded, or played a meaningful early-stage role at a startup. Distinguishes builders from observers.",
+      "max_points": 25,
+      "scoring_guide": {
+        "high": "Has founded or co-founded a company (even if early-stage), launched a product with real users or revenue, or held a founding/early employee role at a startup with demonstrable impact (e.g., raised funding, hit growth metrics). Earns 20-25 points.",
+        "medium": "Has worked at a startup in a substantive role (intern or part-time) with clear contributions, or has a side project with real traction but not yet a formal company. Earns 10-19 points.",
+        "low": "No startup experience; only large company internships or purely academic projects with no external deployment. Earns 0-9 points."
+      }
+    },
+    {
+      "name": "Technical Depth & Skill Stack",
+      "description": "Measures the candidate's hands-on technical capabilities \u2014 coding, engineering, data science, research \u2014 that signal ability to build or deeply understand products.",
+      "max_points": 20,
+      "scoring_guide": {
+        "high": "Proficient in multiple programming languages (Python, C++, JavaScript, etc.), has shipped real software or research tools, contributed to open-source or published technical work, and demonstrates applied technical skills beyond coursework (e.g., ML models in production, published GitHub repos, patents). Earns 16-20 points.",
+        "medium": "Solid technical skills demonstrated through coursework and internships, familiar with relevant tools and languages, but limited evidence of independent technical creation or deployment. Earns 8-15 points.",
+        "low": "Minimal technical skills listed or demonstrated, primarily non-technical roles, or technical skills are only theoretical. Earns 0-7 points."
+      }
+    },
+    {
+      "name": "High-Signal Work Experience & Internships",
+      "description": "Measures the prestige, relevance, and impact of internships and work experiences. Distinguishes candidates who have been selected by competitive organizations and delivered results.",
+      "max_points": 20,
+      "scoring_guide": {
+        "high": "Internships or roles at top-tier tech companies (Google, Meta, Jane Street, etc.), leading VC firms, or high-growth startups; multiple competitive experiences; clear evidence of impact (shipped features, generated revenue, led teams). Earns 16-20 points.",
+        "medium": "Internships at reputable but not top-tier companies, or one strong experience alongside less competitive ones; contributions are described but impact is modest or unclear. Earns 8-15 points.",
+        "low": "Limited or no professional work experience, or experiences at organizations with low selectivity and unclear impact. Earns 0-7 points."
+      }
+    },
+    {
+      "name": "Leadership & Extracurricular Impact",
+      "description": "Measures whether the candidate has taken initiative outside the classroom \u2014 leading clubs, organizing events, competing at a high level, or creating communities. Signals drive and social capital.",
+      "max_points": 10,
+      "scoring_guide": {
+        "high": "Founded or led a significant campus organization, held executive roles in multiple clubs, competed nationally or internationally (hackathons, case competitions, athletics), or organized events with real community impact. Earns 8-10 points.",
+        "medium": "Active member or officer in one or two clubs, participated in competitions without top placements, or has extracurriculars that show engagement but limited leadership. Earns 4-7 points.",
+        "low": "Minimal extracurricular involvement, no leadership roles, or activities listed are purely resume-padding with no depth. Earns 0-3 points."
+      }
+    },
+    {
+      "name": "Research & Intellectual Contribution",
+      "description": "Measures whether the candidate has contributed to advancing knowledge \u2014 through academic research, publications, patents, or original analysis \u2014 signaling curiosity and depth of thinking.",
+      "max_points": 5,
+      "scoring_guide": {
+        "high": "Published or co-authored research (peer-reviewed or preprint), has a Google Scholar profile, holds or filed a patent, or has conducted independent research with a faculty mentor resulting in a tangible output. Earns 4-5 points.",
+        "medium": "Has participated in a research lab or project but without a formal publication or patent; research is ongoing or resulted in an internal report. Earns 2-3 points.",
+        "low": "No research experience or only a brief, superficial lab rotation with no output. Earns 0-1 points."
+      }
+    }
+  ],
+  "fit_criteria": [
+    {
+      "name": "Direct Fintech Experience or Projects",
+      "description": "Measures whether the candidate has worked at, built, or meaningfully contributed to a fintech company, product, or project \u2014 payments, lending, investing, banking, insurance, crypto, etc.",
+      "max_points": 30,
+      "scoring_guide": {
+        "high": "Has worked at a fintech company (e.g., Stripe, Robinhood, Plaid, Brex, or similar), built a fintech product with real users, or led a fintech-focused startup. Experience is substantive and recent. Earns 24-30 points.",
+        "medium": "Has a fintech-adjacent internship (e.g., traditional finance + tech overlap, banking software, financial data), a class project with a fintech angle, or involvement in a fintech club or accelerator. Earns 12-23 points.",
+        "low": "No direct fintech experience; background is purely technical or academic with no financial services angle. Earns 0-11 points."
+      }
+    },
+    {
+      "name": "Finance & Business Acumen",
+      "description": "Measures the candidate's understanding of financial systems, markets, business models, and economics \u2014 critical for engaging meaningfully with fintech founders and VCs at the dinner.",
+      "max_points": 20,
+      "scoring_guide": {
+        "high": "Has studied economics, finance, or business formally (major/minor), has worked in investment banking, VC, PE, or trading, or demonstrates clear understanding of financial concepts through projects or writing. Earns 16-20 points.",
+        "medium": "Has taken some finance or economics coursework, has a basic understanding of business models from internships, or has engaged with financial topics in a club setting (e.g., investment club). Earns 8-15 points.",
+        "low": "No finance or business background; purely technical or scientific focus with no demonstrated interest in financial systems. Earns 0-7 points."
+      }
+    },
+    {
+      "name": "Relevant Technical Skills for Fintech",
+      "description": "Measures whether the candidate's technical skills are applicable to fintech \u2014 data engineering, ML for risk/fraud, blockchain, APIs, security, or financial modeling.",
+      "max_points": 20,
+      "scoring_guide": {
+        "high": "Has applied technical skills directly to fintech problems (e.g., built a trading algorithm, fraud detection model, payment API, or DeFi protocol); skills in Python, SQL, or ML with financial data experience. Earns 16-20 points.",
+        "medium": "Has strong general technical skills (software engineering, data science) that are clearly transferable to fintech, even if not yet applied in that domain. Earns 8-15 points.",
+        "low": "Technical skills are narrow or domain-specific in ways that don't translate to fintech (e.g., purely biomedical hardware or climate engineering). Earns 0-7 points."
+      }
+    },
+    {
+      "name": "Startup & VC Ecosystem Engagement",
+      "description": "Measures whether the candidate is actively plugged into the startup and venture ecosystem \u2014 attending events, working with VCs, participating in accelerators, or building a network in the space.",
+      "max_points": 15,
+      "scoring_guide": {
+        "high": "Has interned at a VC firm, participated in a startup accelerator (e.g., YC, Stanford StartX, Dorm Room Fund), is a member of a startup-focused organization, or has a track record of attending and contributing to founder/investor events. Earns 12-15 points.",
+        "medium": "Has some exposure to the VC/startup ecosystem through clubs, one-off events, or a single accelerator program, but engagement is not sustained or deep. Earns 6-11 points.",
+        "low": "No visible engagement with the startup or VC ecosystem; background is purely academic or corporate with no entrepreneurial network. Earns 0-5 points."
+      }
+    },
+    {
+      "name": "Clarity of Fintech Vision or Problem Focus",
+      "description": "Measures whether the candidate has a clear, articulated interest in a specific fintech problem space \u2014 financial inclusion, payments infrastructure, wealth management, RegTech, etc. \u2014 signaling they will add value to dinner conversations.",
+      "max_points": 15,
+      "scoring_guide": {
+        "high": "Resume or profile clearly signals a focused interest in a specific fintech vertical (e.g., has built in that space, written about it, or structured their career around it); candidate can likely speak with conviction about a fintech problem and potential solution. Earns 12-15 points.",
+        "medium": "Has a general interest in fintech evidenced by coursework, clubs, or internships, but no clear thesis or focused problem area; would engage meaningfully but not lead the conversation. Earns 6-11 points.",
+        "low": "No discernible fintech interest or focus; would struggle to contribute substantively to fintech-specific discussions at the dinner. Earns 0-5 points."
+      }
+    }
+  ],
+  "metadata": {
+    "focus_area": "Fintech startup founders and investors dinner \u2014 prioritizes candidates with financial technology experience, startup building credentials, finance/business acumen, and active engagement in the venture ecosystem",
+    "created_by": "claude"
+  }
+}

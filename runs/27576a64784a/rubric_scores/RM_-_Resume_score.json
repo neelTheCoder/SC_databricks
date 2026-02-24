@@ -1,0 +1,103 @@
+{
+  "filename": "RM_-_Resume.pdf",
+  "total_crackedness": 85.7,
+  "total_fit": 83.8,
+  "candidate_description": "Romal Mitr is a Stanford sophomore/junior studying Biomedical Computation with a 4.04 GPA and Tau Beta Pi honors \u2014 an exceptionally credentialed candidate who combines elite academic performance with genuine entrepreneurial execution. He is the CEO/Co-Founder of ContinuuMed, a health tech startup focused on reducing geriatric hospital readmissions, affiliated with Stanford Biodesign and piloting a clinical study with Stanford's Head of Geriatrics. His research portfolio spans computational genomics at the Stanford Snyder Lab (pending publication), cardiovascular disease prediction via ML at Oxford, and AI-enabled oncotherapy at Siemens Healthineers. He has also founded a global environmental initiative, given a TEDx talk, and consulted for Google DeepMind \u2014 demonstrating a rare combination of technical depth, clinical domain knowledge, and founder-level initiative for someone still in their early undergraduate years.",
+  "strengths_explanation": "Romal stands out as one of the strongest possible profiles for a Healthcare AI VC+Founders dinner. His Biomedical Computation major at Stanford, combined with a 4.04 GPA and Tau Beta Pi membership, signals exceptional intellectual horsepower in exactly the right discipline. What truly differentiates him is the rare alignment of all key dimensions simultaneously: he has applied ML to real healthcare datasets (metabolomics, cardiovascular wearables, oncotherapy), is actively building a startup with clinical partnerships and measurable outcome targets, and has embedded himself in the Stanford Biodesign ecosystem \u2014 one of the most prestigious health innovation communities in the world. Two pending publications as an undergraduate, work at Siemens Healthineers, and a long-term commitment to rare disease research at the Rare Genomics Institute further demonstrate sustained, not opportunistic, engagement with healthcare. His primary limitation is that his work spans many healthcare subdomains, which could suggest breadth over depth in problem conviction, and his AI/ML toolkit leans more classical (ARMA, K-means, Random Forest) than frontier deep learning. The startup is also very early-stage with modest funding. Nevertheless, for his year in school, this profile is exceptional and he is clearly on a founder trajectory in healthcare AI.",
+  "detailed_scores": {
+    "claude": {
+      "crackedness_scores": [
+        {
+          "criterion": "Academic Excellence & Rigor",
+          "points_awarded": 19.2,
+          "max_points": 20,
+          "percentage": 96.0,
+          "evidence": "GPA 4.04 at Stanford (above 4.0 scale, indicating A+ performance), Tau Beta Pi Engineering Honors Society membership, Valedictorian at high school with 4.85/4 GPA, National Merit Scholar, International Baccalaureate Diploma. Major in Biomedical Computation is one of Stanford's most rigorous interdisciplinary programs. Oxford study abroad for ML research adds further academic distinction. Near-perfect academic record across multiple institutions."
+        },
+        {
+          "criterion": "Research Depth & Impact",
+          "points_awarded": 17.8,
+          "max_points": 22,
+          "percentage": 80.9,
+          "evidence": "Multiple research roles with tangible outputs: Stanford Snyder Lab (Dept. of Genetics) with publication pending on novel benchmarking method using Random Forest for metabolomics; Oxford Internet Institute with 83% accuracy cardiovascular disease prediction model; Siemens Healthineers with review paper pending publication on adaptive radiotherapy. Solved 4 undiagnosed rare disease cases via computational pipeline at Snyder Lab. Two pending publications is strong for a sophomore/junior. Lacks first-author confirmed publications or Google Scholar citations yet, preventing top-tier score."
+        },
+        {
+          "criterion": "Technical Skill & Engineering Execution",
+          "points_awarded": 16.4,
+          "max_points": 20,
+          "percentage": 82.0,
+          "evidence": "Python, C++, MATLAB demonstrated across multiple projects. Built computational metabolomics pipeline for UDN data. Applied ARMA models, K-means clustering, unsupervised learning, Random Forest to real biomedical datasets. Integrated STORM AI at Rare Genomics Institute. Built AI companion tool for geriatric discharge (ContinuuMed). Skills are evidenced through real deployments and research outputs, not just listed. However, no GitHub referenced, no mention of PyTorch/TensorFlow/deep learning frameworks specifically, and ML depth appears more statistical than cutting-edge deep learning."
+        },
+        {
+          "criterion": "Entrepreneurial & Venture Initiative",
+          "points_awarded": 15.3,
+          "max_points": 18,
+          "percentage": 85.0,
+          "evidence": "Co-Founder and CEO of ContinuuMed, an early-stage health tech startup featured on Stanford Biodesign's website, with a pilot QI study launching with Stanford's Head of Geriatrics and $1,000 seed funding from Stanford Center for Biodesign. Claims 45% reduction in 30-day readmission rate and 10% cost reduction for hospitals. Also founded 'Reimagining Earth' environmental initiative with real-world outputs (documentary screened at AMC Empire, TEDx talk, mapathons). Strong builder mentality evidenced across multiple initiatives. Funding is modest ($1K) and traction metrics need validation, preventing maximum score."
+        },
+        {
+          "criterion": "Leadership & Organizational Impact",
+          "points_awarded": 8.3,
+          "max_points": 10,
+          "percentage": 83.0,
+          "evidence": "CEO/Co-Founder of ContinuuMed with clinical partnerships. Founder of Reimagining Earth with measurable community impact (73 maps, documentary, TEDx). Senior Consultant at Stanford Consulting (client: Google DeepMind), conducting landscape analysis of 100+ students. Stanford Tour Guide role. Leadership is present across multiple domains with measurable outcomes. However, organizational scale is relatively modest and team sizes are not specified for most roles."
+        },
+        {
+          "criterion": "Industry Experience & Internship Caliber",
+          "points_awarded": 8.7,
+          "max_points": 10,
+          "percentage": 87.0,
+          "evidence": "Siemens Healthineers internship (top-tier medical device/healthtech company) with authored review paper pending publication \u2014 well above shadowing level. Oxford Internet Institute research role is a prestigious international institution. Rare Genomics Institute internship since 2020 shows sustained commitment. Stanford Snyder Lab is a world-renowned genetics lab. Strong portfolio of relevant, high-caliber experiences for a student still in their sophomore/junior year. Slightly below maximum as Siemens role is first listed industry internship and duration/depth of some roles is unclear."
+        }
+      ],
+      "fit_scores": [
+        {
+          "criterion": "Healthcare Domain Knowledge",
+          "points_awarded": 20.1,
+          "max_points": 22,
+          "percentage": 91.4,
+          "evidence": "Major in Biomedical Computation at Stanford is directly healthcare-adjacent. Deep exposure across multiple healthcare domains: geriatric care and hospital readmissions (ContinuuMed), rare disease genomics (Snyder Lab, Rare Genomics Institute), cardiovascular disease prediction (Oxford), oncotherapy and radiotherapy (Siemens Healthineers), malnutrition diagnostics via CT imaging (Stanford Healthcare Consulting). Engaged with Stanford Biodesign ecosystem. Clinical partnership with Stanford's Head of Geriatrics. Authored 35+ medical synopses. Broad and deep healthcare exposure across clinical, research, and industry settings."
+        },
+        {
+          "criterion": "AI/ML Technical Depth for Healthcare Applications",
+          "points_awarded": 19.8,
+          "max_points": 25,
+          "percentage": 79.2,
+          "evidence": "Built cardiovascular disease prediction model (83% accuracy) using ARMA, K-means, unsupervised learning on wearable data. Engineered metabolomics pipeline using Random Forest for rare disease diagnosis. Integrated STORM AI for rare disease descriptions. Built AI companion tool for geriatric discharge. Authored review on AI-enabled tumor contouring. AI/ML work is consistently applied to healthcare problems. However, no mention of deep learning frameworks (PyTorch, TensorFlow), no published peer-reviewed ML paper yet, and model complexity appears more classical ML than frontier AI. Strong but not at the level of someone with published deep learning healthcare work."
+        },
+        {
+          "criterion": "Startup & Founder Mindset Alignment",
+          "points_awarded": 14.6,
+          "max_points": 18,
+          "percentage": 81.1,
+          "evidence": "Active CEO/Co-Founder of ContinuuMed with Stanford Biodesign affiliation, clinical pilot study, and quantified impact metrics. Featured on Stanford Biodesign showcase page \u2014 signals participation in a structured health innovation program. Has identified a specific user (geriatric patients post-discharge), a specific problem (30-day readmissions), and is executing with clinical partners. Prior founding experience with Reimagining Earth shows pattern of initiative. Funding is early ($1K) and the startup is very nascent, but the trajectory and ecosystem engagement are strong signals of founder mindset."
+        },
+        {
+          "criterion": "Interdisciplinary Thinking (Bio + CS + Business)",
+          "points_awarded": 15.7,
+          "max_points": 18,
+          "percentage": 87.2,
+          "evidence": "Biomedical Computation major inherently bridges biology and CS. Applied ML to genomics (Snyder Lab), cardiovascular wearables (Oxford), and oncotherapy (Siemens). Consulting work for Stanford Healthcare Consulting Group shows business/strategy thinking applied to clinical AI implementation. CEO role requires business model thinking. TEDx talk on scientific communication shows ability to translate technical work for broader audiences. Consulting for Google DeepMind adds tech-business dimension. Strong three-way integration of bio, CS, and applied business thinking, though formal business/economics coursework not explicitly listed."
+        },
+        {
+          "criterion": "Network & Community Engagement in Health/AI Ecosystem",
+          "points_awarded": 8.2,
+          "max_points": 10,
+          "percentage": 82.0,
+          "evidence": "Stanford Biodesign affiliation is a top-tier health innovation ecosystem. Clinical partnership with Stanford's Head of Geriatrics. Presented at Stanford's 'Annual Lean Healthcare Academic Conference' and 'Big Ideas in Medicine Conference.' Oxford Internet Institute connection. Siemens Healthineers network. Rare Genomics Institute long-term engagement. Stanford Healthcare Consulting Group. Strong network for a sophomore/junior, though no explicit mention of VC connections, HLTH/HIMSS attendance, or AI in Medicine club leadership."
+        },
+        {
+          "criterion": "Clarity of Healthcare AI Problem Focus",
+          "points_awarded": 5.4,
+          "max_points": 7,
+          "percentage": 77.1,
+          "evidence": "ContinuuMed shows a specific, well-defined focus: reducing 30-day readmission rates for geriatric patients post-discharge using AI. This is a credible, high-impact problem with clear stakeholders and measurable outcomes. However, the broader resume spans many healthcare areas (rare disease, cardiovascular, oncotherapy, malnutrition) which, while impressive, dilutes the sense of singular problem conviction. The geriatric discharge problem is the clearest thread but competes with many other directions."
+        }
+      ],
+      "total_crackedness": 85.7,
+      "total_fit": 83.8,
+      "candidate_description": "Romal Mitr is a Stanford sophomore/junior studying Biomedical Computation with a 4.04 GPA and Tau Beta Pi honors \u2014 an exceptionally credentialed candidate who combines elite academic performance with genuine entrepreneurial execution. He is the CEO/Co-Founder of ContinuuMed, a health tech startup focused on reducing geriatric hospital readmissions, affiliated with Stanford Biodesign and piloting a clinical study with Stanford's Head of Geriatrics. His research portfolio spans computational genomics at the Stanford Snyder Lab (pending publication), cardiovascular disease prediction via ML at Oxford, and AI-enabled oncotherapy at Siemens Healthineers. He has also founded a global environmental initiative, given a TEDx talk, and consulted for Google DeepMind \u2014 demonstrating a rare combination of technical depth, clinical domain knowledge, and founder-level initiative for someone still in their early undergraduate years.",
+      "strengths_explanation": "Romal stands out as one of the strongest possible profiles for a Healthcare AI VC+Founders dinner. His Biomedical Computation major at Stanford, combined with a 4.04 GPA and Tau Beta Pi membership, signals exceptional intellectual horsepower in exactly the right discipline. What truly differentiates him is the rare alignment of all key dimensions simultaneously: he has applied ML to real healthcare datasets (metabolomics, cardiovascular wearables, oncotherapy), is actively building a startup with clinical partnerships and measurable outcome targets, and has embedded himself in the Stanford Biodesign ecosystem \u2014 one of the most prestigious health innovation communities in the world. Two pending publications as an undergraduate, work at Siemens Healthineers, and a long-term commitment to rare disease research at the Rare Genomics Institute further demonstrate sustained, not opportunistic, engagement with healthcare. His primary limitation is that his work spans many healthcare subdomains, which could suggest breadth over depth in problem conviction, and his AI/ML toolkit leans more classical (ARMA, K-means, Random Forest) than frontier deep learning. The startup is also very early-stage with modest funding. Nevertheless, for his year in school, this profile is exceptional and he is clearly on a founder trajectory in healthcare AI."
+    }
+  }
+}
