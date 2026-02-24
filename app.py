@@ -17,7 +17,8 @@ BASE_DIR = Path(__file__).resolve().parent
 RUNS_DIR = BASE_DIR / "runs"  # each request gets a unique run folder
 RUNS_DIR.mkdir(exist_ok=True)
 
-app = Flask(__name__)
+#app = Flask(__name__)
+app = Flask(__name__, template_folder=".")
 app.config["MAX_CONTENT_LENGTH"] = 250 * 1024 * 1024  # 250MB total upload cap
 
 
