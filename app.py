@@ -5,6 +5,7 @@ import uuid
 import shutil
 import zipfile
 from pathlib import Path
+import tempfile  # ✅ ADDED: for Vercel-safe writable directory
 
 # Import your existing code (UNCHANGED)
 from create_rubric import ResumeRubricGenerator
@@ -13,14 +14,13 @@ from score_resumes import ResumeScorer
 
 ALLOWED_EXTS = {".pdf", ".docx", ".txt"}
 
-BASE_DIR = Path(__file__).resolve().parent
-RUNS_DIR = BASE_DIR / "runs"  # each request gets a unique run folder
-RUNS_DIR.mkdir(exist_ok=True)
+# Vercel-safe: write to /tmp (only writable location in serverless)
+RUNS_DIR = Path(tempfile.gettempdir()) / "runs"  # each request gets a unique run folder
+RUNS_DIR.mkdir(parents=True, exist_ok=True)
 
 #app = Flask(__name__)
 app = Flask(__name__, template_folder=".")
 app.config["MAX_CONTENT_LENGTH"] = 250 * 1024 * 1024  # 250MB total upload cap
-
 
 def allowed_file(filename: str) -> bool:
     ext = Path(filename).suffix.lower()
