@@ -5,7 +5,6 @@ import uuid
 import shutil
 import zipfile
 from pathlib import Path
-import tempfile  # ✅ ADDED: for Vercel-safe writable directory
 
 # Import your existing code (UNCHANGED)
 from create_rubric import ResumeRubricGenerator
@@ -14,9 +13,9 @@ from score_resumes import ResumeScorer
 
 ALLOWED_EXTS = {".pdf", ".docx", ".txt"}
 
-# Vercel-safe: write to /tmp (only writable location in serverless)
-RUNS_DIR = Path(tempfile.gettempdir()) / "runs"  # each request gets a unique run folder
-RUNS_DIR.mkdir(parents=True, exist_ok=True)
+BASE_DIR = Path(__file__).resolve().parent
+RUNS_DIR = BASE_DIR / "runs"  # each request gets a unique run folder
+RUNS_DIR.mkdir(exist_ok=True)
 
 #app = Flask(__name__)
 app = Flask(__name__, template_folder=".")
